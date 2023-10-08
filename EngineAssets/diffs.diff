@@ -1,0 +1,4091 @@
+--- 5.0.4f1
++++ 5.1.0f1
+@@ -32,0 +33,5 @@
++    "69": {
++      "$type": "Shader",
++      "PropertyNames": [],
++      "Name": "Internal-Colored"
++    },
+--- 5.1.5f1
++++ 5.2.0b1
+@@ -688,0 +689,5 @@
++    "74": {
++      "$type": "Shader",
++      "PropertyNames": [],
++      "Name": "Internal-DeferredReflections"
++    },
+@@ -1104,0 +1110,22 @@
++    },
++    "10914": {
++      "$type": "Texture2D",
++      "Width": 64,
++      "Height": 64,
++      "Name": "DropdownArrow"
++    },
++    "10915": {
++      "$type": "Sprite",
++      "Texture": "DropdownArrow",
++      "Name": "DropdownArrow"
++    },
++    "10916": {
++      "$type": "Texture2D",
++      "Width": 32,
++      "Height": 32,
++      "Name": "UIMask"
++    },
++    "10917": {
++      "$type": "Sprite",
++      "Texture": "UIMask",
++      "Name": "UIMask"
+--- 5.2.0b3
++++ 5.2.0b4
+@@ -1034 +1034 @@
+-      "Name": "UI-Lit-Refraction(ProOnly)"
++      "Name": "UI-Lit-Refraction"
+@@ -1039 +1039 @@
+-      "Name": "UI-Lit-RefractionDetail(ProOnly)"
++      "Name": "UI-Lit-RefractionDetail"
+--- 5.2.2f1
++++ 5.2.3f1
+@@ -67,0 +68,5 @@
++    "111": {
++      "$type": "Shader",
++      "PropertyNames": [],
++      "Name": "Internal-BlitScaleCopy"
++    },
+--- 5.2.5f1
++++ 5.3.0b1
+@@ -68,5 +67,0 @@
+-    "111": {
+-      "$type": "Shader",
+-      "PropertyNames": [],
+-      "Name": "Internal-BlitScaleCopy"
+-    },
+@@ -277,0 +273,10 @@
++    },
++    "10755": {
++      "$type": "Shader",
++      "PropertyNames": [],
++      "Name": "FrameDebuggerRenderTargetDisplay"
++    },
++    "10756": {
++      "$type": "Material",
++      "Shader": "FrameDebuggerRenderTargetDisplay",
++      "Name": "FrameDebuggerRenderTargetDisplay"
+--- 5.3.7f1
++++ 5.3.8f1
+@@ -1060,0 +1061,5 @@
++    "10783": {
++      "$type": "Shader",
++      "PropertyNames": [],
++      "Name": "UI-DefaultETC1"
++    },
+--- 5.3.8f2
++++ 5.4.0b1
+@@ -13,5 +12,0 @@
+-    "64": {
+-      "$type": "Shader",
+-      "PropertyNames": [],
+-      "Name": "Internal-PrePassCollectShadows"
+-    },
+@@ -693,0 +689,5 @@
++    "64": {
++      "$type": "Shader",
++      "PropertyNames": [],
++      "Name": "Internal-ScreenSpaceShadows"
++    },
+@@ -1060,5 +1059,0 @@
+-    },
+-    "10783": {
+-      "$type": "Shader",
+-      "PropertyNames": [],
+-      "Name": "UI-DefaultETC1"
+--- 5.4.0b3
++++ 5.4.0b4
+@@ -33,20 +32,0 @@
+-    "70": {
+-      "$type": "Shader",
+-      "PropertyNames": [],
+-      "Name": "Internal-SplashShadowCaster"
+-    },
+-    "71": {
+-      "$type": "Shader",
+-      "PropertyNames": [],
+-      "Name": "Internal-SplashShadowBlur"
+-    },
+-    "72": {
+-      "$type": "Shader",
+-      "PropertyNames": [],
+-      "Name": "Internal-SplashShadowReceiver"
+-    },
+-    "73": {
+-      "$type": "Shader",
+-      "PropertyNames": [],
+-      "Name": "Internal-SplashShadowReceiverSimple"
+-    },
+@@ -195,2 +175,2 @@
+-      "Width": 512,
+-      "Height": 512,
++      "Width": 1024,
++      "Height": 256,
+@@ -199,6 +178,0 @@
+-    "10404": {
+-      "$type": "Texture2D",
+-      "Width": 612,
+-      "Height": 130,
+-      "Name": "UnitySplash-text"
+-    },
+@@ -207,2 +181,2 @@
+-      "Width": 288,
+-      "Height": 51,
++      "Width": 1024,
++      "Height": 256,
+--- 5.4.0b4
++++ 5.4.0b5
+@@ -8,5 +7,0 @@
+-    "62": {
+-      "$type": "Shader",
+-      "PropertyNames": [],
+-      "Name": "Camera-DepthNormalTexture"
+-    },
+@@ -656,0 +652,5 @@
++    },
++    "62": {
++      "$type": "Shader",
++      "PropertyNames": [],
++      "Name": "Internal-DepthNormalsTexture"
+--- 5.4.0b13
++++ 5.4.0b14
+@@ -28,10 +27,0 @@
+-    "102": {
+-      "$type": "Shader",
+-      "PropertyNames": [],
+-      "Name": "Internal-Flare"
+-    },
+-    "105": {
+-      "$type": "Shader",
+-      "PropertyNames": [],
+-      "Name": "Internal-Halo"
+-    },
+@@ -228,10 +217,0 @@
+-    "10753": {
+-      "$type": "Shader",
+-      "PropertyNames": [],
+-      "Name": "Sprites-Default"
+-    },
+-    "10754": {
+-      "$type": "Material",
+-      "Shader": "Sprites-Default",
+-      "Name": "Sprites-Default"
+-    },
+@@ -687,0 +668,5 @@
++    "102": {
++      "$type": "Shader",
++      "PropertyNames": [],
++      "Name": "Internal-Flare"
++    },
+@@ -697,0 +683,5 @@
++    "105": {
++      "$type": "Shader",
++      "PropertyNames": [],
++      "Name": "Internal-Halo"
++    },
+@@ -973,0 +964,10 @@
++    },
++    "10753": {
++      "$type": "Shader",
++      "PropertyNames": [],
++      "Name": "Sprites-Default"
++    },
++    "10754": {
++      "$type": "Material",
++      "Shader": "Sprites-Default",
++      "Name": "Sprites-Default"
+--- 5.4.0b15
++++ 5.4.0b16
+@@ -657,0 +658,5 @@
++    "75": {
++      "$type": "Shader",
++      "PropertyNames": [],
++      "Name": "Internal-MotionVectors"
++    },
+--- 5.4.0b19
++++ 5.4.0b20
+@@ -217,0 +218,10 @@
++    "10753": {
++      "$type": "Shader",
++      "PropertyNames": [],
++      "Name": "Sprites-Default"
++    },
++    "10754": {
++      "$type": "Material",
++      "Shader": "Sprites-Default",
++      "Name": "Sprites-Default"
++    },
+@@ -969,10 +978,0 @@
+-    },
+-    "10753": {
+-      "$type": "Shader",
+-      "PropertyNames": [],
+-      "Name": "Sprites-Default"
+-    },
+-    "10754": {
+-      "$type": "Material",
+-      "Shader": "Sprites-Default",
+-      "Name": "Sprites-Default"
+--- 5.4.0b21
++++ 5.4.0b22
+@@ -8,10 +7,0 @@
+-    "65": {
+-      "$type": "Shader",
+-      "PropertyNames": [],
+-      "Name": "Internal-CombineDepthNormals"
+-    },
+-    "66": {
+-      "$type": "Shader",
+-      "PropertyNames": [],
+-      "Name": "Internal-BlitCopy"
+-    },
+@@ -502,0 +493,5 @@
++    "19": {
++      "$type": "Shader",
++      "PropertyNames": [],
++      "Name": "Internal-StencilWrite"
++    },
+@@ -656,0 +652,10 @@
++    },
++    "65": {
++      "$type": "Shader",
++      "PropertyNames": [],
++      "Name": "Internal-CombineDepthNormals"
++    },
++    "66": {
++      "$type": "Shader",
++      "PropertyNames": [],
++      "Name": "Internal-BlitCopy"
+--- 5.4.0b22
++++ 5.4.0b23
+@@ -18,20 +17,0 @@
+-    "9000": {
+-      "$type": "Shader",
+-      "PropertyNames": [],
+-      "Name": "Internal-GUITextureClip"
+-    },
+-    "9001": {
+-      "$type": "Shader",
+-      "PropertyNames": [],
+-      "Name": "Internal-GUITextureClipText"
+-    },
+-    "9002": {
+-      "$type": "Shader",
+-      "PropertyNames": [],
+-      "Name": "Internal-GUITexture"
+-    },
+-    "9003": {
+-      "$type": "Shader",
+-      "PropertyNames": [],
+-      "Name": "Internal-GUITextureBlit"
+-    },
+@@ -208,10 +187,0 @@
+-    "10753": {
+-      "$type": "Shader",
+-      "PropertyNames": [],
+-      "Name": "Sprites-Default"
+-    },
+-    "10754": {
+-      "$type": "Material",
+-      "Shader": "Sprites-Default",
+-      "Name": "Sprites-Default"
+-    },
+@@ -752,0 +723,20 @@
++    "9000": {
++      "$type": "Shader",
++      "PropertyNames": [],
++      "Name": "Internal-GUITextureClip"
++    },
++    "9001": {
++      "$type": "Shader",
++      "PropertyNames": [],
++      "Name": "Internal-GUITextureClipText"
++    },
++    "9002": {
++      "$type": "Shader",
++      "PropertyNames": [],
++      "Name": "Internal-GUITexture"
++    },
++    "9003": {
++      "$type": "Shader",
++      "PropertyNames": [],
++      "Name": "Internal-GUITextureBlit"
++    },
+@@ -983,0 +974,10 @@
++    },
++    "10753": {
++      "$type": "Shader",
++      "PropertyNames": [],
++      "Name": "Sprites-Default"
++    },
++    "10754": {
++      "$type": "Material",
++      "Shader": "Sprites-Default",
++      "Name": "Sprites-Default"
+--- 5.4.0b25
++++ 5.4.0f3
+@@ -1044,0 +1045,5 @@
++    "10783": {
++      "$type": "Shader",
++      "PropertyNames": [],
++      "Name": "UI-DefaultETC1"
++    },
+--- 5.4.6f3
++++ 5.5.0b1
+@@ -6 +6 @@
+-      "Name": "Internal-ErrorShader"
++      "Name": "Hidden/InternalErrorShader"
+@@ -11 +11 @@
+-      "Name": "Internal-Clear"
++      "Name": "Hidden/InternalClear"
+@@ -15,2 +15,38 @@
+-      "PropertyNames": [],
+-      "Name": "Internal-Colored"
++      "PropertyNames": [
++        "_Color",
++        "_SrcBlend",
++        "_DstBlend",
++        "_ZWrite",
++        "_ZTest",
++        "_Cull",
++        "_ZBias"
++      ],
++      "Name": "Hidden/Internal-Colored"
++    },
++    "9000": {
++      "$type": "Shader",
++      "PropertyNames": [
++        "_MainTex"
++      ],
++      "Name": "Hidden/Internal-GUITextureClip"
++    },
++    "9001": {
++      "$type": "Shader",
++      "PropertyNames": [
++        "_MainTex"
++      ],
++      "Name": "Hidden/Internal-GUITextureClipText"
++    },
++    "9002": {
++      "$type": "Shader",
++      "PropertyNames": [
++        "_MainTex"
++      ],
++      "Name": "Hidden/Internal-GUITexture"
++    },
++    "9003": {
++      "$type": "Shader",
++      "PropertyNames": [
++        "_MainTex"
++      ],
++      "Name": "Hidden/Internal-GUITextureBlit"
+@@ -26 +62 @@
+-      "Shader": "Font",
++      "Shader": "GUI/Text Shader",
+@@ -31,2 +67,5 @@
+-      "PropertyNames": [],
+-      "Name": "Font"
++      "PropertyNames": [
++        "_MainTex",
++        "_Color"
++      ],
++      "Name": "GUI/Text Shader"
+@@ -190,2 +229,4 @@
+-      "PropertyNames": [],
+-      "Name": "FrameDebuggerRenderTargetDisplay"
++      "PropertyNames": [
++        "_MainTex"
++      ],
++      "Name": "Hidden/FrameDebuggerRenderTargetDisplay"
+@@ -195 +236 @@
+-      "Shader": "FrameDebuggerRenderTargetDisplay",
++      "Shader": "Hidden/FrameDebuggerRenderTargetDisplay",
+@@ -385,2 +426,5 @@
+-      "PropertyNames": [],
+-      "Name": "Normal-DiffuseFast"
++      "PropertyNames": [
++        "_Color",
++        "_MainTex"
++      ],
++      "Name": "Legacy Shaders/Diffuse Fast"
+@@ -390,2 +434,6 @@
+-      "PropertyNames": [],
+-      "Name": "Normal-Bumped"
++      "PropertyNames": [
++        "_Color",
++        "_MainTex",
++        "_BumpMap"
++      ],
++      "Name": "Legacy Shaders/Bumped Diffuse"
+@@ -395,2 +443,7 @@
+-      "PropertyNames": [],
+-      "Name": "Normal-Glossy"
++      "PropertyNames": [
++        "_Color",
++        "_SpecColor",
++        "_Shininess",
++        "_MainTex"
++      ],
++      "Name": "Legacy Shaders/Specular"
+@@ -400,2 +453,8 @@
+-      "PropertyNames": [],
+-      "Name": "Normal-BumpSpec"
++      "PropertyNames": [
++        "_Color",
++        "_SpecColor",
++        "_Shininess",
++        "_MainTex",
++        "_BumpMap"
++      ],
++      "Name": "Legacy Shaders/Bumped Specular"
+@@ -405,2 +464,6 @@
+-      "PropertyNames": [],
+-      "Name": "Normal-DiffuseDetail"
++      "PropertyNames": [
++        "_Color",
++        "_MainTex",
++        "_Detail"
++      ],
++      "Name": "Legacy Shaders/Diffuse Detail"
+@@ -410,2 +473,8 @@
+-      "PropertyNames": [],
+-      "Name": "Normal-VertexLit"
++      "PropertyNames": [
++        "_Color",
++        "_SpecColor",
++        "_Emission",
++        "_Shininess",
++        "_MainTex"
++      ],
++      "Name": "Legacy Shaders/VertexLit"
+@@ -415,2 +484,5 @@
+-      "PropertyNames": [],
+-      "Name": "Normal-Diffuse"
++      "PropertyNames": [
++        "_Color",
++        "_MainTex"
++      ],
++      "Name": "Legacy Shaders/Diffuse"
+@@ -420,2 +492,8 @@
+-      "PropertyNames": [],
+-      "Name": "Normal-Parallax"
++      "PropertyNames": [
++        "_Color",
++        "_Parallax",
++        "_MainTex",
++        "_BumpMap",
++        "_ParallaxMap"
++      ],
++      "Name": "Legacy Shaders/Parallax Diffuse"
+@@ -425,2 +503,10 @@
+-      "PropertyNames": [],
+-      "Name": "Normal-ParallaxSpec"
++      "PropertyNames": [
++        "_Color",
++        "_SpecColor",
++        "_Shininess",
++        "_Parallax",
++        "_MainTex",
++        "_BumpMap",
++        "_ParallaxMap"
++      ],
++      "Name": "Legacy Shaders/Parallax Specular"
+@@ -430,2 +516,7 @@
+-      "PropertyNames": [],
+-      "Name": "Illumin-Diffuse"
++      "PropertyNames": [
++        "_Color",
++        "_MainTex",
++        "_Illum",
++        "_Emission"
++      ],
++      "Name": "Legacy Shaders/Self-Illumin/Diffuse"
+@@ -435,2 +526,8 @@
+-      "PropertyNames": [],
+-      "Name": "Illumin-Bumped"
++      "PropertyNames": [
++        "_Color",
++        "_MainTex",
++        "_Illum",
++        "_BumpMap",
++        "_Emission"
++      ],
++      "Name": "Legacy Shaders/Self-Illumin/Bumped Diffuse"
+@@ -440,2 +537,9 @@
+-      "PropertyNames": [],
+-      "Name": "Illumin-Glossy"
++      "PropertyNames": [
++        "_Color",
++        "_SpecColor",
++        "_Shininess",
++        "_MainTex",
++        "_Illum",
++        "_Emission"
++      ],
++      "Name": "Legacy Shaders/Self-Illumin/Specular"
+@@ -445,2 +549,10 @@
+-      "PropertyNames": [],
+-      "Name": "Illumin-BumpSpec"
++      "PropertyNames": [
++        "_Color",
++        "_SpecColor",
++        "_Shininess",
++        "_MainTex",
++        "_Illum",
++        "_BumpMap",
++        "_Emission"
++      ],
++      "Name": "Legacy Shaders/Self-Illumin/Bumped Specular"
+@@ -450,2 +562,9 @@
+-      "PropertyNames": [],
+-      "Name": "Illumin-VertexLit"
++      "PropertyNames": [
++        "_Color",
++        "_SpecColor",
++        "_Shininess",
++        "_MainTex",
++        "_Illum",
++        "_Emission"
++      ],
++      "Name": "Legacy Shaders/Self-Illumin/VertexLit"
+@@ -455,2 +574,10 @@
+-      "PropertyNames": [],
+-      "Name": "Illumin-Parallax"
++      "PropertyNames": [
++        "_Color",
++        "_Parallax",
++        "_MainTex",
++        "_Illum",
++        "_BumpMap",
++        "_ParallaxMap",
++        "_Emission"
++      ],
++      "Name": "Legacy Shaders/Self-Illumin/Parallax Diffuse"
+@@ -460,2 +587,12 @@
+-      "PropertyNames": [],
+-      "Name": "Illumin-ParallaxSpec"
++      "PropertyNames": [
++        "_Color",
++        "_SpecColor",
++        "_Shininess",
++        "_Parallax",
++        "_MainTex",
++        "_Illum",
++        "_BumpMap",
++        "_ParallaxMap",
++        "_Emission"
++      ],
++      "Name": "Legacy Shaders/Self-Illumin/Parallax Specular"
+@@ -466 +603 @@
+-      "Name": "Internal-StencilWrite"
++      "Name": "Hidden/Internal-StencilWrite"
+@@ -470,2 +607,7 @@
+-      "PropertyNames": [],
+-      "Name": "Reflect-Diffuse"
++      "PropertyNames": [
++        "_Color",
++        "_ReflectColor",
++        "_MainTex",
++        "_Cube"
++      ],
++      "Name": "Legacy Shaders/Reflective/Diffuse"
+@@ -475,2 +617,8 @@
+-      "PropertyNames": [],
+-      "Name": "Reflect-Bumped"
++      "PropertyNames": [
++        "_Color",
++        "_ReflectColor",
++        "_MainTex",
++        "_Cube",
++        "_BumpMap"
++      ],
++      "Name": "Legacy Shaders/Reflective/Bumped Diffuse"
+@@ -480,2 +628,9 @@
+-      "PropertyNames": [],
+-      "Name": "Reflect-Glossy"
++      "PropertyNames": [
++        "_Color",
++        "_SpecColor",
++        "_Shininess",
++        "_ReflectColor",
++        "_MainTex",
++        "_Cube"
++      ],
++      "Name": "Legacy Shaders/Reflective/Specular"
+@@ -485,2 +640,10 @@
+-      "PropertyNames": [],
+-      "Name": "Reflect-BumpSpec"
++      "PropertyNames": [
++        "_Color",
++        "_SpecColor",
++        "_Shininess",
++        "_ReflectColor",
++        "_MainTex",
++        "_Cube",
++        "_BumpMap"
++      ],
++      "Name": "Legacy Shaders/Reflective/Bumped Specular"
+@@ -490,2 +653,7 @@
+-      "PropertyNames": [],
+-      "Name": "Reflect-VertexLit"
++      "PropertyNames": [
++        "_Color",
++        "_ReflectColor",
++        "_MainTex",
++        "_Cube"
++      ],
++      "Name": "Legacy Shaders/Reflective/VertexLit"
+@@ -495,2 +663,8 @@
+-      "PropertyNames": [],
+-      "Name": "Reflect-BumpNolight"
++      "PropertyNames": [
++        "_Color",
++        "_ReflectColor",
++        "_MainTex",
++        "_Cube",
++        "_BumpMap"
++      ],
++      "Name": "Legacy Shaders/Reflective/Bumped Unlit"
+@@ -500,2 +674,10 @@
+-      "PropertyNames": [],
+-      "Name": "Reflect-BumpVertexLit"
++      "PropertyNames": [
++        "_Color",
++        "_SpecColor",
++        "_Shininess",
++        "_ReflectColor",
++        "_MainTex",
++        "_Cube",
++        "_BumpMap"
++      ],
++      "Name": "Legacy Shaders/Reflective/Bumped VertexLit"
+@@ -505,2 +687,10 @@
+-      "PropertyNames": [],
+-      "Name": "Reflect-Parallax"
++      "PropertyNames": [
++        "_Color",
++        "_ReflectColor",
++        "_Parallax",
++        "_MainTex",
++        "_Cube",
++        "_BumpMap",
++        "_ParallaxMap"
++      ],
++      "Name": "Legacy Shaders/Reflective/Parallax Diffuse"
+@@ -510,2 +700,12 @@
+-      "PropertyNames": [],
+-      "Name": "Reflect-ParallaxSpec"
++      "PropertyNames": [
++        "_Color",
++        "_SpecColor",
++        "_Shininess",
++        "_ReflectColor",
++        "_Parallax",
++        "_MainTex",
++        "_Cube",
++        "_BumpMap",
++        "_ParallaxMap"
++      ],
++      "Name": "Legacy Shaders/Reflective/Parallax Specular"
+@@ -515,2 +715,5 @@
+-      "PropertyNames": [],
+-      "Name": "Alpha-Diffuse"
++      "PropertyNames": [
++        "_Color",
++        "_MainTex"
++      ],
++      "Name": "Legacy Shaders/Transparent/Diffuse"
+@@ -520,2 +723,6 @@
+-      "PropertyNames": [],
+-      "Name": "Alpha-Bumped"
++      "PropertyNames": [
++        "_Color",
++        "_MainTex",
++        "_BumpMap"
++      ],
++      "Name": "Legacy Shaders/Transparent/Bumped Diffuse"
+@@ -525,2 +732,7 @@
+-      "PropertyNames": [],
+-      "Name": "Alpha-Glossy"
++      "PropertyNames": [
++        "_Color",
++        "_SpecColor",
++        "_Shininess",
++        "_MainTex"
++      ],
++      "Name": "Legacy Shaders/Transparent/Specular"
+@@ -530,2 +742,8 @@
+-      "PropertyNames": [],
+-      "Name": "Alpha-BumpSpec"
++      "PropertyNames": [
++        "_Color",
++        "_SpecColor",
++        "_Shininess",
++        "_MainTex",
++        "_BumpMap"
++      ],
++      "Name": "Legacy Shaders/Transparent/Bumped Specular"
+@@ -535,2 +753,8 @@
+-      "PropertyNames": [],
+-      "Name": "Alpha-VertexLit"
++      "PropertyNames": [
++        "_Color",
++        "_SpecColor",
++        "_Emission",
++        "_Shininess",
++        "_MainTex"
++      ],
++      "Name": "Legacy Shaders/Transparent/VertexLit"
+@@ -540,2 +764,8 @@
+-      "PropertyNames": [],
+-      "Name": "Alpha-Parallax"
++      "PropertyNames": [
++        "_Color",
++        "_Parallax",
++        "_MainTex",
++        "_BumpMap",
++        "_ParallaxMap"
++      ],
++      "Name": "Legacy Shaders/Transparent/Parallax Diffuse"
+@@ -545,2 +775,10 @@
+-      "PropertyNames": [],
+-      "Name": "Alpha-ParallaxSpec"
++      "PropertyNames": [
++        "_Color",
++        "_SpecColor",
++        "_Shininess",
++        "_Parallax",
++        "_MainTex",
++        "_BumpMap",
++        "_ParallaxMap"
++      ],
++      "Name": "Legacy Shaders/Transparent/Parallax Specular"
+@@ -550,2 +788,8 @@
+-      "PropertyNames": [],
+-      "Name": "Lightmap-VertexLit"
++      "PropertyNames": [
++        "_Color",
++        "_SpecColor",
++        "_Shininess",
++        "_MainTex",
++        "_LightMap"
++      ],
++      "Name": "Legacy Shaders/Lightmapped/VertexLit"
+@@ -555,2 +799,6 @@
+-      "PropertyNames": [],
+-      "Name": "Lightmap-Diffuse"
++      "PropertyNames": [
++        "_Color",
++        "_MainTex",
++        "_LightMap"
++      ],
++      "Name": "Legacy Shaders/Lightmapped/Diffuse"
+@@ -560,2 +808,7 @@
+-      "PropertyNames": [],
+-      "Name": "Lightmap-Bumped"
++      "PropertyNames": [
++        "_Color",
++        "_MainTex",
++        "_BumpMap",
++        "_LightMap"
++      ],
++      "Name": "Legacy Shaders/Lightmapped/Bumped Diffuse"
+@@ -565,2 +818,8 @@
+-      "PropertyNames": [],
+-      "Name": "Lightmap-Glossy"
++      "PropertyNames": [
++        "_Color",
++        "_SpecColor",
++        "_Shininess",
++        "_MainTex",
++        "_LightMap"
++      ],
++      "Name": "Legacy Shaders/Lightmapped/Specular"
+@@ -570,2 +829,9 @@
+-      "PropertyNames": [],
+-      "Name": "Lightmap-BumpSpec"
++      "PropertyNames": [
++        "_Color",
++        "_SpecColor",
++        "_Shininess",
++        "_MainTex",
++        "_BumpMap",
++        "_LightMap"
++      ],
++      "Name": "Legacy Shaders/Lightmapped/Bumped Specular"
+@@ -575,2 +841,30 @@
+-      "PropertyNames": [],
+-      "Name": "StandardSpecular"
++      "PropertyNames": [
++        "_Color",
++        "_MainTex",
++        "_Cutoff",
++        "_Glossiness",
++        "_GlossMapScale",
++        "_SmoothnessTextureChannel",
++        "_SpecColor",
++        "_SpecGlossMap",
++        "_SpecularHighlights",
++        "_GlossyReflections",
++        "_BumpScale",
++        "_BumpMap",
++        "_Parallax",
++        "_ParallaxMap",
++        "_OcclusionStrength",
++        "_OcclusionMap",
++        "_EmissionColor",
++        "_EmissionMap",
++        "_DetailMask",
++        "_DetailAlbedoMap",
++        "_DetailNormalMapScale",
++        "_DetailNormalMap",
++        "_UVSec",
++        "_Mode",
++        "_SrcBlend",
++        "_DstBlend",
++        "_ZWrite"
++      ],
++      "Name": "Standard (Specular setup)"
+@@ -580 +874,29 @@
+-      "PropertyNames": [],
++      "PropertyNames": [
++        "_Color",
++        "_MainTex",
++        "_Cutoff",
++        "_Glossiness",
++        "_GlossMapScale",
++        "_SmoothnessTextureChannel",
++        "_Metallic",
++        "_MetallicGlossMap",
++        "_SpecularHighlights",
++        "_GlossyReflections",
++        "_BumpScale",
++        "_BumpMap",
++        "_Parallax",
++        "_ParallaxMap",
++        "_OcclusionStrength",
++        "_OcclusionMap",
++        "_EmissionColor",
++        "_EmissionMap",
++        "_DetailMask",
++        "_DetailAlbedoMap",
++        "_DetailNormalMapScale",
++        "_DetailNormalMap",
++        "_UVSec",
++        "_Mode",
++        "_SrcBlend",
++        "_DstBlend",
++        "_ZWrite"
++      ],
+@@ -585,2 +907,9 @@
+-      "PropertyNames": [],
+-      "Name": "AlphaTest-VertexLit"
++      "PropertyNames": [
++        "_Color",
++        "_SpecColor",
++        "_Emission",
++        "_Shininess",
++        "_MainTex",
++        "_Cutoff"
++      ],
++      "Name": "Legacy Shaders/Transparent/Cutout/VertexLit"
+@@ -590,2 +919,6 @@
+-      "PropertyNames": [],
+-      "Name": "AlphaTest-Diffuse"
++      "PropertyNames": [
++        "_Color",
++        "_MainTex",
++        "_Cutoff"
++      ],
++      "Name": "Legacy Shaders/Transparent/Cutout/Diffuse"
+@@ -595,2 +928,7 @@
+-      "PropertyNames": [],
+-      "Name": "AlphaTest-Bumped"
++      "PropertyNames": [
++        "_Color",
++        "_MainTex",
++        "_BumpMap",
++        "_Cutoff"
++      ],
++      "Name": "Legacy Shaders/Transparent/Cutout/Bumped Diffuse"
+@@ -600,2 +938,8 @@
+-      "PropertyNames": [],
+-      "Name": "AlphaTest-Glossy"
++      "PropertyNames": [
++        "_Color",
++        "_SpecColor",
++        "_Shininess",
++        "_MainTex",
++        "_Cutoff"
++      ],
++      "Name": "Legacy Shaders/Transparent/Cutout/Specular"
+@@ -605,2 +949,9 @@
+-      "PropertyNames": [],
+-      "Name": "AlphaTest-BumpSpec"
++      "PropertyNames": [
++        "_Color",
++        "_SpecColor",
++        "_Shininess",
++        "_MainTex",
++        "_BumpMap",
++        "_Cutoff"
++      ],
++      "Name": "Legacy Shaders/Transparent/Cutout/Bumped Specular"
+@@ -610,2 +961,6 @@
+-      "PropertyNames": [],
+-      "Name": "Internal-DepthNormalsTexture"
++      "PropertyNames": [
++        "_MainTex",
++        "_Cutoff",
++        "_Color"
++      ],
++      "Name": "Hidden/Internal-DepthNormalsTexture"
+@@ -615,2 +970,6 @@
+-      "PropertyNames": [],
+-      "Name": "Internal-PrePassLighting"
++      "PropertyNames": [
++        "_LightTexture0",
++        "_LightTextureB0",
++        "_ShadowMapTexture"
++      ],
++      "Name": "Hidden/Internal-PrePassLighting"
+@@ -620,2 +979,4 @@
+-      "PropertyNames": [],
+-      "Name": "Internal-ScreenSpaceShadows"
++      "PropertyNames": [
++        "_ShadowMapTexture"
++      ],
++      "Name": "Hidden/Internal-ScreenSpaceShadows"
+@@ -626 +987 @@
+-      "Name": "Internal-CombineDepthNormals"
++      "Name": "Hidden/Internal-CombineDepthNormals"
+@@ -630,2 +991,4 @@
+-      "PropertyNames": [],
+-      "Name": "Internal-BlitCopy"
++      "PropertyNames": [
++        "_MainTex"
++      ],
++      "Name": "Hidden/BlitCopy"
+@@ -635,2 +998,8 @@
+-      "PropertyNames": [],
+-      "Name": "Internal-DeferredShading"
++      "PropertyNames": [
++        "_LightTexture0",
++        "_LightTextureB0",
++        "_ShadowMapTexture",
++        "_SrcBlend",
++        "_DstBlend"
++      ],
++      "Name": "Hidden/Internal-DeferredShading"
+@@ -640,2 +1009,5 @@
+-      "PropertyNames": [],
+-      "Name": "Internal-DeferredReflections"
++      "PropertyNames": [
++        "_SrcBlend",
++        "_DstBlend"
++      ],
++      "Name": "Hidden/Internal-DeferredReflections"
+@@ -646 +1018 @@
+-      "Name": "Internal-MotionVectors"
++      "Name": "Hidden/Internal-MotionVectors"
+@@ -650,2 +1022,6 @@
+-      "PropertyNames": [],
+-      "Name": "Decal"
++      "PropertyNames": [
++        "_Color",
++        "_MainTex",
++        "_DecalTex"
++      ],
++      "Name": "Legacy Shaders/Decal"
+@@ -655,2 +1031,4 @@
+-      "PropertyNames": [],
+-      "Name": "Flare"
++      "PropertyNames": [
++        "_MainTex"
++      ],
++      "Name": "FX/Flare"
+@@ -661 +1039 @@
+-      "Name": "Internal-Flare"
++      "Name": "Hidden/Internal-Flare"
+@@ -665,2 +1043,7 @@
+-      "PropertyNames": [],
+-      "Name": "Skybox-Cubed"
++      "PropertyNames": [
++        "_Tint",
++        "_Exposure",
++        "_Rotation",
++        "_Tex"
++      ],
++      "Name": "Skybox/Cubemap"
+@@ -670,2 +1053,12 @@
+-      "PropertyNames": [],
+-      "Name": "Skybox"
++      "PropertyNames": [
++        "_Tint",
++        "_Exposure",
++        "_Rotation",
++        "_FrontTex",
++        "_BackTex",
++        "_LeftTex",
++        "_RightTex",
++        "_UpTex",
++        "_DownTex"
++      ],
++      "Name": "Skybox/6 Sided"
+@@ -676 +1069 @@
+-      "Name": "Internal-Halo"
++      "Name": "Hidden/Internal-Halo"
+@@ -680,2 +1073,9 @@
+-      "PropertyNames": [],
+-      "Name": "Skybox-Procedural"
++      "PropertyNames": [
++        "_SunDisk",
++        "_SunSize",
++        "_AtmosphereThickness",
++        "_SkyTint",
++        "_GroundColor",
++        "_Exposure"
++      ],
++      "Name": "Skybox/Procedural"
+@@ -685,2 +1085,6 @@
+-      "PropertyNames": [],
+-      "Name": "Particle Add"
++      "PropertyNames": [
++        "_TintColor",
++        "_MainTex",
++        "_InvFade"
++      ],
++      "Name": "Particles/Additive"
+@@ -690,2 +1094,6 @@
+-      "PropertyNames": [],
+-      "Name": "Particle AddMultiply"
++      "PropertyNames": [
++        "_TintColor",
++        "_MainTex",
++        "_InvFade"
++      ],
++      "Name": "Particles/~Additive-Multiply"
+@@ -695,2 +1103,5 @@
+-      "PropertyNames": [],
+-      "Name": "Particle AddSmooth"
++      "PropertyNames": [
++        "_MainTex",
++        "_InvFade"
++      ],
++      "Name": "Particles/Additive (Soft)"
+@@ -700,2 +1111,6 @@
+-      "PropertyNames": [],
+-      "Name": "Particle Alpha Blend"
++      "PropertyNames": [
++        "_TintColor",
++        "_MainTex",
++        "_InvFade"
++      ],
++      "Name": "Particles/Alpha Blended"
+@@ -705,2 +1120,5 @@
+-      "PropertyNames": [],
+-      "Name": "Particle Multiply"
++      "PropertyNames": [
++        "_MainTex",
++        "_InvFade"
++      ],
++      "Name": "Particles/Multiply"
+@@ -710,2 +1128,5 @@
+-      "PropertyNames": [],
+-      "Name": "Particle MultiplyDouble"
++      "PropertyNames": [
++        "_MainTex",
++        "_InvFade"
++      ],
++      "Name": "Particles/Multiply (Double)"
+@@ -715,2 +1136,5 @@
+-      "PropertyNames": [],
+-      "Name": "Particle Premultiply Blend"
++      "PropertyNames": [
++        "_MainTex",
++        "_InvFade"
++      ],
++      "Name": "Particles/Alpha Blended Premultiply"
+@@ -720,2 +1144,14 @@
+-      "PropertyNames": [],
+-      "Name": "Particle VertexLit Blended"
++      "PropertyNames": [
++        "_EmisColor",
++        "_MainTex"
++      ],
++      "Name": "Particles/VertexLit Blended"
++    },
++    "209": {
++      "$type": "Shader",
++      "PropertyNames": [
++        "_TintColor",
++        "_MainTex",
++        "_InvFade"
++      ],
++      "Name": "Particles/Anim Alpha Blended"
+@@ -725,2 +1161,4 @@
+-      "PropertyNames": [],
+-      "Name": "Internal-GUITextureClip"
++      "PropertyNames": [
++        "_MainTex"
++      ],
++      "Name": "Hidden/Internal-GUITextureClip"
+@@ -730,2 +1168,4 @@
+-      "PropertyNames": [],
+-      "Name": "Internal-GUITextureClipText"
++      "PropertyNames": [
++        "_MainTex"
++      ],
++      "Name": "Hidden/Internal-GUITextureClipText"
+@@ -735,2 +1175,4 @@
+-      "PropertyNames": [],
+-      "Name": "Internal-GUITexture"
++      "PropertyNames": [
++        "_MainTex"
++      ],
++      "Name": "Hidden/Internal-GUITexture"
+@@ -740,2 +1182,4 @@
+-      "PropertyNames": [],
+-      "Name": "Internal-GUITextureBlit"
++      "PropertyNames": [
++        "_MainTex"
++      ],
++      "Name": "Hidden/Internal-GUITextureBlit"
+@@ -751 +1195 @@
+-      "Shader": "Particle Premultiply Blend",
++      "Shader": "Particles/Alpha Blended Premultiply",
+@@ -756 +1200 @@
+-      "Shader": "Normal-Diffuse",
++      "Shader": "Legacy Shaders/Diffuse",
+@@ -766 +1210 @@
+-      "Shader": "Skybox-Procedural",
++      "Shader": "Skybox/Procedural",
+@@ -777,2 +1221,4 @@
+-      "PropertyNames": [],
+-      "Name": "VertexLit"
++      "PropertyNames": [
++        "_MainTex"
++      ],
++      "Name": "Hidden/TerrainEngine/Details/Vertexlit"
+@@ -782,2 +1228,7 @@
+-      "PropertyNames": [],
+-      "Name": "WavingGrass"
++      "PropertyNames": [
++        "_WavingTint",
++        "_MainTex",
++        "_WaveAndDistance",
++        "_Cutoff"
++      ],
++      "Name": "Hidden/TerrainEngine/Details/WavingDoublePass"
+@@ -787,2 +1238,7 @@
+-      "PropertyNames": [],
+-      "Name": "WavingGrassBillboard"
++      "PropertyNames": [
++        "_WavingTint",
++        "_MainTex",
++        "_WaveAndDistance",
++        "_Cutoff"
++      ],
++      "Name": "Hidden/TerrainEngine/Details/BillboardWavingDoublePass"
+@@ -792,2 +1248,12 @@
+-      "PropertyNames": [],
+-      "Name": "AddPass"
++      "PropertyNames": [
++        "_Control",
++        "_Splat3",
++        "_Splat2",
++        "_Splat1",
++        "_Splat0",
++        "_Normal3",
++        "_Normal2",
++        "_Normal1",
++        "_Normal0"
++      ],
++      "Name": "Hidden/TerrainEngine/Splatmap/Diffuse-AddPass"
+@@ -797,2 +1263,14 @@
+-      "PropertyNames": [],
+-      "Name": "FirstPass"
++      "PropertyNames": [
++        "_Control",
++        "_Splat3",
++        "_Splat2",
++        "_Splat1",
++        "_Splat0",
++        "_Normal3",
++        "_Normal2",
++        "_Normal1",
++        "_Normal0",
++        "_MainTex",
++        "_Color"
++      ],
++      "Name": "Nature/Terrain/Diffuse"
+@@ -802,2 +1280,4 @@
+-      "PropertyNames": [],
+-      "Name": "BillboardTree"
++      "PropertyNames": [
++        "_MainTex"
++      ],
++      "Name": "Hidden/TerrainEngine/BillboardTree"
+@@ -807,2 +1287,10 @@
+-      "PropertyNames": [],
+-      "Name": "TreeSoftOcclusionBarkRendertex"
++      "PropertyNames": [
++        "_Color",
++        "_MainTex",
++        "_BaseLight",
++        "_AO",
++        "_TreeInstanceColor",
++        "_TreeInstanceScale",
++        "_SquashAmount"
++      ],
++      "Name": "Hidden/Nature/Tree Soft Occlusion Bark Rendertex"
+@@ -812,2 +1300,10 @@
+-      "PropertyNames": [],
+-      "Name": "TreeSoftOcclusionBark"
++      "PropertyNames": [
++        "_Color",
++        "_MainTex",
++        "_BaseLight",
++        "_AO",
++        "_TreeInstanceColor",
++        "_TreeInstanceScale",
++        "_SquashAmount"
++      ],
++      "Name": "Nature/Tree Soft Occlusion Bark"
+@@ -817,2 +1313,13 @@
+-      "PropertyNames": [],
+-      "Name": "TreeSoftOcclusionLeavesRendertex"
++      "PropertyNames": [
++        "_Color",
++        "_MainTex",
++        "_Cutoff",
++        "_HalfOverCutoff",
++        "_BaseLight",
++        "_AO",
++        "_Occlusion",
++        "_TreeInstanceColor",
++        "_TreeInstanceScale",
++        "_SquashAmount"
++      ],
++      "Name": "Hidden/Nature/Tree Soft Occlusion Leaves Rendertex"
+@@ -822,2 +1329,12 @@
+-      "PropertyNames": [],
+-      "Name": "TreeSoftOcclusionLeaves"
++      "PropertyNames": [
++        "_Color",
++        "_MainTex",
++        "_Cutoff",
++        "_BaseLight",
++        "_AO",
++        "_Occlusion",
++        "_TreeInstanceColor",
++        "_TreeInstanceScale",
++        "_SquashAmount"
++      ],
++      "Name": "Nature/Tree Soft Occlusion Leaves"
+@@ -827,2 +1344,6 @@
+-      "PropertyNames": [],
+-      "Name": "AlphaTest-SoftEdgeUnlit"
++      "PropertyNames": [
++        "_Color",
++        "_MainTex",
++        "_Cutoff"
++      ],
++      "Name": "Legacy Shaders/Transparent/Cutout/Soft Edge Unlit"
+@@ -832,2 +1353,12 @@
+-      "PropertyNames": [],
+-      "Name": "TreeCreatorBark"
++      "PropertyNames": [
++        "_Color",
++        "_Shininess",
++        "_MainTex",
++        "_BumpMap",
++        "_GlossMap",
++        "_SpecColor",
++        "_TreeInstanceColor",
++        "_TreeInstanceScale",
++        "_SquashAmount"
++      ],
++      "Name": "Nature/Tree Creator Bark"
+@@ -837,2 +1368,14 @@
+-      "PropertyNames": [],
+-      "Name": "TreeCreatorLeaves"
++      "PropertyNames": [
++        "_Color",
++        "_Shininess",
++        "_MainTex",
++        "_BumpMap",
++        "_GlossMap",
++        "_TranslucencyMap",
++        "_ShadowOffset",
++        "_Cutoff",
++        "_TreeInstanceColor",
++        "_TreeInstanceScale",
++        "_SquashAmount"
++      ],
++      "Name": "Nature/Tree Creator Leaves"
+@@ -842,2 +1385,7 @@
+-      "PropertyNames": [],
+-      "Name": "TreeCreatorBarkRendertex"
++      "PropertyNames": [
++        "_MainTex",
++        "_BumpSpecMap",
++        "_TranslucencyMap",
++        "_SpecColor"
++      ],
++      "Name": "Hidden/Nature/Tree Creator Bark Rendertex"
+@@ -847,2 +1395,10 @@
+-      "PropertyNames": [],
+-      "Name": "TreeCreatorLeavesRendertex"
++      "PropertyNames": [
++        "_TranslucencyColor",
++        "_Cutoff",
++        "_HalfOverCutoff",
++        "_TranslucencyViewDependency",
++        "_MainTex",
++        "_BumpSpecMap",
++        "_TranslucencyMap"
++      ],
++      "Name": "Hidden/Nature/Tree Creator Leaves Rendertex"
+@@ -852,2 +1408,11 @@
+-      "PropertyNames": [],
+-      "Name": "TreeCreatorBarkOptimized"
++      "PropertyNames": [
++        "_Color",
++        "_MainTex",
++        "_BumpSpecMap",
++        "_TranslucencyMap",
++        "_SpecColor",
++        "_TreeInstanceColor",
++        "_TreeInstanceScale",
++        "_SquashAmount"
++      ],
++      "Name": "Hidden/Nature/Tree Creator Bark Optimized"
+@@ -857,2 +1422,16 @@
+-      "PropertyNames": [],
+-      "Name": "TreeCreatorLeavesOptimized"
++      "PropertyNames": [
++        "_Color",
++        "_TranslucencyColor",
++        "_Cutoff",
++        "_TranslucencyViewDependency",
++        "_ShadowStrength",
++        "_ShadowOffsetScale",
++        "_MainTex",
++        "_ShadowTex",
++        "_BumpSpecMap",
++        "_TranslucencyMap",
++        "_TreeInstanceColor",
++        "_TreeInstanceScale",
++        "_SquashAmount"
++      ],
++      "Name": "Hidden/Nature/Tree Creator Leaves Optimized"
+@@ -862,2 +1441,12 @@
+-      "PropertyNames": [],
+-      "Name": "TreeCreatorLeavesFast"
++      "PropertyNames": [
++        "_Color",
++        "_TranslucencyColor",
++        "_Cutoff",
++        "_TranslucencyViewDependency",
++        "_ShadowStrength",
++        "_MainTex",
++        "_TreeInstanceColor",
++        "_TreeInstanceScale",
++        "_SquashAmount"
++      ],
++      "Name": "Nature/Tree Creator Leaves Fast"
+@@ -867,2 +1456,13 @@
+-      "PropertyNames": [],
+-      "Name": "TreeCreatorLeavesFastOptimized"
++      "PropertyNames": [
++        "_Color",
++        "_TranslucencyColor",
++        "_Cutoff",
++        "_TranslucencyViewDependency",
++        "_ShadowStrength",
++        "_MainTex",
++        "_ShadowTex",
++        "_TreeInstanceColor",
++        "_TreeInstanceScale",
++        "_SquashAmount"
++      ],
++      "Name": "Hidden/Nature/Tree Creator Leaves Fast Optimized"
+@@ -872,2 +1472,16 @@
+-      "PropertyNames": [],
+-      "Name": "Specular-FirstPass"
++      "PropertyNames": [
++        "_SpecColor",
++        "_Shininess",
++        "_Control",
++        "_Splat3",
++        "_Splat2",
++        "_Splat1",
++        "_Splat0",
++        "_Normal3",
++        "_Normal2",
++        "_Normal1",
++        "_Normal0",
++        "_MainTex",
++        "_Color"
++      ],
++      "Name": "Nature/Terrain/Specular"
+@@ -877,2 +1491,14 @@
+-      "PropertyNames": [],
+-      "Name": "Specular-AddPass"
++      "PropertyNames": [
++        "_SpecColor",
++        "_Shininess",
++        "_Control",
++        "_Splat3",
++        "_Splat2",
++        "_Splat1",
++        "_Splat0",
++        "_Normal3",
++        "_Normal2",
++        "_Normal1",
++        "_Normal0"
++      ],
++      "Name": "Hidden/TerrainEngine/Splatmap/Specular-AddPass"
+@@ -882,2 +1508,7 @@
+-      "PropertyNames": [],
+-      "Name": "Specular-Base"
++      "PropertyNames": [
++        "_SpecColor",
++        "_Shininess",
++        "_MainTex",
++        "_Color"
++      ],
++      "Name": "Hidden/TerrainEngine/Splatmap/Specular-Base"
+@@ -887,2 +1518,22 @@
+-      "PropertyNames": [],
+-      "Name": "Standard-FirstPass"
++      "PropertyNames": [
++        "_Control",
++        "_Splat3",
++        "_Splat2",
++        "_Splat1",
++        "_Splat0",
++        "_Normal3",
++        "_Normal2",
++        "_Normal1",
++        "_Normal0",
++        "_Metallic0",
++        "_Metallic1",
++        "_Metallic2",
++        "_Metallic3",
++        "_Smoothness0",
++        "_Smoothness1",
++        "_Smoothness2",
++        "_Smoothness3",
++        "_MainTex",
++        "_Color"
++      ],
++      "Name": "Nature/Terrain/Standard"
+@@ -892,2 +1543,20 @@
+-      "PropertyNames": [],
+-      "Name": "Standard-AddPass"
++      "PropertyNames": [
++        "_Control",
++        "_Splat3",
++        "_Splat2",
++        "_Splat1",
++        "_Splat0",
++        "_Normal3",
++        "_Normal2",
++        "_Normal1",
++        "_Normal0",
++        "_Metallic0",
++        "_Metallic1",
++        "_Metallic2",
++        "_Metallic3",
++        "_Smoothness0",
++        "_Smoothness1",
++        "_Smoothness2",
++        "_Smoothness3"
++      ],
++      "Name": "Hidden/TerrainEngine/Splatmap/Standard-AddPass"
+@@ -897,2 +1566,6 @@
+-      "PropertyNames": [],
+-      "Name": "Standard-Base"
++      "PropertyNames": [
++        "_MainTex",
++        "_MetallicTex",
++        "_Color"
++      ],
++      "Name": "Hidden/TerrainEngine/Splatmap/Standard-Base"
+@@ -902,2 +1575,9 @@
+-      "PropertyNames": [],
+-      "Name": "Mobile-Skybox"
++      "PropertyNames": [
++        "_FrontTex",
++        "_BackTex",
++        "_LeftTex",
++        "_RightTex",
++        "_UpTex",
++        "_DownTex"
++      ],
++      "Name": "Mobile/Skybox"
+@@ -907,2 +1587,4 @@
+-      "PropertyNames": [],
+-      "Name": "Mobile-VertexLit"
++      "PropertyNames": [
++        "_MainTex"
++      ],
++      "Name": "Mobile/VertexLit"
+@@ -912,2 +1594,4 @@
+-      "PropertyNames": [],
+-      "Name": "Mobile-Diffuse"
++      "PropertyNames": [
++        "_MainTex"
++      ],
++      "Name": "Mobile/Diffuse"
+@@ -917,2 +1601,5 @@
+-      "PropertyNames": [],
+-      "Name": "Mobile-Bumped"
++      "PropertyNames": [
++        "_MainTex",
++        "_BumpMap"
++      ],
++      "Name": "Mobile/Bumped Diffuse"
+@@ -922,2 +1609,6 @@
+-      "PropertyNames": [],
+-      "Name": "Mobile-BumpSpec"
++      "PropertyNames": [
++        "_Shininess",
++        "_MainTex",
++        "_BumpMap"
++      ],
++      "Name": "Mobile/Bumped Specular"
+@@ -927,2 +1618,6 @@
+-      "PropertyNames": [],
+-      "Name": "Mobile-BumpSpec-1DirectionalLight"
++      "PropertyNames": [
++        "_Shininess",
++        "_MainTex",
++        "_BumpMap"
++      ],
++      "Name": "Mobile/Bumped Specular (1 Directional Light)"
+@@ -932,2 +1627,4 @@
+-      "PropertyNames": [],
+-      "Name": "Mobile-VertexLit-OnlyDirectionalLights"
++      "PropertyNames": [
++        "_MainTex"
++      ],
++      "Name": "Mobile/VertexLit (Only Directional Lights)"
+@@ -937,2 +1634,4 @@
+-      "PropertyNames": [],
+-      "Name": "Mobile-Lightmap-Unlit"
++      "PropertyNames": [
++        "_MainTex"
++      ],
++      "Name": "Mobile/Unlit (Supports Lightmap)"
+@@ -942,2 +1641,4 @@
+-      "PropertyNames": [],
+-      "Name": "Mobile-Particle-Add"
++      "PropertyNames": [
++        "_MainTex"
++      ],
++      "Name": "Mobile/Particles/Additive"
+@@ -947,2 +1648,4 @@
+-      "PropertyNames": [],
+-      "Name": "Mobile-Particle-Alpha"
++      "PropertyNames": [
++        "_MainTex"
++      ],
++      "Name": "Mobile/Particles/Alpha Blended"
+@@ -952,2 +1655,5 @@
+-      "PropertyNames": [],
+-      "Name": "Mobile-Particle-Alpha-VertexLit"
++      "PropertyNames": [
++        "_EmisColor",
++        "_MainTex"
++      ],
++      "Name": "Mobile/Particles/VertexLit Blended"
+@@ -957,2 +1663,4 @@
+-      "PropertyNames": [],
+-      "Name": "Mobile-Particle-Multiply"
++      "PropertyNames": [
++        "_MainTex"
++      ],
++      "Name": "Mobile/Particles/Multiply"
+@@ -962,2 +1670,4 @@
+-      "PropertyNames": [],
+-      "Name": "Unlit-Alpha"
++      "PropertyNames": [
++        "_MainTex"
++      ],
++      "Name": "Unlit/Transparent"
+@@ -967,2 +1677,5 @@
+-      "PropertyNames": [],
+-      "Name": "Unlit-AlphaTest"
++      "PropertyNames": [
++        "_MainTex",
++        "_Cutoff"
++      ],
++      "Name": "Unlit/Transparent Cutout"
+@@ -972,2 +1685,4 @@
+-      "PropertyNames": [],
+-      "Name": "Unlit-Normal"
++      "PropertyNames": [
++        "_MainTex"
++      ],
++      "Name": "Unlit/Texture"
+@@ -977,2 +1692,6 @@
+-      "PropertyNames": [],
+-      "Name": "Sprites-Default"
++      "PropertyNames": [
++        "_MainTex",
++        "_Color",
++        "PixelSnap"
++      ],
++      "Name": "Sprites/Default"
+@@ -982 +1701 @@
+-      "Shader": "Sprites-Default",
++      "Shader": "Sprites/Default",
+@@ -987,2 +1706,4 @@
+-      "PropertyNames": [],
+-      "Name": "Unlit-Color"
++      "PropertyNames": [
++        "_Color"
++      ],
++      "Name": "Unlit/Color"
+@@ -992,2 +1713,12 @@
+-      "PropertyNames": [],
+-      "Name": "UI-Unlit-Transparent"
++      "PropertyNames": [
++        "_MainTex",
++        "_Color",
++        "_StencilComp",
++        "_Stencil",
++        "_StencilOp",
++        "_StencilWriteMask",
++        "_StencilReadMask",
++        "_ColorMask",
++        "_UseUIAlphaClip"
++      ],
++      "Name": "UI/Unlit/Transparent"
+@@ -997,2 +1728,14 @@
+-      "PropertyNames": [],
+-      "Name": "UI-Unlit-Detail"
++      "PropertyNames": [
++        "_MainTex",
++        "_Color",
++        "_DetailTex",
++        "_Strength",
++        "_StencilComp",
++        "_Stencil",
++        "_StencilOp",
++        "_StencilWriteMask",
++        "_StencilReadMask",
++        "_ColorMask",
++        "_UseUIAlphaClip"
++      ],
++      "Name": "UI/Unlit/Detail"
+@@ -1002,2 +1745,12 @@
+-      "PropertyNames": [],
+-      "Name": "UI-Unlit-Text"
++      "PropertyNames": [
++        "_MainTex",
++        "_Color",
++        "_StencilComp",
++        "_Stencil",
++        "_StencilOp",
++        "_StencilWriteMask",
++        "_StencilReadMask",
++        "_ColorMask",
++        "_UseUIAlphaClip"
++      ],
++      "Name": "UI/Unlit/Text"
+@@ -1007,2 +1760,14 @@
+-      "PropertyNames": [],
+-      "Name": "UI-Unlit-TextDetail"
++      "PropertyNames": [
++        "_MainTex",
++        "_Color",
++        "_DetailTex",
++        "_Strength",
++        "_StencilComp",
++        "_Stencil",
++        "_StencilOp",
++        "_StencilWriteMask",
++        "_StencilReadMask",
++        "_ColorMask",
++        "_UseUIAlphaClip"
++      ],
++      "Name": "UI/Unlit/Text Detail"
+@@ -1012,2 +1777,13 @@
+-      "PropertyNames": [],
+-      "Name": "UI-Lit-Transparent"
++      "PropertyNames": [
++        "_MainTex",
++        "_Color",
++        "_Specular",
++        "_StencilComp",
++        "_Stencil",
++        "_StencilOp",
++        "_StencilWriteMask",
++        "_StencilReadMask",
++        "_ColorMask",
++        "_UseUIAlphaClip"
++      ],
++      "Name": "UI/Lit/Transparent"
+@@ -1017,2 +1793,15 @@
+-      "PropertyNames": [],
+-      "Name": "UI-Lit-Bumped"
++      "PropertyNames": [
++        "_Color",
++        "_Specular",
++        "_MainTex",
++        "_MainBump",
++        "_Shininess",
++        "_StencilComp",
++        "_Stencil",
++        "_StencilOp",
++        "_StencilWriteMask",
++        "_StencilReadMask",
++        "_ColorMask",
++        "_UseUIAlphaClip"
++      ],
++      "Name": "UI/Lit/Bumped"
+@@ -1022,2 +1811,18 @@
+-      "PropertyNames": [],
+-      "Name": "UI-Lit-Detail"
++      "PropertyNames": [
++        "_Color",
++        "_Specular",
++        "_MainTex",
++        "_MainBump",
++        "_DetailTex",
++        "_DetailBump",
++        "_Strength",
++        "_Shininess",
++        "_StencilComp",
++        "_Stencil",
++        "_StencilOp",
++        "_StencilWriteMask",
++        "_StencilReadMask",
++        "_ColorMask",
++        "_UseUIAlphaClip"
++      ],
++      "Name": "UI/Lit/Detail"
+@@ -1027,2 +1832,17 @@
+-      "PropertyNames": [],
+-      "Name": "UI-Lit-Refraction"
++      "PropertyNames": [
++        "_Color",
++        "_Specular",
++        "_MainTex",
++        "_MainBump",
++        "_Mask",
++        "_Shininess",
++        "_Focus",
++        "_StencilComp",
++        "_Stencil",
++        "_StencilOp",
++        "_StencilWriteMask",
++        "_StencilReadMask",
++        "_ColorMask",
++        "_UseUIAlphaClip"
++      ],
++      "Name": "UI/Lit/Refraction"
+@@ -1032,2 +1852,20 @@
+-      "PropertyNames": [],
+-      "Name": "UI-Lit-RefractionDetail"
++      "PropertyNames": [
++        "_Color",
++        "_Specular",
++        "_MainTex",
++        "_MainBump",
++        "_Mask",
++        "_DetailTex",
++        "_DetailBump",
++        "_DetailMask",
++        "_Shininess",
++        "_Focus",
++        "_StencilComp",
++        "_Stencil",
++        "_StencilOp",
++        "_StencilWriteMask",
++        "_StencilReadMask",
++        "_ColorMask",
++        "_UseUIAlphaClip"
++      ],
++      "Name": "UI/Lit/Refraction Detail"
+@@ -1037,2 +1875,12 @@
+-      "PropertyNames": [],
+-      "Name": "UI-Default"
++      "PropertyNames": [
++        "_MainTex",
++        "_Color",
++        "_StencilComp",
++        "_Stencil",
++        "_StencilOp",
++        "_StencilWriteMask",
++        "_StencilReadMask",
++        "_ColorMask",
++        "_UseUIAlphaClip"
++      ],
++      "Name": "UI/Default"
+@@ -1042,2 +1890,12 @@
+-      "PropertyNames": [],
+-      "Name": "UI-DefaultFont"
++      "PropertyNames": [
++        "_MainTex",
++        "_Color",
++        "_StencilComp",
++        "_Stencil",
++        "_StencilOp",
++        "_StencilWriteMask",
++        "_StencilReadMask",
++        "_ColorMask",
++        "_UseUIAlphaClip"
++      ],
++      "Name": "UI/Default Font"
+@@ -1047,2 +1905,13 @@
+-      "PropertyNames": [],
+-      "Name": "UI-DefaultETC1"
++      "PropertyNames": [
++        "_MainTex",
++        "_AlphaTex",
++        "_Color",
++        "_StencilComp",
++        "_Stencil",
++        "_StencilOp",
++        "_StencilWriteMask",
++        "_StencilReadMask",
++        "_ColorMask",
++        "_UseUIAlphaClip"
++      ],
++      "Name": "UI/DefaultETC1"
+@@ -1052,2 +1921,6 @@
+-      "PropertyNames": [],
+-      "Name": "Sprites-Diffuse"
++      "PropertyNames": [
++        "_MainTex",
++        "_Color",
++        "PixelSnap"
++      ],
++      "Name": "Sprites/Diffuse"
+@@ -1134,2 +2007,11 @@
+-      "PropertyNames": [],
+-      "Name": "SpeedTree"
++      "PropertyNames": [
++        "_Color",
++        "_HueVariation",
++        "_MainTex",
++        "_DetailTex",
++        "_BumpMap",
++        "_Cutoff",
++        "_Cull",
++        "_WindQuality"
++      ],
++      "Name": "Nature/SpeedTree"
+@@ -1139,2 +2021,9 @@
+-      "PropertyNames": [],
+-      "Name": "SpeedTreeBillboard"
++      "PropertyNames": [
++        "_Color",
++        "_HueVariation",
++        "_MainTex",
++        "_BumpMap",
++        "_Cutoff",
++        "_WindQuality"
++      ],
++      "Name": "Nature/SpeedTree Billboard"
+@@ -1144,2 +2033,4 @@
+-      "PropertyNames": [],
+-      "Name": "TextureUV"
++      "PropertyNames": [
++        "_MainTex"
++      ],
++      "Name": "Hidden/GIDebug/TextureUV"
+@@ -1149,2 +2040,4 @@
+-      "PropertyNames": [],
+-      "Name": "UV1sAsPositions"
++      "PropertyNames": [
++        "_Color"
++      ],
++      "Name": "Hidden/GIDebug/UV1sAsPositions"
+@@ -1154,2 +2047,4 @@
+-      "PropertyNames": [],
+-      "Name": "VertexColors"
++      "PropertyNames": [
++        "_MainTex"
++      ],
++      "Name": "Hidden/GIDebug/VertexColors"
+@@ -1159,2 +2054,7 @@
+-      "PropertyNames": [],
+-      "Name": "CubeBlur"
++      "PropertyNames": [
++        "_MainTex",
++        "_Texel",
++        "_Level",
++        "_Scale"
++      ],
++      "Name": "Hidden/CubeBlur"
+@@ -1164,2 +2064,5 @@
+-      "PropertyNames": [],
+-      "Name": "CubeCopy"
++      "PropertyNames": [
++        "_MainTex",
++        "_Level"
++      ],
++      "Name": "Hidden/CubeCopy"
+@@ -1169,2 +2072,6 @@
+-      "PropertyNames": [],
+-      "Name": "CubeBlend"
++      "PropertyNames": [
++        "_TexA",
++        "_TexB",
++        "_value"
++      ],
++      "Name": "Hidden/CubeBlend"
+@@ -1185,0 +2093,5 @@
++    },
++    "15204": {
++      "$type": "NamedObject",
++      "TypeID": 1113,
++      "Name": "Default-Medium"
+--- 5.5.0b1
++++ 5.5.0b2
+@@ -2097,0 +2098,22 @@
++    },
++    "15300": {
++      "$type": "Shader",
++      "PropertyNames": [],
++      "Name": "VR/SpatialMapping/Occlusion"
++    },
++    "15301": {
++      "$type": "Shader",
++      "PropertyNames": [
++        "_WireThickness"
++      ],
++      "Name": "VR/SpatialMapping/Wireframe"
++    },
++    "15302": {
++      "$type": "Material",
++      "Shader": "VR/SpatialMapping/Occlusion",
++      "Name": "SpatialMappingOcclusion"
++    },
++    "15303": {
++      "$type": "Material",
++      "Shader": "VR/SpatialMapping/Wireframe",
++      "Name": "SpatialMappingWireframe"
+--- 5.5.0b2
++++ 5.5.0b3
+@@ -26,28 +25,0 @@
+-    "9000": {
+-      "$type": "Shader",
+-      "PropertyNames": [
+-        "_MainTex"
+-      ],
+-      "Name": "Hidden/Internal-GUITextureClip"
+-    },
+-    "9001": {
+-      "$type": "Shader",
+-      "PropertyNames": [
+-        "_MainTex"
+-      ],
+-      "Name": "Hidden/Internal-GUITextureClipText"
+-    },
+-    "9002": {
+-      "$type": "Shader",
+-      "PropertyNames": [
+-        "_MainTex"
+-      ],
+-      "Name": "Hidden/Internal-GUITexture"
+-    },
+-    "9003": {
+-      "$type": "Shader",
+-      "PropertyNames": [
+-        "_MainTex"
+-      ],
+-      "Name": "Hidden/Internal-GUITextureBlit"
+-    },
+@@ -173,11 +145,4 @@
+-    "10405": {
+-      "$type": "Texture2D",
+-      "Width": 1024,
+-      "Height": 256,
+-      "Name": "UnitySplash-free"
+-    },
+-    "10406": {
+-      "$type": "Texture2D",
+-      "Width": 4,
+-      "Height": 4,
+-      "Name": "UnitySplashBack"
++    "10404": {
++      "$type": "Sprite",
++      "Texture": "UnitySplash-cube",
++      "Name": "UnitySplash-cube"
+--- 5.5.0b10
++++ 5.5.0b11
+@@ -960,0 +961,7 @@
++    "67": {
++      "$type": "Shader",
++      "PropertyNames": [
++        "_MainTex"
++      ],
++      "Name": "Hidden/BlitCopyDepth"
++    },
+--- 5.5.6f1
++++ 5.6.0b1
+@@ -375,6 +374,0 @@
+-    "11999": {
+-      "$type": "MonoScript",
+-      "AssemblyName": "UnityEngine.dll",
+-      "Namespace": "UnityEngine",
+-      "ClassName": "UserAuthorizationDialog"
+-    },
+@@ -957 +951,2 @@
+-        "_MainTex"
++        "_MainTex",
++        "_Color"
+@@ -967,0 +963,5 @@
++    "68": {
++      "$type": "Shader",
++      "PropertyNames": [],
++      "Name": "Hidden/ConvertTexture"
++    },
+@@ -1667 +1667,5 @@
+-        "PixelSnap"
++        "PixelSnap",
++        "_RendererColor",
++        "_Flip",
++        "_AlphaTex",
++        "_EnableExternalAlpha"
+@@ -1896 +1900,5 @@
+-        "PixelSnap"
++        "PixelSnap",
++        "_RendererColor",
++        "_Flip",
++        "_AlphaTex",
++        "_EnableExternalAlpha"
+@@ -1899,0 +1908,13 @@
++    "10801": {
++      "$type": "Shader",
++      "PropertyNames": [
++        "_MainTex",
++        "_Color",
++        "PixelSnap",
++        "_RendererColor",
++        "_Flip",
++        "_AlphaTex",
++        "_EnableExternalAlpha"
++      ],
++      "Name": "Sprites/Instanced"
++    },
+@@ -2091,0 +2113,16 @@
++    },
++    "15304": {
++      "$type": "Shader",
++      "PropertyNames": [
++        "_MainTex"
++      ],
++      "Name": "Hidden/VR/BlitCopyFromTexArray"
++    },
++    "16000": {
++      "$type": "Shader",
++      "PropertyNames": [
++        "_MainTex",
++        "_SecondTex",
++        "_ThirdTex"
++      ],
++      "Name": "Hidden/VideoDecode"
+--- 5.6.0b1
++++ 5.6.0b2
+@@ -2030,0 +2031,10 @@
++    "15101": {
++      "$type": "Shader",
++      "PropertyNames": [
++        "_MainTex",
++        "_LightTexture",
++        "_SrcBlend",
++        "_DstBlend"
++      ],
++      "Name": "Hidden/GIDebug/ShowLightMask"
++    },
+--- 5.6.0b3
++++ 5.6.0b4
+@@ -1908,13 +1907,0 @@
+-    "10801": {
+-      "$type": "Shader",
+-      "PropertyNames": [
+-        "_MainTex",
+-        "_Color",
+-        "PixelSnap",
+-        "_RendererColor",
+-        "_Flip",
+-        "_AlphaTex",
+-        "_EnableExternalAlpha"
+-      ],
+-      "Name": "Sprites/Instanced"
+-    },
+--- 5.6.0b4
++++ 5.6.0b5
+@@ -2125,0 +2126,5 @@
++    },
++    "16001": {
++      "$type": "Shader",
++      "PropertyNames": [],
++      "Name": "Hidden/VideoDecodeGLSL"
+--- 5.6.0b5
++++ 5.6.0b6
+@@ -379,0 +380,6 @@
++    },
++    "15000": {
++      "$type": "Texture2D",
++      "Width": 32,
++      "Height": 32,
++      "Name": "UnitySplash-HolographicTrackingLoss"
+--- 5.6.0b7
++++ 5.6.0b8
+@@ -2123,0 +2124,7 @@
++    "15305": {
++      "$type": "Shader",
++      "PropertyNames": [
++        "_MainTex"
++      ],
++      "Name": "Hidden/VR/Internal-VRDistortion"
++    },
+@@ -2136 +2143 @@
+-      "Name": "Hidden/VideoDecodeGLSL"
++      "Name": "Hidden/VideoDecodeOSX"
+--- 5.6.0b9
++++ 5.6.0b10
+@@ -2143,0 +2144,5 @@
++    },
++    "16002": {
++      "$type": "Shader",
++      "PropertyNames": [],
++      "Name": "Hidden/VideoDecodeAndroid"
+--- 5.6.7f1
++++ 2017.1.0b1
+@@ -368,0 +369,6 @@
++    "11997": {
++      "$type": "MonoScript",
++      "AssemblyName": "UnityEngine.dll",
++      "Namespace": "UnityEngine.StyleSheets",
++      "ClassName": "StyleSheet"
++    },
+@@ -1164,0 +1171,9 @@
++    "9004": {
++      "$type": "Shader",
++      "PropertyNames": [
++        "_MainTex",
++        "_CornerRadius",
++        "_BorderWidth"
++      ],
++      "Name": "Hidden/Internal-GUIRoundedRect"
++    },
+@@ -1196,0 +1212,5 @@
++    "10306": {
++      "$type": "Material",
++      "Shader": "Particles/Alpha Blended Premultiply",
++      "Name": "Default-Line"
++    },
+@@ -1692,0 +1713,17 @@
++    "10757": {
++      "$type": "Shader",
++      "PropertyNames": [
++        "_MainTex",
++        "_AlphaTex",
++        "_MaskingAlphaCutoff",
++        "_Color",
++        "_EnableExternalAlpha",
++        "PixelSnap"
++      ],
++      "Name": "Sprites/Mask"
++    },
++    "10758": {
++      "$type": "Material",
++      "Shader": "Sprites/Mask",
++      "Name": "Sprites-Mask"
++    },
+@@ -1899,0 +1937,22 @@
++    },
++    "10784": {
++      "$type": "Shader",
++      "PropertyNames": [
++        "_MainTex"
++      ],
++      "Name": "Hidden/UI/CompositeOverdraw"
++    },
++    "10785": {
++      "$type": "Shader",
++      "PropertyNames": [
++        "_MainTex",
++        "_Color",
++        "_StencilComp",
++        "_Stencil",
++        "_StencilOp",
++        "_StencilWriteMask",
++        "_StencilReadMask",
++        "_ColorMask",
++        "_UseUIAlphaClip"
++      ],
++      "Name": "Hidden/UI/Overdraw"
+--- 2017.1.0b7
++++ 2017.1.0b8
+@@ -1718 +1718 @@
+-        "_MaskingAlphaCutoff",
++        "_Cutoff",
+--- 2017.1.0b10
++++ 2017.1.0f2
+@@ -141,2 +141,2 @@
+-      "Width": 1024,
+-      "Height": 256,
++      "Width": 2048,
++      "Height": 1024,
+--- 2017.1.5f1
++++ 2017.2.0b2
+@@ -141,2 +141,2 @@
+-      "Width": 2048,
+-      "Height": 1024,
++      "Width": 1024,
++      "Height": 256,
+@@ -368,0 +369,84 @@
++    "11981": {
++      "$type": "MonoScript",
++      "AssemblyName": "UnityEngine.dll",
++      "Namespace": "UnityEngine.Experimental.UIElements",
++      "ClassName": "VisualContainerAsset"
++    },
++    "11982": {
++      "$type": "MonoScript",
++      "AssemblyName": "UnityEngine.dll",
++      "Namespace": "UnityEngine.Experimental.UIElements",
++      "ClassName": "IMGUIContainerAsset"
++    },
++    "11983": {
++      "$type": "MonoScript",
++      "AssemblyName": "UnityEngine.dll",
++      "Namespace": "UnityEngine.Experimental.UIElements",
++      "ClassName": "ButtonAsset"
++    },
++    "11984": {
++      "$type": "MonoScript",
++      "AssemblyName": "UnityEngine.dll",
++      "Namespace": "UnityEngine.Experimental.UIElements",
++      "ClassName": "ImageAsset"
++    },
++    "11985": {
++      "$type": "MonoScript",
++      "AssemblyName": "UnityEngine.dll",
++      "Namespace": "UnityEngine.Experimental.UIElements",
++      "ClassName": "LabelAsset"
++    },
++    "11986": {
++      "$type": "MonoScript",
++      "AssemblyName": "UnityEngine.dll",
++      "Namespace": "UnityEngine.Experimental.UIElements",
++      "ClassName": "PanelAsset"
++    },
++    "11987": {
++      "$type": "MonoScript",
++      "AssemblyName": "UnityEngine.dll",
++      "Namespace": "UnityEngine.Experimental.UIElements",
++      "ClassName": "RepeatButtonAsset"
++    },
++    "11988": {
++      "$type": "MonoScript",
++      "AssemblyName": "UnityEngine.dll",
++      "Namespace": "UnityEngine.Experimental.UIElements",
++      "ClassName": "ScrollerAsset"
++    },
++    "11989": {
++      "$type": "MonoScript",
++      "AssemblyName": "UnityEngine.dll",
++      "Namespace": "UnityEngine.Experimental.UIElements",
++      "ClassName": "ScrollerButtonAsset"
++    },
++    "11990": {
++      "$type": "MonoScript",
++      "AssemblyName": "UnityEngine.dll",
++      "Namespace": "UnityEngine.Experimental.UIElements",
++      "ClassName": "ScrollViewAsset"
++    },
++    "11991": {
++      "$type": "MonoScript",
++      "AssemblyName": "UnityEngine.dll",
++      "Namespace": "UnityEngine.Experimental.UIElements",
++      "ClassName": "SliderAsset"
++    },
++    "11992": {
++      "$type": "MonoScript",
++      "AssemblyName": "UnityEngine.dll",
++      "Namespace": "UnityEngine.Experimental.UIElements",
++      "ClassName": "TextFieldAsset"
++    },
++    "11993": {
++      "$type": "MonoScript",
++      "AssemblyName": "UnityEngine.dll",
++      "Namespace": "UnityEngine.Experimental.UIElements",
++      "ClassName": "ToggleAsset"
++    },
++    "11996": {
++      "$type": "MonoScript",
++      "AssemblyName": "UnityEngine.dll",
++      "Namespace": "UnityEngine.Experimental.UIElements",
++      "ClassName": "VisualTreeAsset"
++    },
+@@ -386,0 +471,12 @@
++    "13312": {
++      "$type": "MonoScript",
++      "AssemblyName": "UnityEngine.dll",
++      "Namespace": "UnityEngine.Tilemaps",
++      "ClassName": "Tile"
++    },
++    "13313": {
++      "$type": "MonoScript",
++      "AssemblyName": "UnityEngine.dll",
++      "Namespace": "UnityEngine.Tilemaps",
++      "ClassName": "TileBase"
++    },
+@@ -391,0 +488,5 @@
++    },
++    "17000": {
++      "$type": "NamedObject",
++      "TypeID": 72,
++      "Name": "internalskinning"
+@@ -875,0 +977,32 @@
++    "47": {
++      "$type": "Shader",
++      "PropertyNames": [
++        "_Color",
++        "_MainTex",
++        "_Cutoff",
++        "_Glossiness",
++        "_SpecGlossMap",
++        "_Metallic",
++        "_MetallicGlossMap",
++        "_SpecularHighlights",
++        "_GlossyReflections",
++        "_BumpScale",
++        "_BumpMap",
++        "_Parallax",
++        "_ParallaxMap",
++        "_OcclusionStrength",
++        "_OcclusionMap",
++        "_EmissionColor",
++        "_EmissionMap",
++        "_DetailMask",
++        "_DetailAlbedoMap",
++        "_DetailNormalMapScale",
++        "_DetailNormalMap",
++        "_UVSec",
++        "_Mode",
++        "_SrcBlend",
++        "_DstBlend",
++        "_ZWrite"
++      ],
++      "Name": "Standard (Roughness setup)"
++    },
+@@ -1059,0 +1193 @@
++        "_SunSizeConvergence",
+@@ -1066,0 +1201,8 @@
++    "107": {
++      "$type": "Shader",
++      "PropertyNames": [
++        "_MainTex",
++        "_Color"
++      ],
++      "Name": "Hidden/BlitCopyWithDepth"
++    },
+@@ -1174,3 +1316 @@
+-        "_MainTex",
+-        "_CornerRadius",
+-        "_BorderWidth"
++        "_MainTex"
+@@ -2181 +2321 @@
+-      "Name": "Hidden/VR/BlitCopyFromTexArray"
++      "Name": "Hidden/VR/BlitTexArraySlice"
+@@ -2188,0 +2329,24 @@
++    },
++    "15310": {
++      "$type": "Shader",
++      "PropertyNames": [],
++      "Name": "Hidden/VR/ClippingMask"
++    },
++    "15311": {
++      "$type": "Shader",
++      "PropertyNames": [
++        "_MainTex"
++      ],
++      "Name": "Hidden/VR/VideoBackground"
++    },
++    "15400": {
++      "$type": "Material",
++      "Shader": "AR/TangoARRender",
++      "Name": "TangoARRender"
++    },
++    "15401": {
++      "$type": "Shader",
++      "PropertyNames": [
++        "_ScreenOrientation"
++      ],
++      "Name": "AR/TangoARRender"
+--- 2017.2.0b6
++++ 2017.2.0b7
+@@ -141,2 +141,2 @@
+-      "Width": 1024,
+-      "Height": 256,
++      "Width": 2048,
++      "Height": 1024,
+--- 2017.2.0f3
++++ 2017.2.1f1
+@@ -2342,5 +2341,0 @@
+-    "15400": {
+-      "$type": "Material",
+-      "Shader": "AR/TangoARRender",
+-      "Name": "TangoARRender"
+-    },
+@@ -2350 +2345,2 @@
+-        "_ScreenOrientation"
++        "_ScreenOrientation",
++        "_HeightScale"
+--- 2017.2.5f1
++++ 2017.3.0b1
+@@ -446,0 +447,6 @@
++    "11994": {
++      "$type": "MonoScript",
++      "AssemblyName": "UnityEngine.dll",
++      "Namespace": "UnityEngine.Experimental.UIElements",
++      "ClassName": "TemplateAsset"
++    },
+@@ -1208,0 +1215,14 @@
++    "108": {
++      "$type": "Shader",
++      "PropertyNames": [
++        "_Tint",
++        "_Exposure",
++        "_Rotation",
++        "_MainTex",
++        "_Mapping",
++        "_ImageType",
++        "_MirrorOnBack",
++        "_Layout"
++      ],
++      "Name": "Skybox/Panoramic"
++    },
+@@ -1284,0 +1305,71 @@
++    "210": {
++      "$type": "Shader",
++      "PropertyNames": [
++        "_MainTex",
++        "_Color",
++        "_Cutoff",
++        "_MetallicGlossMap",
++        "_Metallic",
++        "_Glossiness",
++        "_BumpScale",
++        "_BumpMap",
++        "_EmissionColor",
++        "_EmissionMap",
++        "_DistortionStrength",
++        "_DistortionBlend",
++        "_SoftParticlesNearFadeDistance",
++        "_SoftParticlesFarFadeDistance",
++        "_CameraNearFadeDistance",
++        "_CameraFarFadeDistance",
++        "_Mode",
++        "_FlipbookMode",
++        "_LightingEnabled",
++        "_DistortionEnabled",
++        "_EmissionEnabled",
++        "_BlendOp",
++        "_SrcBlend",
++        "_DstBlend",
++        "_ZWrite",
++        "_Cull",
++        "_SoftParticlesEnabled",
++        "_CameraFadingEnabled",
++        "_SoftParticleFadeParams",
++        "_CameraFadeParams"
++      ],
++      "Name": "Particles/Standard Surface"
++    },
++    "211": {
++      "$type": "Shader",
++      "PropertyNames": [
++        "_MainTex",
++        "_Color",
++        "_Cutoff",
++        "_BumpScale",
++        "_BumpMap",
++        "_EmissionColor",
++        "_EmissionMap",
++        "_DistortionStrength",
++        "_DistortionBlend",
++        "_SoftParticlesNearFadeDistance",
++        "_SoftParticlesFarFadeDistance",
++        "_CameraNearFadeDistance",
++        "_CameraFarFadeDistance",
++        "_Mode",
++        "_ColorMode",
++        "_FlipbookMode",
++        "_LightingEnabled",
++        "_DistortionEnabled",
++        "_EmissionEnabled",
++        "_BlendOp",
++        "_SrcBlend",
++        "_DstBlend",
++        "_ZWrite",
++        "_Cull",
++        "_SoftParticlesEnabled",
++        "_CameraFadingEnabled",
++        "_SoftParticleFadeParams",
++        "_CameraFadeParams",
++        "_ColorAddSubDiff"
++      ],
++      "Name": "Particles/Standard Unlit"
++    },
+@@ -1488,0 +1580,7 @@
++    "10513": {
++      "$type": "Shader",
++      "PropertyNames": [
++        "_MainTex"
++      ],
++      "Name": "Hidden/TerrainEngine/CameraFacingBillboardTree"
++    },
+@@ -1550,0 +1649 @@
++        "_Cutoff",
+@@ -2341,0 +2441,5 @@
++    "15400": {
++      "$type": "Material",
++      "Shader": "AR/TangoARRender",
++      "Name": "TangoARRender"
++    },
+@@ -2345,2 +2449 @@
+-        "_ScreenOrientation",
+-        "_HeightScale"
++        "_ScreenOrientation"
+@@ -2367,0 +2471,8 @@
++    },
++    "17000": {
++      "$type": "Shader",
++      "PropertyNames": [
++        "_MainTex",
++        "_SecondTex"
++      ],
++      "Name": "Hidden/Compositing"
+--- 2017.3.0b2
++++ 2017.3.0b3
+@@ -1337 +1337,2 @@
+-        "_CameraFadeParams"
++        "_CameraFadeParams",
++        "_DistortionStrengthScaled"
+@@ -1372 +1373,2 @@
+-        "_ColorAddSubDiff"
++        "_ColorAddSubDiff",
++        "_DistortionStrengthScaled"
+--- 2017.3.0b4
++++ 2017.3.0b5
+@@ -2443,5 +2442,0 @@
+-    "15400": {
+-      "$type": "Material",
+-      "Shader": "AR/TangoARRender",
+-      "Name": "TangoARRender"
+-    },
+@@ -2451 +2446,5 @@
+-        "_ScreenOrientation"
++        "_ScreenOrientation",
++        "_ScreenWidth",
++        "_ScreenHeight",
++        "_ImageWidth",
++        "_ImageHeight"
+--- 2017.3.0b9
++++ 2017.3.0b10
+@@ -1228,0 +1229,15 @@
++    "109": {
++      "$type": "Shader",
++      "PropertyNames": [
++        "_MainTex",
++        "_Color"
++      ],
++      "Name": "Hidden/BlitToDepth"
++    },
++    "110": {
++      "$type": "Shader",
++      "PropertyNames": [
++        "_MainTex"
++      ],
++      "Name": "Hidden/BlitToDepth_MSAA"
++    },
+@@ -2430,0 +2446,14 @@
++    "15306": {
++      "$type": "Shader",
++      "PropertyNames": [
++        "_MainTex"
++      ],
++      "Name": "Hidden/VR/BlitTexArraySliceToDepth"
++    },
++    "15307": {
++      "$type": "Shader",
++      "PropertyNames": [
++        "_MainTex"
++      ],
++      "Name": "Hidden/VR/BlitTexArraySliceToDepth_MSAA"
++    },
+@@ -2447,4 +2476 @@
+-        "_ScreenWidth",
+-        "_ScreenHeight",
+-        "_ImageWidth",
+-        "_ImageHeight"
++        "_HeightScale"
+--- 2017.4.40f1
++++ 2018.1.0b2
+@@ -1090 +1090,2 @@
+-        "_ShadowMapTexture"
++        "_ShadowMapTexture",
++        "_ODSWorldTexture"
+@@ -1424 +1425,3 @@
+-        "_MainTex"
++        "_MainTex",
++        "_SrcBlend",
++        "_DstBlend"
+@@ -1600 +1603,2 @@
+-        "_MainTex"
++        "_MainTex",
++        "_NormalTex"
+@@ -1723,0 +1728,26 @@
++    "10608": {
++      "$type": "Shader",
++      "PropertyNames": [
++        "_TranslucencyColor",
++        "_Cutoff",
++        "_HalfOverCutoff",
++        "_TranslucencyViewDependency",
++        "_MainTex",
++        "_BumpSpecMap",
++        "_TranslucencyMap"
++      ],
++      "Name": "Hidden/Nature/Tree Creator Albedo Rendertex"
++    },
++    "10609": {
++      "$type": "Shader",
++      "PropertyNames": [
++        "_TranslucencyColor",
++        "_Cutoff",
++        "_HalfOverCutoff",
++        "_TranslucencyViewDependency",
++        "_MainTex",
++        "_BumpSpecMap",
++        "_TranslucencyMap"
++      ],
++      "Name": "Hidden/Nature/Tree Creator Normal Rendertex"
++    },
+@@ -2458,0 +2489,16 @@
++    },
++    "15308": {
++      "$type": "Shader",
++      "PropertyNames": [
++        "_MainTex",
++        "_Cutoff",
++        "_Color"
++      ],
++      "Name": "Hidden/Internal-ODSWorldTexture"
++    },
++    "15309": {
++      "$type": "Shader",
++      "PropertyNames": [
++        "_MainTex"
++      ],
++      "Name": "Hidden/Internal-CubemapToEquirect"
+--- 2018.1.9f2
++++ 2018.2.0b1
+@@ -207 +207 @@
+-      "AssemblyName": "UnityEngine.dll",
++      "AssemblyName": "",
+@@ -369,78 +368,0 @@
+-    "11981": {
+-      "$type": "MonoScript",
+-      "AssemblyName": "UnityEngine.dll",
+-      "Namespace": "UnityEngine.Experimental.UIElements",
+-      "ClassName": "VisualContainerAsset"
+-    },
+-    "11982": {
+-      "$type": "MonoScript",
+-      "AssemblyName": "UnityEngine.dll",
+-      "Namespace": "UnityEngine.Experimental.UIElements",
+-      "ClassName": "IMGUIContainerAsset"
+-    },
+-    "11983": {
+-      "$type": "MonoScript",
+-      "AssemblyName": "UnityEngine.dll",
+-      "Namespace": "UnityEngine.Experimental.UIElements",
+-      "ClassName": "ButtonAsset"
+-    },
+-    "11984": {
+-      "$type": "MonoScript",
+-      "AssemblyName": "UnityEngine.dll",
+-      "Namespace": "UnityEngine.Experimental.UIElements",
+-      "ClassName": "ImageAsset"
+-    },
+-    "11985": {
+-      "$type": "MonoScript",
+-      "AssemblyName": "UnityEngine.dll",
+-      "Namespace": "UnityEngine.Experimental.UIElements",
+-      "ClassName": "LabelAsset"
+-    },
+-    "11986": {
+-      "$type": "MonoScript",
+-      "AssemblyName": "UnityEngine.dll",
+-      "Namespace": "UnityEngine.Experimental.UIElements",
+-      "ClassName": "PanelAsset"
+-    },
+-    "11987": {
+-      "$type": "MonoScript",
+-      "AssemblyName": "UnityEngine.dll",
+-      "Namespace": "UnityEngine.Experimental.UIElements",
+-      "ClassName": "RepeatButtonAsset"
+-    },
+-    "11988": {
+-      "$type": "MonoScript",
+-      "AssemblyName": "UnityEngine.dll",
+-      "Namespace": "UnityEngine.Experimental.UIElements",
+-      "ClassName": "ScrollerAsset"
+-    },
+-    "11989": {
+-      "$type": "MonoScript",
+-      "AssemblyName": "UnityEngine.dll",
+-      "Namespace": "UnityEngine.Experimental.UIElements",
+-      "ClassName": "ScrollerButtonAsset"
+-    },
+-    "11990": {
+-      "$type": "MonoScript",
+-      "AssemblyName": "UnityEngine.dll",
+-      "Namespace": "UnityEngine.Experimental.UIElements",
+-      "ClassName": "ScrollViewAsset"
+-    },
+-    "11991": {
+-      "$type": "MonoScript",
+-      "AssemblyName": "UnityEngine.dll",
+-      "Namespace": "UnityEngine.Experimental.UIElements",
+-      "ClassName": "SliderAsset"
+-    },
+-    "11992": {
+-      "$type": "MonoScript",
+-      "AssemblyName": "UnityEngine.dll",
+-      "Namespace": "UnityEngine.Experimental.UIElements",
+-      "ClassName": "TextFieldAsset"
+-    },
+-    "11993": {
+-      "$type": "MonoScript",
+-      "AssemblyName": "UnityEngine.dll",
+-      "Namespace": "UnityEngine.Experimental.UIElements",
+-      "ClassName": "ToggleAsset"
+-    },
+@@ -449 +371 @@
+-      "AssemblyName": "UnityEngine.dll",
++      "AssemblyName": "",
+@@ -455 +377 @@
+-      "AssemblyName": "UnityEngine.dll",
++      "AssemblyName": "",
+@@ -461 +383 @@
+-      "AssemblyName": "UnityEngine.dll",
++      "AssemblyName": "",
+@@ -465,6 +386,0 @@
+-    "11998": {
+-      "$type": "MonoScript",
+-      "AssemblyName": "UnityEngine.dll",
+-      "Namespace": "UnityEngine",
+-      "ClassName": "DeveloperConsole"
+-    },
+@@ -473 +389 @@
+-      "AssemblyName": "UnityEngine.dll",
++      "AssemblyName": "",
+@@ -479 +395 @@
+-      "AssemblyName": "UnityEngine.dll",
++      "AssemblyName": "",
+@@ -485 +401 @@
+-      "AssemblyName": "UnityEngine.dll",
++      "AssemblyName": "",
+@@ -1604 +1520,3 @@
+-        "_NormalTex"
++        "_NormalTex",
++        "_TranslucencyViewDependency",
++        "_TranslucencyColor"
+--- 2018.2.21f1
++++ 2018.3.0b7
+@@ -25,0 +26,10 @@
++    "300": {
++      "$type": "NamedObject",
++      "TypeID": 72,
++      "Name": "Internal-Skinning"
++    },
++    "301": {
++      "$type": "NamedObject",
++      "TypeID": 72,
++      "Name": "Internal-BlendShape"
++    },
+@@ -149,0 +160,6 @@
++    "10406": {
++      "$type": "Texture2D",
++      "Width": 512,
++      "Height": 94,
++      "Name": "UnityWatermark-trial-big"
++    },
+@@ -410,5 +425,0 @@
+-    },
+-    "17000": {
+-      "$type": "NamedObject",
+-      "TypeID": 72,
+-      "Name": "internalskinning"
+@@ -929 +940 @@
+-      "Name": "Standard (Roughness setup)"
++      "Name": "Autodesk Interactive"
+@@ -1168 +1179 @@
+-      "Name": "Particles/Additive"
++      "Name": "Legacy Shaders/Particles/Additive"
+@@ -1177 +1188 @@
+-      "Name": "Particles/~Additive-Multiply"
++      "Name": "Legacy Shaders/Particles/~Additive-Multiply"
+@@ -1185 +1196 @@
+-      "Name": "Particles/Additive (Soft)"
++      "Name": "Legacy Shaders/Particles/Additive (Soft)"
+@@ -1194 +1205 @@
+-      "Name": "Particles/Alpha Blended"
++      "Name": "Legacy Shaders/Particles/Alpha Blended"
+@@ -1202 +1213 @@
+-      "Name": "Particles/Multiply"
++      "Name": "Legacy Shaders/Particles/Multiply"
+@@ -1210 +1221 @@
+-      "Name": "Particles/Multiply (Double)"
++      "Name": "Legacy Shaders/Particles/Multiply (Double)"
+@@ -1218 +1229 @@
+-      "Name": "Particles/Alpha Blended Premultiply"
++      "Name": "Legacy Shaders/Particles/Alpha Blended Premultiply"
+@@ -1226 +1237 @@
+-      "Name": "Particles/VertexLit Blended"
++      "Name": "Legacy Shaders/Particles/VertexLit Blended"
+@@ -1235 +1246 @@
+-      "Name": "Particles/Anim Alpha Blended"
++      "Name": "Legacy Shaders/Particles/Anim Alpha Blended"
+@@ -1355 +1366 @@
+-      "Shader": "Particles/Alpha Blended Premultiply",
++      "Shader": "Legacy Shaders/Particles/Alpha Blended Premultiply",
+@@ -1381 +1392 @@
+-      "Shader": "Particles/Alpha Blended Premultiply",
++      "Shader": "Legacy Shaders/Particles/Alpha Blended Premultiply",
+@@ -1383,0 +1395,16 @@
++    "10307": {
++      "$type": "Texture2D",
++      "Width": 64,
++      "Height": 64,
++      "Name": "Default-ParticleSystem"
++    },
++    "10308": {
++      "$type": "Material",
++      "Shader": "Particles/Standard Unlit",
++      "Name": "Default-ParticleSystem"
++    },
++    "10490": {
++      "$type": "Shader",
++      "PropertyNames": [],
++      "Name": "Hidden/Nature/Terrain/Utilities"
++    },
+@@ -1412,0 +1440,5 @@
++      "PropertyNames": [],
++      "Name": "Hidden/TerrainEngine/Splatmap/Diffuse-AddPass"
++    },
++    "10504": {
++      "$type": "Shader",
+@@ -1414,9 +1446,2 @@
+-        "_Control",
+-        "_Splat3",
+-        "_Splat2",
+-        "_Splat1",
+-        "_Splat0",
+-        "_Normal3",
+-        "_Normal2",
+-        "_Normal1",
+-        "_Normal0"
++        "_Color",
++        "_MainTex"
+@@ -1424 +1449 @@
+-      "Name": "Hidden/TerrainEngine/Splatmap/Diffuse-AddPass"
++      "Name": "Hidden/TerrainEngine/Splatmap/Diffuse-Base"
+@@ -1429,9 +1453,0 @@
+-        "_Control",
+-        "_Splat3",
+-        "_Splat2",
+-        "_Splat1",
+-        "_Splat0",
+-        "_Normal3",
+-        "_Normal2",
+-        "_Normal1",
+-        "_Normal0",
+@@ -1442,0 +1459,12 @@
++    "10506": {
++      "$type": "Shader",
++      "PropertyNames": [
++        "_Control",
++        "_Splat0",
++        "_Splat1",
++        "_Splat2",
++        "_Splat3",
++        "_DstBlend"
++      ],
++      "Name": "Hidden/TerrainEngine/Splatmap/Diffuse-BaseGen"
++    },
+@@ -1677,9 +1704,0 @@
+-        "_Control",
+-        "_Splat3",
+-        "_Splat2",
+-        "_Splat1",
+-        "_Splat0",
+-        "_Normal3",
+-        "_Normal2",
+-        "_Normal1",
+-        "_Normal0",
+@@ -1695,10 +1714 @@
+-        "_Shininess",
+-        "_Control",
+-        "_Splat3",
+-        "_Splat2",
+-        "_Splat1",
+-        "_Splat0",
+-        "_Normal3",
+-        "_Normal2",
+-        "_Normal1",
+-        "_Normal0"
++        "_Shininess"
+@@ -1721,17 +1730,0 @@
+-        "_Control",
+-        "_Splat3",
+-        "_Splat2",
+-        "_Splat1",
+-        "_Splat0",
+-        "_Normal3",
+-        "_Normal2",
+-        "_Normal1",
+-        "_Normal0",
+-        "_Metallic0",
+-        "_Metallic1",
+-        "_Metallic2",
+-        "_Metallic3",
+-        "_Smoothness0",
+-        "_Smoothness1",
+-        "_Smoothness2",
+-        "_Smoothness3",
+@@ -1744,0 +1738,14 @@
++      "PropertyNames": [],
++      "Name": "Hidden/TerrainEngine/Splatmap/Standard-AddPass"
++    },
++    "10625": {
++      "$type": "Shader",
++      "PropertyNames": [
++        "_MainTex",
++        "_MetallicTex",
++        "_Color"
++      ],
++      "Name": "Hidden/TerrainEngine/Splatmap/Standard-Base"
++    },
++    "10626": {
++      "$type": "Shader",
+@@ -1747,3 +1753,0 @@
+-        "_Splat3",
+-        "_Splat2",
+-        "_Splat1",
+@@ -1751,4 +1755,3 @@
+-        "_Normal3",
+-        "_Normal2",
+-        "_Normal1",
+-        "_Normal0",
++        "_Splat1",
++        "_Splat2",
++        "_Splat3",
+@@ -1762,10 +1765,2 @@
+-        "_Smoothness3"
+-      ],
+-      "Name": "Hidden/TerrainEngine/Splatmap/Standard-AddPass"
+-    },
+-    "10625": {
+-      "$type": "Shader",
+-      "PropertyNames": [
+-        "_MainTex",
+-        "_MetallicTex",
+-        "_Color"
++        "_Smoothness3",
++        "_DstBlend"
+@@ -1773 +1768 @@
+-      "Name": "Hidden/TerrainEngine/Splatmap/Standard-Base"
++      "Name": "Hidden/TerrainEngine/Splatmap/Standard-BaseGen"
+@@ -1825 +1820 @@
+-      "Name": "Mobile/Bumped Specular (1 Directional Light)"
++      "Name": "Mobile/Bumped Specular (1 Directional Realtime Light)"
+@@ -2279,0 +2275,23 @@
++    "14002": {
++      "$type": "Shader",
++      "PropertyNames": [
++        "_MainTex",
++        "_Color",
++        "_HueVariationKwToggle",
++        "_HueVariationColor",
++        "_NormalMapKwToggle",
++        "_BumpMap",
++        "_ExtraTex",
++        "_Glossiness",
++        "_Metallic",
++        "_SubsurfaceKwToggle",
++        "_SubsurfaceTex",
++        "_SubsurfaceColor",
++        "_SubsurfaceIndirect",
++        "_BillboardKwToggle",
++        "_BillboardShadowFade",
++        "_TwoSided",
++        "_WindQuality"
++      ],
++      "Name": "Nature/SpeedTree8"
++    },
+@@ -2469,0 +2488,26 @@
++    },
++    "18000": {
++      "$type": "Shader",
++      "PropertyNames": [
++        "_MainTex"
++      ],
++      "Name": "Hidden/TerrainEngine/PaintHeight"
++    },
++    "18002": {
++      "$type": "Shader",
++      "PropertyNames": [
++        "_MainTex"
++      ],
++      "Name": "Hidden/TerrainEngine/GenerateNormalmap"
++    },
++    "18003": {
++      "$type": "Shader",
++      "PropertyNames": [
++        "_MainTex"
++      ],
++      "Name": "Hidden/TerrainEngine/TerrainLayerUtils"
++    },
++    "18004": {
++      "$type": "Shader",
++      "PropertyNames": [],
++      "Name": "Hidden/TerrainEngine/BrushPreview"
+--- 2018.4.36f1
++++ 2019.1.0a7
+@@ -1550 +1550,2 @@
+-        "_TranslucencyColor"
++        "_TranslucencyColor",
++        "_AlphaToMask"
+@@ -2480,0 +2482,5 @@
++    "16003": {
++      "$type": "Shader",
++      "PropertyNames": [],
++      "Name": "Hidden/VideoDecodeML"
++    },
+@@ -2513,0 +2520,10 @@
++    },
++    "18005": {
++      "$type": "Shader",
++      "PropertyNames": [
++        "_TopTex",
++        "_BottomTex",
++        "_LeftTex",
++        "_RightTex"
++      ],
++      "Name": "Hidden/TerrainEngine/CrossBlendNeighbors"
+--- 2019.1.0a7
++++ 2019.1.0a8
+@@ -397 +397 @@
+-    "11997": {
++    "11998": {
+@@ -400 +400 @@
+-      "Namespace": "UnityEngine.StyleSheets",
++      "Namespace": "UnityEngine.UIElements",
+--- 2019.1.0a8
++++ 2019.1.0a9
+@@ -2454,0 +2455,7 @@
++    "15312": {
++      "$type": "Shader",
++      "PropertyNames": [
++        "_MainTex"
++      ],
++      "Name": "Hidden/VR/BlitFromTex2DToTexArraySlice"
++    },
+--- 2019.1.0a9
++++ 2019.1.0a10
+@@ -2472,0 +2473,7 @@
++        "_MainTex"
++      ],
++      "Name": "Hidden/VideoComposite"
++    },
++    "16001": {
++      "$type": "Shader",
++      "PropertyNames": [
+@@ -2479 +2486 @@
+-    "16001": {
++    "16002": {
+@@ -2484 +2491 @@
+-    "16002": {
++    "16003": {
+@@ -2489 +2496 @@
+-    "16003": {
++    "16004": {
+--- 2019.1.0a10
++++ 2019.1.0a11
+@@ -1357,0 +1358,32 @@
++    "9005": {
++      "$type": "Shader",
++      "PropertyNames": [
++        "_MainTex",
++        "_FontTex",
++        "_CustomTex",
++        "_Color",
++        "_StencilCompFront",
++        "_StencilPassFront",
++        "_StencilZFailFront",
++        "_StencilFailFront",
++        "_StencilCompBack",
++        "_StencilPassBack",
++        "_StencilZFailBack",
++        "_StencilFailBack"
++      ],
++      "Name": "Hidden/Internal-UIRDefault"
++    },
++    "9006": {
++      "$type": "Shader",
++      "PropertyNames": [
++        "_MainTex0",
++        "_MainTex1",
++        "_MainTex2",
++        "_MainTex3",
++        "_MainTex4",
++        "_MainTex5",
++        "_MainTex6",
++        "_MainTex7"
++      ],
++      "Name": "Hidden/Internal-UIRAtlasBlitCopy"
++    },
+--- 2019.1.0a12
++++ 2019.1.0a13
+@@ -1437,0 +1438,6 @@
++    "10309": {
++      "$type": "Texture2D",
++      "Width": 64,
++      "Height": 64,
++      "Name": "Default-Checker-Gray"
++    },
+--- 2019.1.0b2
++++ 2019.1.0b3
+@@ -385 +385 @@
+-    "11994": {
++    "11993": {
+@@ -388 +388 @@
+-      "Namespace": "UnityEngine.Experimental.UIElements",
++      "Namespace": "UnityEngine.UIElements",
+@@ -391 +391 @@
+-    "11996": {
++    "11995": {
+@@ -394 +394 @@
+-      "Namespace": "UnityEngine.Experimental.UIElements",
++      "Namespace": "UnityEngine.UIElements",
+--- 2019.1.0b7
++++ 2019.1.0b8
+@@ -1500,5 +1499,0 @@
+-        "_Control",
+-        "_Splat0",
+-        "_Splat1",
+-        "_Splat2",
+-        "_Splat3",
+@@ -1792,13 +1786,0 @@
+-        "_Control",
+-        "_Splat0",
+-        "_Splat1",
+-        "_Splat2",
+-        "_Splat3",
+-        "_Metallic0",
+-        "_Metallic1",
+-        "_Metallic2",
+-        "_Metallic3",
+-        "_Smoothness0",
+-        "_Smoothness1",
+-        "_Smoothness2",
+-        "_Smoothness3",
+--- 2019.1.14f1
++++ 2019.2.0a6
+@@ -425,0 +426,30 @@
++    },
++    "19000": {
++      "$type": "MonoScript",
++      "AssemblyName": "",
++      "Namespace": "UnityEngine.TextCore",
++      "ClassName": "TextSettings"
++    },
++    "19001": {
++      "$type": "MonoScript",
++      "AssemblyName": "",
++      "Namespace": "UnityEngine.TextCore",
++      "ClassName": "FontAsset"
++    },
++    "19002": {
++      "$type": "MonoScript",
++      "AssemblyName": "",
++      "Namespace": "UnityEngine.TextCore",
++      "ClassName": "TextSpriteAsset"
++    },
++    "19003": {
++      "$type": "MonoScript",
++      "AssemblyName": "",
++      "Namespace": "UnityEngine.TextCore",
++      "ClassName": "TextGradientPreset"
++    },
++    "19004": {
++      "$type": "MonoScript",
++      "AssemblyName": "",
++      "Namespace": "UnityEngine.TextCore",
++      "ClassName": "TextStyleSheet"
+@@ -1499,0 +1530,5 @@
++        "_Control",
++        "_Splat0",
++        "_Splat1",
++        "_Splat2",
++        "_Splat3",
+@@ -1786,0 +1822,13 @@
++        "_Control",
++        "_Splat0",
++        "_Splat1",
++        "_Splat2",
++        "_Splat3",
++        "_Metallic0",
++        "_Metallic1",
++        "_Metallic2",
++        "_Metallic3",
++        "_Smoothness0",
++        "_Smoothness1",
++        "_Smoothness2",
++        "_Smoothness3",
+@@ -2563,0 +2612,54 @@
++    },
++    "19010": {
++      "$type": "Shader",
++      "PropertyNames": [
++        "_FaceColor",
++        "_FaceDilate",
++        "_OutlineColor",
++        "_OutlineWidth",
++        "_OutlineSoftness",
++        "_WeightNormal",
++        "_WeightBold",
++        "_ScaleRatioA",
++        "_ScaleRatioB",
++        "_ScaleRatioC",
++        "_MainTex",
++        "_GradientScale",
++        "_ScaleX",
++        "_ScaleY",
++        "_Sharpness",
++        "_VertexOffsetX",
++        "_VertexOffsetY"
++      ],
++      "Name": "Hidden/TextCore/Distance Field"
++    },
++    "19011": {
++      "$type": "Shader",
++      "PropertyNames": [
++        "_FaceColor",
++        "_FaceDilate",
++        "_OutlineColor",
++        "_OutlineWidth",
++        "_OutlineSoftness",
++        "_UnderlayColor",
++        "_UnderlayOffsetX",
++        "_UnderlayOffsetY",
++        "_UnderlayDilate",
++        "_UnderlaySoftness",
++        "_WeightNormal",
++        "_WeightBold",
++        "_ShaderFlags",
++        "_ScaleRatioA",
++        "_ScaleRatioB",
++        "_ScaleRatioC",
++        "_MainTex",
++        "_TextureWidth",
++        "_TextureHeight",
++        "_GradientScale",
++        "_ScaleX",
++        "_ScaleY",
++        "_Sharpness",
++        "_VertexOffsetX",
++        "_VertexOffsetY"
++      ],
++      "Name": "Hidden/TextCore/Distance Field SSD"
+--- 2019.2.0a6
++++ 2019.2.0a7
+@@ -1530,5 +1529,0 @@
+-        "_Control",
+-        "_Splat0",
+-        "_Splat1",
+-        "_Splat2",
+-        "_Splat3",
+@@ -1822,13 +1816,0 @@
+-        "_Control",
+-        "_Splat0",
+-        "_Splat1",
+-        "_Splat2",
+-        "_Splat3",
+-        "_Metallic0",
+-        "_Metallic1",
+-        "_Metallic2",
+-        "_Metallic3",
+-        "_Smoothness0",
+-        "_Smoothness1",
+-        "_Smoothness2",
+-        "_Smoothness3",
+--- 2019.2.0a7
++++ 2019.2.0a8
+@@ -1820,0 +1821,15 @@
++    "10650": {
++      "$type": "Material",
++      "Shader": "Nature/Terrain/Diffuse",
++      "Name": "Default-Terrain-Diffuse"
++    },
++    "10651": {
++      "$type": "Material",
++      "Shader": "Nature/Terrain/Specular",
++      "Name": "Default-Terrain-Specular"
++    },
++    "10652": {
++      "$type": "Material",
++      "Shader": "Nature/Terrain/Standard",
++      "Name": "Default-Terrain-Standard"
++    },
+--- 2019.2.21f1
++++ 2019.3.0a2
+@@ -1419,0 +1420,9 @@
++    "9007": {
++      "$type": "Shader",
++      "PropertyNames": [
++        "_MainTex",
++        "_SrcBlend",
++        "_DstBlend"
++      ],
++      "Name": "Hidden/Internal-GUIRoundedRectWithColorPerBorder"
++    },
+--- 2019.3.0a4
++++ 2019.3.0a5
+@@ -1517 +1517,3 @@
+-      "PropertyNames": [],
++      "PropertyNames": [
++        "_TerrainSurfaceMaskTexture"
++      ],
+@@ -1524 +1526,2 @@
+-        "_MainTex"
++        "_MainTex",
++        "_TerrainSurfaceMaskTexture"
+@@ -1532 +1535,2 @@
+-        "_Color"
++        "_Color",
++        "_TerrainSurfaceMaskTexture"
+@@ -1779 +1783,2 @@
+-        "_Color"
++        "_Color",
++        "_TerrainSurfaceMaskTexture"
+@@ -1787 +1792,2 @@
+-        "_Shininess"
++        "_Shininess",
++        "_TerrainSurfaceMaskTexture"
+@@ -1797 +1803,2 @@
+-        "_Color"
++        "_Color",
++        "_TerrainSurfaceMaskTexture"
+@@ -1805 +1812,2 @@
+-        "_Color"
++        "_Color",
++        "_TerrainSurfaceMaskTexture"
+@@ -1811 +1819,3 @@
+-      "PropertyNames": [],
++      "PropertyNames": [
++        "_TerrainSurfaceMaskTexture"
++      ],
+@@ -1819 +1829,2 @@
+-        "_Color"
++        "_Color",
++        "_TerrainSurfaceMaskTexture"
+--- 2019.3.0a7
++++ 2019.3.0a8
+@@ -455,0 +456,6 @@
++    },
++    "19100": {
++      "$type": "MonoScript",
++      "AssemblyName": "",
++      "Namespace": "UnityEngine.UIElements",
++      "ClassName": "VectorImage"
+@@ -1518 +1524 @@
+-        "_TerrainSurfaceMaskTexture"
++        "_TerrainHolesTexture"
+@@ -1527 +1533 @@
+-        "_TerrainSurfaceMaskTexture"
++        "_TerrainHolesTexture"
+@@ -1536 +1542 @@
+-        "_TerrainSurfaceMaskTexture"
++        "_TerrainHolesTexture"
+@@ -1784 +1790 @@
+-        "_TerrainSurfaceMaskTexture"
++        "_TerrainHolesTexture"
+@@ -1793 +1799 @@
+-        "_TerrainSurfaceMaskTexture"
++        "_TerrainHolesTexture"
+@@ -1804 +1810 @@
+-        "_TerrainSurfaceMaskTexture"
++        "_TerrainHolesTexture"
+@@ -1813 +1819 @@
+-        "_TerrainSurfaceMaskTexture"
++        "_TerrainHolesTexture"
+@@ -1820 +1826 @@
+-        "_TerrainSurfaceMaskTexture"
++        "_TerrainHolesTexture"
+@@ -1830 +1836 @@
+-        "_TerrainSurfaceMaskTexture"
++        "_TerrainHolesTexture"
+--- 2019.3.0a10
++++ 2019.3.0a11
+@@ -2606,0 +2607,7 @@
++    "18001": {
++      "$type": "Shader",
++      "PropertyNames": [
++        "_MainTex"
++      ],
++      "Name": "Hidden/TerrainEngine/HeightBlitCopy"
++    },
+--- 2019.3.0b8
++++ 2019.3.0b9
+@@ -2534,12 +2533,0 @@
+-    "15310": {
+-      "$type": "Shader",
+-      "PropertyNames": [],
+-      "Name": "Hidden/VR/ClippingMask"
+-    },
+-    "15311": {
+-      "$type": "Shader",
+-      "PropertyNames": [
+-        "_MainTex"
+-      ],
+-      "Name": "Hidden/VR/VideoBackground"
+-    },
+--- 2019.4.40f1
++++ 2020.1.0a3
+@@ -2533,0 +2534,12 @@
++    "15310": {
++      "$type": "Shader",
++      "PropertyNames": [],
++      "Name": "Hidden/VR/ClippingMask"
++    },
++    "15311": {
++      "$type": "Shader",
++      "PropertyNames": [
++        "_MainTex"
++      ],
++      "Name": "Hidden/VR/VideoBackground"
++    },
+--- 2020.1.0a5
++++ 2020.1.0a7
+@@ -2587,5 +2586,0 @@
+-    "16004": {
+-      "$type": "Shader",
+-      "PropertyNames": [],
+-      "Name": "Hidden/VideoDecodeML"
+-    },
+--- 2020.1.0a9
++++ 2020.1.0a11
+@@ -2534,12 +2533,0 @@
+-    "15310": {
+-      "$type": "Shader",
+-      "PropertyNames": [],
+-      "Name": "Hidden/VR/ClippingMask"
+-    },
+-    "15311": {
+-      "$type": "Shader",
+-      "PropertyNames": [
+-        "_MainTex"
+-      ],
+-      "Name": "Hidden/VR/VideoBackground"
+-    },
+--- 2020.1.0a12
++++ 2020.1.0a13
+@@ -1207,0 +1208,9 @@
++    "111": {
++      "$type": "Shader",
++      "PropertyNames": [
++        "_MainTex",
++        "_NitsForPaperWhite",
++        "_ColorGamut"
++      ],
++      "Name": "Hidden/BlitCopyHDRTonemap"
++    },
+--- 2020.1.0a18
++++ 2020.1.0a19
+@@ -1409,9 +1409 @@
+-        "_Color",
+-        "_StencilCompFront",
+-        "_StencilPassFront",
+-        "_StencilZFailFront",
+-        "_StencilFailFront",
+-        "_StencilCompBack",
+-        "_StencilPassBack",
+-        "_StencilZFailBack",
+-        "_StencilFailBack"
++        "_Color"
+@@ -1442,0 +1435,10 @@
++    },
++    "9008": {
++      "$type": "Shader",
++      "PropertyNames": [
++        "_MainTex",
++        "_FontTex",
++        "_CustomTex",
++        "_Color"
++      ],
++      "Name": "Hidden/Internal-UIRDefaultWorld"
+--- 2020.1.0a21
++++ 2020.1.0a22
+@@ -35,0 +36,10 @@
++    "400": {
++      "$type": "NamedObject",
++      "TypeID": 72,
++      "Name": "Internal-VT-TranslationTableReplace"
++    },
++    "401": {
++      "$type": "NamedObject",
++      "TypeID": 72,
++      "Name": "Internal-VT-TranslationTableUpsample"
++    },
+--- 2020.1.0b2
++++ 2020.1.0b3
+@@ -2562,8 +2561,0 @@
+-    "15401": {
+-      "$type": "Shader",
+-      "PropertyNames": [
+-        "_ScreenOrientation",
+-        "_HeightScale"
+-      ],
+-      "Name": "AR/TangoARRender"
+-    },
+--- 2020.1.0b7
++++ 2020.1.0b8
+@@ -1413 +1413,10 @@
+-    "9005": {
++    "9007": {
++      "$type": "Shader",
++      "PropertyNames": [
++        "_MainTex",
++        "_SrcBlend",
++        "_DstBlend"
++      ],
++      "Name": "Hidden/Internal-GUIRoundedRectWithColorPerBorder"
++    },
++    "9100": {
+@@ -1423 +1432 @@
+-    "9006": {
++    "9101": {
+@@ -1437 +1446 @@
+-    "9007": {
++    "9102": {
+@@ -1441,2 +1450,3 @@
+-        "_SrcBlend",
+-        "_DstBlend"
++        "_FontTex",
++        "_CustomTex",
++        "_Color"
+@@ -1444 +1454 @@
+-      "Name": "Hidden/Internal-GUIRoundedRectWithColorPerBorder"
++      "Name": "Hidden/Internal-UIRDefaultWorld"
+@@ -1446 +1456 @@
+-    "9008": {
++    "9103": {
+@@ -1454 +1464,11 @@
+-      "Name": "Hidden/Internal-UIRDefaultWorld"
++      "Name": "Hidden/UIElements/EditorUIE"
++    },
++    "9104": {
++      "$type": "Shader",
++      "PropertyNames": [
++        "_MainTex",
++        "_FontTex",
++        "_CustomTex",
++        "_Color"
++      ],
++      "Name": "Hidden/GraphView/GraphViewUIE"
+--- 2020.2.0a16
++++ 2020.2.0a17
+@@ -25,0 +26,5 @@
++    "70": {
++      "$type": "Shader",
++      "PropertyNames": [],
++      "Name": "Hidden/Internal-Loading"
++    },
+--- 2020.2.0a19
++++ 2020.2.0a21
+@@ -476,0 +477,6 @@
++    },
++    "19202": {
++      "$type": "MonoScript",
++      "AssemblyName": "",
++      "Namespace": "UnityEngine.UIElements",
++      "ClassName": "ThemeStyleSheet"
+--- 2021.1.28f1
++++ 2021.2.0a5
+@@ -445 +445 @@
+-      "Namespace": "UnityEngine.TextCore",
++      "Namespace": "UnityEngine.TextCore.Text",
+@@ -451 +451 @@
+-      "Namespace": "UnityEngine.TextCore",
++      "Namespace": "UnityEngine.TextCore.Text",
+@@ -457,2 +457,2 @@
+-      "Namespace": "UnityEngine.TextCore",
+-      "ClassName": "TextSpriteAsset"
++      "Namespace": "UnityEngine.TextCore.Text",
++      "ClassName": "SpriteAsset"
+@@ -463,2 +463,2 @@
+-      "Namespace": "UnityEngine.TextCore",
+-      "ClassName": "TextGradientPreset"
++      "Namespace": "UnityEngine.TextCore.Text",
++      "ClassName": "TextColorGradient"
+@@ -469 +469 @@
+-      "Namespace": "UnityEngine.TextCore",
++      "Namespace": "UnityEngine.TextCore.Text",
+@@ -477,0 +478,18 @@
++    "19101": {
++      "$type": "MonoScript",
++      "AssemblyName": "",
++      "Namespace": "UnityEngine.UIElements",
++      "ClassName": "PanelSettings"
++    },
++    "19102": {
++      "$type": "MonoScript",
++      "AssemblyName": "",
++      "Namespace": "UnityEngine.UIElements",
++      "ClassName": "UIDocument"
++    },
++    "19103": {
++      "$type": "MonoScript",
++      "AssemblyName": "",
++      "Namespace": "UnityEngine.UIElements",
++      "ClassName": "PanelTextSettings"
++    },
+@@ -1485,0 +1504,8 @@
++    },
++    "9105": {
++      "$type": "Shader",
++      "PropertyNames": [
++        "_MainTex",
++        "_ColorConversion"
++      ],
++      "Name": "Hidden/Internal-UIE-ColorConversionBlit"
+--- 2021.2.0a8
++++ 2021.2.0a9
+@@ -2695,0 +2696,8 @@
++    "18006": {
++      "$type": "Shader",
++      "PropertyNames": [
++        "_MainTex",
++        "_Color"
++      ],
++      "Name": "Hidden/TerrainEngine/TerrainBlitCopyZWrite"
++    },
+--- 2021.2.0a13
++++ 2021.2.0a14
+@@ -2751,0 +2752 @@
++        "_PerspectiveFilter",
+--- 2021.2.0b13
++++ 2021.2.0b14
+@@ -2757,0 +2758,16 @@
++    },
++    "19012": {
++      "$type": "Shader",
++      "PropertyNames": [
++        "_MainTex",
++        "_Color",
++        "_StencilComp",
++        "_Stencil",
++        "_StencilOp",
++        "_StencilWriteMask",
++        "_StencilReadMask",
++        "_CullMode",
++        "_ColorMask",
++        "_ClipRect"
++      ],
++      "Name": "Hidden/TextCore/Sprite"
+--- 2022.1.24f1
++++ 2022.2.0a9
+@@ -164,11 +163,0 @@
+-    "10403": {
+-      "$type": "Texture2D",
+-      "Width": 2048,
+-      "Height": 1024,
+-      "Name": "UnitySplash-cube"
+-    },
+-    "10404": {
+-      "$type": "Sprite",
+-      "Texture": "UnitySplash-cube",
+-      "Name": "UnitySplash-cube"
+-    },
+@@ -238 +227 @@
+-      "AssemblyName": "",
++      "AssemblyName": "UnityEngine",
+@@ -402 +391 @@
+-      "AssemblyName": "",
++      "AssemblyName": "UnityEngine",
+@@ -408 +397 @@
+-      "AssemblyName": "",
++      "AssemblyName": "UnityEngine",
+@@ -414 +403 @@
+-      "AssemblyName": "",
++      "AssemblyName": "UnityEngine",
+@@ -420 +409 @@
+-      "AssemblyName": "",
++      "AssemblyName": "UnityEngine",
+@@ -426 +415 @@
+-      "AssemblyName": "",
++      "AssemblyName": "UnityEngine",
+@@ -432 +421 @@
+-      "AssemblyName": "",
++      "AssemblyName": "UnityEngine",
+@@ -444 +433 @@
+-      "AssemblyName": "",
++      "AssemblyName": "UnityEngine",
+@@ -450 +439 @@
+-      "AssemblyName": "",
++      "AssemblyName": "UnityEngine",
+@@ -456 +445 @@
+-      "AssemblyName": "",
++      "AssemblyName": "UnityEngine",
+@@ -462 +451 @@
+-      "AssemblyName": "",
++      "AssemblyName": "UnityEngine",
+@@ -468 +457 @@
+-      "AssemblyName": "",
++      "AssemblyName": "UnityEngine",
+@@ -474 +463 @@
+-      "AssemblyName": "",
++      "AssemblyName": "UnityEngine",
+@@ -480 +469 @@
+-      "AssemblyName": "",
++      "AssemblyName": "UnityEngine",
+@@ -486 +475 @@
+-      "AssemblyName": "",
++      "AssemblyName": "UnityEngine",
+@@ -492 +481 @@
+-      "AssemblyName": "",
++      "AssemblyName": "UnityEngine",
+@@ -498 +487 @@
+-      "AssemblyName": "",
++      "AssemblyName": "UnityEngine",
+@@ -1080,9 +1068,0 @@
+-    "63": {
+-      "$type": "Shader",
+-      "PropertyNames": [
+-        "_LightTexture0",
+-        "_LightTextureB0",
+-        "_ShadowMapTexture"
+-      ],
+-      "Name": "Hidden/Internal-PrePassLighting"
+-    },
+@@ -1566,0 +1547,11 @@
++    "10403": {
++      "$type": "Texture2D",
++      "Width": 2048,
++      "Height": 1024,
++      "Name": "UnitySplash-Light"
++    },
++    "10404": {
++      "$type": "Sprite",
++      "Texture": "UnitySplash-Light",
++      "Name": "UnitySplash-Light"
++    },
+@@ -2773,0 +2765,11 @@
++    },
++    "20000": {
++      "$type": "Texture2D",
++      "Width": 2048,
++      "Height": 1024,
++      "Name": "UnitySplash-Dark"
++    },
++    "20001": {
++      "$type": "Sprite",
++      "Texture": "UnitySplash-Dark",
++      "Name": "UnitySplash-Dark"
+--- 2022.2.0a10
++++ 2022.2.0a11
+@@ -223,0 +224,6 @@
++    "10800": {
++      "$type": "Texture2D",
++      "Width": 64,
++      "Height": 8,
++      "Name": "Invalidated"
++    },
+@@ -1234,0 +1241,7 @@
++    },
++    "113": {
++      "$type": "Shader",
++      "PropertyNames": [
++        "_MainTex"
++      ],
++      "Name": "Hidden/Internal-DebugPattern"
+--- 2022.2.0a11
++++ 2022.2.0a12
+@@ -73 +73 @@
+-      "Name": "Arial"
++      "Name": "LegacyRuntime"
+--- 2022.2.0a13
++++ 2022.2.0a16
+@@ -1505,0 +1506,10 @@
++    "9106": {
++      "$type": "Shader",
++      "PropertyNames": [
++        "_MainTex",
++        "_FontTex",
++        "_CustomTex",
++        "_Color"
++      ],
++      "Name": "Hidden/GTF/GTFUIE"
++    },
+--- 2022.2.0b7
++++ 2022.2.0b8
+@@ -50,0 +51,10 @@
++    "600": {
++      "$type": "NamedObject",
++      "TypeID": 72,
++      "Name": "Internal-CreateFoveatedShadingRateTextureArray"
++    },
++    "601": {
++      "$type": "NamedObject",
++      "TypeID": 72,
++      "Name": "Internal-CreateFoveatedShadingRateTextureNoArray"
++    },
+--- 2022.2.2f1
++++ 2022.2.3f1
+@@ -234,6 +233,0 @@
+-    "10800": {
+-      "$type": "Texture2D",
+-      "Width": 64,
+-      "Height": 8,
+-      "Name": "Invalidated"
+-    },
+@@ -2808,0 +2803,6 @@
++    },
++    "20100": {
++      "$type": "Texture2D",
++      "Width": 64,
++      "Height": 8,
++      "Name": "Invalidated"
+--- 2022.2.14f1
++++ 2022.2.15f1
+@@ -1242 +1242,2 @@
+-        "_ColorGamut"
++        "_ColorGamut",
++        "_ForceGammaToLinear"
+--- 2022.3.8f1
++++ 2023.1.0a1
+@@ -51,10 +50,0 @@
+-    "600": {
+-      "$type": "NamedObject",
+-      "TypeID": 72,
+-      "Name": "Internal-CreateFoveatedShadingRateTextureArray"
+-    },
+-    "601": {
+-      "$type": "NamedObject",
+-      "TypeID": 72,
+-      "Name": "Internal-CreateFoveatedShadingRateTextureNoArray"
+-    },
+@@ -233,0 +224,6 @@
++    "10800": {
++      "$type": "Texture2D",
++      "Width": 64,
++      "Height": 8,
++      "Name": "Invalidated"
++    },
+@@ -1242,2 +1238 @@
+-        "_ColorGamut",
+-        "_ForceGammaToLinear"
++        "_ColorGamut"
+@@ -2804,6 +2798,0 @@
+-    },
+-    "20100": {
+-      "$type": "Texture2D",
+-      "Width": 64,
+-      "Height": 8,
+-      "Name": "Invalidated"
+--- 2023.1.0a6
++++ 2023.1.0a8
+@@ -146,6 +145,0 @@
+-    "10400": {
+-      "$type": "Texture2D",
+-      "Width": 128,
+-      "Height": 58,
+-      "Name": "UnityWatermark-small"
+-    },
+@@ -176,6 +169,0 @@
+-    "10408": {
+-      "$type": "Texture2D",
+-      "Width": 127,
+-      "Height": 17,
+-      "Name": "UnityWatermark-beta"
+-    },
+@@ -205,6 +192,0 @@
+-    },
+-    "10414": {
+-      "$type": "Texture2D",
+-      "Width": 66,
+-      "Height": 17,
+-      "Name": "UnityWatermarkPlugin-beta"
+--- 2023.1.0a9
++++ 2023.1.0a10
+@@ -1470,10 +1469,0 @@
+-    "9104": {
+-      "$type": "Shader",
+-      "PropertyNames": [
+-        "_MainTex",
+-        "_FontTex",
+-        "_CustomTex",
+-        "_Color"
+-      ],
+-      "Name": "Hidden/GraphView/GraphViewUIE"
+-    },
+--- 2023.1.0a11
++++ 2023.1.0a12
+@@ -50,0 +51,10 @@
++    "600": {
++      "$type": "NamedObject",
++      "TypeID": 72,
++      "Name": "Internal-CreateFoveatedShadingRateTextureArray"
++    },
++    "601": {
++      "$type": "NamedObject",
++      "TypeID": 72,
++      "Name": "Internal-CreateFoveatedShadingRateTextureNoArray"
++    },
+--- 2023.1.0a12
++++ 2023.1.0a13
+@@ -1488,10 +1487,0 @@
+-    "9106": {
+-      "$type": "Shader",
+-      "PropertyNames": [
+-        "_MainTex",
+-        "_FontTex",
+-        "_CustomTex",
+-        "_Color"
+-      ],
+-      "Name": "Hidden/GTF/GTFUIE"
+-    },
+--- 2023.1.0a17
++++ 2023.1.0a18
+@@ -216,6 +215,0 @@
+-    "10800": {
+-      "$type": "Texture2D",
+-      "Width": 64,
+-      "Height": 8,
+-      "Name": "Invalidated"
+-    },
+@@ -2770,0 +2765,6 @@
++    },
++    "20100": {
++      "$type": "Texture2D",
++      "Width": 64,
++      "Height": 8,
++      "Name": "Invalidated"
+--- 2023.1.0a21
++++ 2023.1.0a22
+@@ -1224 +1224,2 @@
+-        "_ColorGamut"
++        "_ColorGamut",
++        "_ForceGammaToLinear"
+--- 2023.2.0a17
++++ 2023.2.0a18
+@@ -1225 +1225,2 @@
+-        "_ForceGammaToLinear"
++        "_ForceGammaToLinear",
++        "_MaxDisplayNits"
+@@ -1228,0 +1230,15 @@
++    "112": {
++      "$type": "Shader",
++      "PropertyNames": [
++        "_MainTex",
++        "_SourceNitsForPaperWhite",
++        "_SourceColorGamut",
++        "_SourceForceGammaToLinear",
++        "_SourceMaxDisplayNits",
++        "_NitsForPaperWhite",
++        "_ColorGamut",
++        "_ForceGammaToLinear",
++        "_MaxDisplayNits"
++      ],
++      "Name": "Hidden/BlitCopyHDRTonemappedToHDRTonemap"
++    },
+@@ -1235,0 +1252,15 @@
++    "114": {
++      "$type": "Shader",
++      "PropertyNames": [
++        "_MainTex",
++        "_SourceNitsForPaperWhite",
++        "_SourceColorGamut",
++        "_SourceForceGammaToLinear",
++        "_SourceMaxDisplayNits",
++        "_NitsForPaperWhite",
++        "_ColorGamut",
++        "_ForceGammaToLinear",
++        "_MaxDisplayNits"
++      ],
++      "Name": "Hidden/BlitCopyHDRTonemappedToSDR"
++    },
+@@ -2599,0 +2631,21 @@
++    "15313": {
++      "$type": "Shader",
++      "PropertyNames": [
++        "_MainTex"
++      ],
++      "Name": "Hidden/VR/BlitCopyHDRTonemapTexArraySlice"
++    },
++    "15314": {
++      "$type": "Shader",
++      "PropertyNames": [
++        "_MainTex"
++      ],
++      "Name": "Hidden/VR/BlitCopyHDRTonemappedToHDRTonemapTexArraySlice"
++    },
++    "15315": {
++      "$type": "Shader",
++      "PropertyNames": [
++        "_MainTex"
++      ],
++      "Name": "Hidden/VR/BlitCopyHDRTonemappedToSDRTexArraySlice"
++    },
+@@ -2771,0 +2824,11 @@
++    },
++    "20200": {
++      "$type": "Cubemap",
++      "Width": 128,
++      "Height": 128,
++      "Name": "Default-Skybox-Cubemap"
++    },
++    "20201": {
++      "$type": "NamedObject",
++      "TypeID": 1120,
++      "Name": "LightingData"
+--- 2023.2.0a20
++++ 2023.2.0a22
+@@ -476,0 +477,12 @@
++    "19104": {
++      "$type": "MonoScript",
++      "AssemblyName": "UnityEngine",
++      "Namespace": "UnityEngine.UIElements",
++      "ClassName": "UIRenderer"
++    },
++    "19105": {
++      "$type": "MonoScript",
++      "AssemblyName": "UnityEngine",
++      "Namespace": "UnityEngine.UIElements.InputSystem",
++      "ClassName": "InputSystemEventSystem"
++    },

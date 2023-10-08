@@ -1,0 +1,1183 @@
+{
+  "DefaultResources": {
+    "17": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "Internal-ErrorShader"
+    },
+    "68": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "Internal-Clear"
+    },
+    "69": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "Internal-Colored"
+    },
+    "9000": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "Internal-GUITextureClip"
+    },
+    "9001": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "Internal-GUITextureClipText"
+    },
+    "9002": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "Internal-GUITexture"
+    },
+    "9003": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "Internal-GUITextureBlit"
+    },
+    "10001": {
+      "$type": "Texture2D",
+      "Width": 128,
+      "Height": 128,
+      "Name": "Soft"
+    },
+    "10100": {
+      "$type": "Material",
+      "Shader": "Font",
+      "Name": "Font Material"
+    },
+    "10101": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "Font"
+    },
+    "10102": {
+      "$type": "NamedObject",
+      "TypeID": 128,
+      "Name": "Arial"
+    },
+    "10103": {
+      "$type": "Texture2D",
+      "Width": 0,
+      "Height": 0,
+      "Name": "Font Texture"
+    },
+    "10200": {
+      "$type": "Mesh",
+      "VertexCount": 439,
+      "Name": "pSphere1"
+    },
+    "10202": {
+      "$type": "Mesh",
+      "VertexCount": 24,
+      "Name": "Cube"
+    },
+    "10203": {
+      "$type": "Mesh",
+      "VertexCount": 124,
+      "Name": "pCylinder1"
+    },
+    "10204": {
+      "$type": "Mesh",
+      "VertexCount": 121,
+      "Name": "pPlane1"
+    },
+    "10205": {
+      "$type": "Mesh",
+      "VertexCount": 410,
+      "Name": "polySurface2"
+    },
+    "10206": {
+      "$type": "Mesh",
+      "VertexCount": 88,
+      "Name": "Cylinder"
+    },
+    "10207": {
+      "$type": "Mesh",
+      "VertexCount": 515,
+      "Name": "Sphere"
+    },
+    "10208": {
+      "$type": "Mesh",
+      "VertexCount": 550,
+      "Name": "Capsule"
+    },
+    "10209": {
+      "$type": "Mesh",
+      "VertexCount": 121,
+      "Name": "Plane"
+    },
+    "10210": {
+      "$type": "Mesh",
+      "VertexCount": 4,
+      "Name": "Quad"
+    },
+    "10211": {
+      "$type": "Mesh",
+      "VertexCount": 42,
+      "Name": "Icosphere"
+    },
+    "10212": {
+      "$type": "Mesh",
+      "VertexCount": 12,
+      "Name": "icosahedron"
+    },
+    "10213": {
+      "$type": "Mesh",
+      "VertexCount": 5,
+      "Name": "pyramid"
+    },
+    "10400": {
+      "$type": "Texture2D",
+      "Width": 128,
+      "Height": 58,
+      "Name": "UnityWatermark-small"
+    },
+    "10401": {
+      "$type": "Texture2D",
+      "Width": 74,
+      "Height": 71,
+      "Name": "EscToExit_back"
+    },
+    "10402": {
+      "$type": "Texture2D",
+      "Width": 267,
+      "Height": 20,
+      "Name": "EscToExit_Text"
+    },
+    "10403": {
+      "$type": "Texture2D",
+      "Width": 1024,
+      "Height": 256,
+      "Name": "UnitySplash-cube"
+    },
+    "10405": {
+      "$type": "Texture2D",
+      "Width": 1024,
+      "Height": 256,
+      "Name": "UnitySplash-free"
+    },
+    "10406": {
+      "$type": "Texture2D",
+      "Width": 4,
+      "Height": 4,
+      "Name": "UnitySplashBack"
+    },
+    "10407": {
+      "$type": "Texture2D",
+      "Width": 76,
+      "Height": 14,
+      "Name": "UnityWatermark-trial"
+    },
+    "10408": {
+      "$type": "Texture2D",
+      "Width": 127,
+      "Height": 17,
+      "Name": "UnityWatermark-beta"
+    },
+    "10409": {
+      "$type": "Texture2D",
+      "Width": 148,
+      "Height": 17,
+      "Name": "UnityWatermark-edu"
+    },
+    "10410": {
+      "$type": "Texture2D",
+      "Width": 115,
+      "Height": 17,
+      "Name": "UnityWatermark-dev"
+    },
+    "10411": {
+      "$type": "Texture2D",
+      "Width": 64,
+      "Height": 64,
+      "Name": "WarningSign"
+    },
+    "10413": {
+      "$type": "Texture2D",
+      "Width": 87,
+      "Height": 13,
+      "Name": "UnityWatermark-proto"
+    },
+    "10414": {
+      "$type": "Texture2D",
+      "Width": 66,
+      "Height": 17,
+      "Name": "UnityWatermarkPlugin-beta"
+    },
+    "10753": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "Sprites-Default"
+    },
+    "10754": {
+      "$type": "Material",
+      "Shader": "Sprites-Default",
+      "Name": "Sprites-Default"
+    },
+    "10755": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "FrameDebuggerRenderTargetDisplay"
+    },
+    "10756": {
+      "$type": "Material",
+      "Shader": "FrameDebuggerRenderTargetDisplay",
+      "Name": "FrameDebuggerRenderTargetDisplay"
+    },
+    "11000": {
+      "$type": "MonoBehaviour",
+      "Name": "GameSkin",
+      "AssemblyName": "UnityEngine.dll",
+      "Namespace": "UnityEngine",
+      "ClassName": "GUISkin",
+      "Enabled": true,
+      "GameObject": null
+    },
+    "11001": {
+      "$type": "Texture2D",
+      "Width": 12,
+      "Height": 12,
+      "Name": "box"
+    },
+    "11002": {
+      "$type": "Texture2D",
+      "Width": 12,
+      "Height": 12,
+      "Name": "button active"
+    },
+    "11003": {
+      "$type": "Texture2D",
+      "Width": 12,
+      "Height": 12,
+      "Name": "button hover"
+    },
+    "11004": {
+      "$type": "Texture2D",
+      "Width": 12,
+      "Height": 12,
+      "Name": "button on hover"
+    },
+    "11005": {
+      "$type": "Texture2D",
+      "Width": 12,
+      "Height": 12,
+      "Name": "button on"
+    },
+    "11006": {
+      "$type": "Texture2D",
+      "Width": 12,
+      "Height": 12,
+      "Name": "button"
+    },
+    "11007": {
+      "$type": "Texture2D",
+      "Width": 12,
+      "Height": 12,
+      "Name": "horizontal scrollbar thumb"
+    },
+    "11008": {
+      "$type": "Texture2D",
+      "Width": 18,
+      "Height": 15,
+      "Name": "horizontal scrollbar"
+    },
+    "11009": {
+      "$type": "Texture2D",
+      "Width": 8,
+      "Height": 7,
+      "Name": "horizontalslider"
+    },
+    "11010": {
+      "$type": "Texture2D",
+      "Width": 8,
+      "Height": 12,
+      "Name": "slider thumb active"
+    },
+    "11011": {
+      "$type": "Texture2D",
+      "Width": 8,
+      "Height": 12,
+      "Name": "slider thumb"
+    },
+    "11012": {
+      "$type": "Texture2D",
+      "Width": 8,
+      "Height": 12,
+      "Name": "slidert humb hover"
+    },
+    "11013": {
+      "$type": "Texture2D",
+      "Width": 14,
+      "Height": 14,
+      "Name": "toggle active"
+    },
+    "11014": {
+      "$type": "Texture2D",
+      "Width": 14,
+      "Height": 14,
+      "Name": "toggle hover"
+    },
+    "11015": {
+      "$type": "Texture2D",
+      "Width": 14,
+      "Height": 14,
+      "Name": "toggle on hover"
+    },
+    "11016": {
+      "$type": "Texture2D",
+      "Width": 14,
+      "Height": 14,
+      "Name": "toggle on"
+    },
+    "11017": {
+      "$type": "Texture2D",
+      "Width": 14,
+      "Height": 14,
+      "Name": "toggle on active"
+    },
+    "11018": {
+      "$type": "Texture2D",
+      "Width": 14,
+      "Height": 14,
+      "Name": "toggle"
+    },
+    "11019": {
+      "$type": "Texture2D",
+      "Width": 12,
+      "Height": 12,
+      "Name": "vertical scrollbar thumb"
+    },
+    "11020": {
+      "$type": "Texture2D",
+      "Width": 15,
+      "Height": 18,
+      "Name": "vertical scrollbar"
+    },
+    "11021": {
+      "$type": "Texture2D",
+      "Width": 7,
+      "Height": 8,
+      "Name": "verticalslider"
+    },
+    "11022": {
+      "$type": "Texture2D",
+      "Width": 17,
+      "Height": 27,
+      "Name": "window on"
+    },
+    "11023": {
+      "$type": "Texture2D",
+      "Width": 17,
+      "Height": 27,
+      "Name": "window"
+    },
+    "11024": {
+      "$type": "Texture2D",
+      "Width": 12,
+      "Height": 12,
+      "Name": "textfield"
+    },
+    "11025": {
+      "$type": "Texture2D",
+      "Width": 12,
+      "Height": 12,
+      "Name": "textfield on"
+    },
+    "11026": {
+      "$type": "Texture2D",
+      "Width": 12,
+      "Height": 12,
+      "Name": "textfield hover"
+    },
+    "11998": {
+      "$type": "MonoScript",
+      "AssemblyName": "UnityEngine.dll",
+      "Namespace": "UnityEngine",
+      "ClassName": "DeveloperConsole"
+    },
+    "11999": {
+      "$type": "MonoScript",
+      "AssemblyName": "UnityEngine.dll",
+      "Namespace": "UnityEngine",
+      "ClassName": "UserAuthorizationDialog"
+    },
+    "12001": {
+      "$type": "MonoScript",
+      "AssemblyName": "UnityEngine.dll",
+      "Namespace": "UnityEngine",
+      "ClassName": "GUISkin"
+    }
+  },
+  "ExtraResources": {
+    "1": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "Normal-DiffuseFast"
+    },
+    "2": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "Normal-Bumped"
+    },
+    "3": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "Normal-Glossy"
+    },
+    "4": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "Normal-BumpSpec"
+    },
+    "5": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "Normal-DiffuseDetail"
+    },
+    "6": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "Normal-VertexLit"
+    },
+    "7": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "Normal-Diffuse"
+    },
+    "8": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "Normal-Parallax"
+    },
+    "9": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "Normal-ParallaxSpec"
+    },
+    "10": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "Illumin-Diffuse"
+    },
+    "11": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "Illumin-Bumped"
+    },
+    "12": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "Illumin-Glossy"
+    },
+    "13": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "Illumin-BumpSpec"
+    },
+    "14": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "Illumin-VertexLit"
+    },
+    "15": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "Illumin-Parallax"
+    },
+    "16": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "Illumin-ParallaxSpec"
+    },
+    "19": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "Internal-StencilWrite"
+    },
+    "20": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "Reflect-Diffuse"
+    },
+    "21": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "Reflect-Bumped"
+    },
+    "22": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "Reflect-Glossy"
+    },
+    "23": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "Reflect-BumpSpec"
+    },
+    "24": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "Reflect-VertexLit"
+    },
+    "25": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "Reflect-BumpNolight"
+    },
+    "26": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "Reflect-BumpVertexLit"
+    },
+    "27": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "Reflect-Parallax"
+    },
+    "28": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "Reflect-ParallaxSpec"
+    },
+    "30": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "Alpha-Diffuse"
+    },
+    "31": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "Alpha-Bumped"
+    },
+    "32": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "Alpha-Glossy"
+    },
+    "33": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "Alpha-BumpSpec"
+    },
+    "34": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "Alpha-VertexLit"
+    },
+    "35": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "Alpha-Parallax"
+    },
+    "36": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "Alpha-ParallaxSpec"
+    },
+    "40": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "Lightmap-VertexLit"
+    },
+    "41": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "Lightmap-Diffuse"
+    },
+    "42": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "Lightmap-Bumped"
+    },
+    "43": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "Lightmap-Glossy"
+    },
+    "44": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "Lightmap-BumpSpec"
+    },
+    "45": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "StandardSpecular"
+    },
+    "46": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "Standard"
+    },
+    "50": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "AlphaTest-VertexLit"
+    },
+    "51": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "AlphaTest-Diffuse"
+    },
+    "52": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "AlphaTest-Bumped"
+    },
+    "53": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "AlphaTest-Glossy"
+    },
+    "54": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "AlphaTest-BumpSpec"
+    },
+    "62": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "Internal-DepthNormalsTexture"
+    },
+    "63": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "Internal-PrePassLighting"
+    },
+    "64": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "Internal-ScreenSpaceShadows"
+    },
+    "65": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "Internal-CombineDepthNormals"
+    },
+    "66": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "Internal-BlitCopy"
+    },
+    "69": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "Internal-DeferredShading"
+    },
+    "74": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "Internal-DeferredReflections"
+    },
+    "75": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "Internal-MotionVectors"
+    },
+    "100": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "Decal"
+    },
+    "101": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "Flare"
+    },
+    "102": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "Internal-Flare"
+    },
+    "103": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "Skybox-Cubed"
+    },
+    "104": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "Skybox"
+    },
+    "105": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "Internal-Halo"
+    },
+    "106": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "Skybox-Procedural"
+    },
+    "200": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "Particle Add"
+    },
+    "201": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "Particle AddMultiply"
+    },
+    "202": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "Particle AddSmooth"
+    },
+    "203": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "Particle Alpha Blend"
+    },
+    "205": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "Particle Multiply"
+    },
+    "206": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "Particle MultiplyDouble"
+    },
+    "207": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "Particle Premultiply Blend"
+    },
+    "208": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "Particle VertexLit Blended"
+    },
+    "10300": {
+      "$type": "Texture2D",
+      "Width": 64,
+      "Height": 64,
+      "Name": "Default-Particle"
+    },
+    "10301": {
+      "$type": "Material",
+      "Shader": "Particle Premultiply Blend",
+      "Name": "Default-Particle"
+    },
+    "10302": {
+      "$type": "Material",
+      "Shader": "Normal-Diffuse",
+      "Name": "Default-Diffuse"
+    },
+    "10303": {
+      "$type": "Material",
+      "Shader": "Standard",
+      "Name": "Default-Material"
+    },
+    "10304": {
+      "$type": "Material",
+      "Shader": "Skybox-Procedural",
+      "Name": "Default-Skybox"
+    },
+    "10305": {
+      "$type": "Texture2D",
+      "Width": 64,
+      "Height": 64,
+      "Name": "Default-Checker"
+    },
+    "10500": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "VertexLit"
+    },
+    "10501": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "WavingGrass"
+    },
+    "10502": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "WavingGrassBillboard"
+    },
+    "10503": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "AddPass"
+    },
+    "10505": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "FirstPass"
+    },
+    "10507": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "BillboardTree"
+    },
+    "10508": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "TreeSoftOcclusionBarkRendertex"
+    },
+    "10509": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "TreeSoftOcclusionBark"
+    },
+    "10510": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "TreeSoftOcclusionLeavesRendertex"
+    },
+    "10511": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "TreeSoftOcclusionLeaves"
+    },
+    "10512": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "AlphaTest-SoftEdgeUnlit"
+    },
+    "10600": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "TreeCreatorBark"
+    },
+    "10601": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "TreeCreatorLeaves"
+    },
+    "10602": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "TreeCreatorBarkRendertex"
+    },
+    "10603": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "TreeCreatorLeavesRendertex"
+    },
+    "10604": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "TreeCreatorBarkOptimized"
+    },
+    "10605": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "TreeCreatorLeavesOptimized"
+    },
+    "10606": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "TreeCreatorLeavesFast"
+    },
+    "10607": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "TreeCreatorLeavesFastOptimized"
+    },
+    "10620": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "Specular-FirstPass"
+    },
+    "10621": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "Specular-AddPass"
+    },
+    "10622": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "Specular-Base"
+    },
+    "10623": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "Standard-FirstPass"
+    },
+    "10624": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "Standard-AddPass"
+    },
+    "10625": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "Standard-Base"
+    },
+    "10700": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "Mobile-Skybox"
+    },
+    "10701": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "Mobile-VertexLit"
+    },
+    "10703": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "Mobile-Diffuse"
+    },
+    "10704": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "Mobile-Bumped"
+    },
+    "10705": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "Mobile-BumpSpec"
+    },
+    "10706": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "Mobile-BumpSpec-1DirectionalLight"
+    },
+    "10707": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "Mobile-VertexLit-OnlyDirectionalLights"
+    },
+    "10708": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "Mobile-Lightmap-Unlit"
+    },
+    "10720": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "Mobile-Particle-Add"
+    },
+    "10721": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "Mobile-Particle-Alpha"
+    },
+    "10722": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "Mobile-Particle-Alpha-VertexLit"
+    },
+    "10723": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "Mobile-Particle-Multiply"
+    },
+    "10750": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "Unlit-Alpha"
+    },
+    "10751": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "Unlit-AlphaTest"
+    },
+    "10752": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "Unlit-Normal"
+    },
+    "10755": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "Unlit-Color"
+    },
+    "10760": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "UI-Unlit-Transparent"
+    },
+    "10761": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "UI-Unlit-Detail"
+    },
+    "10762": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "UI-Unlit-Text"
+    },
+    "10763": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "UI-Unlit-TextDetail"
+    },
+    "10764": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "UI-Lit-Transparent"
+    },
+    "10765": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "UI-Lit-Bumped"
+    },
+    "10766": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "UI-Lit-Detail"
+    },
+    "10767": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "UI-Lit-Refraction"
+    },
+    "10768": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "UI-Lit-RefractionDetail"
+    },
+    "10770": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "UI-Default"
+    },
+    "10782": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "UI-DefaultFont"
+    },
+    "10800": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "Sprites-Diffuse"
+    },
+    "10900": {
+      "$type": "Texture2D",
+      "Width": 64,
+      "Height": 64,
+      "Name": "Checkmark"
+    },
+    "10901": {
+      "$type": "Sprite",
+      "Texture": "Checkmark",
+      "Name": "Checkmark"
+    },
+    "10904": {
+      "$type": "Texture2D",
+      "Width": 32,
+      "Height": 32,
+      "Name": "UISprite"
+    },
+    "10905": {
+      "$type": "Sprite",
+      "Texture": "UISprite",
+      "Name": "UISprite"
+    },
+    "10906": {
+      "$type": "Texture2D",
+      "Width": 32,
+      "Height": 32,
+      "Name": "Background"
+    },
+    "10907": {
+      "$type": "Sprite",
+      "Texture": "Background",
+      "Name": "Background"
+    },
+    "10910": {
+      "$type": "Texture2D",
+      "Width": 32,
+      "Height": 32,
+      "Name": "InputFieldBackground"
+    },
+    "10911": {
+      "$type": "Sprite",
+      "Texture": "InputFieldBackground",
+      "Name": "InputFieldBackground"
+    },
+    "10912": {
+      "$type": "Texture2D",
+      "Width": 64,
+      "Height": 64,
+      "Name": "Knob"
+    },
+    "10913": {
+      "$type": "Sprite",
+      "Texture": "Knob",
+      "Name": "Knob"
+    },
+    "10914": {
+      "$type": "Texture2D",
+      "Width": 64,
+      "Height": 64,
+      "Name": "DropdownArrow"
+    },
+    "10915": {
+      "$type": "Sprite",
+      "Texture": "DropdownArrow",
+      "Name": "DropdownArrow"
+    },
+    "10916": {
+      "$type": "Texture2D",
+      "Width": 32,
+      "Height": 32,
+      "Name": "UIMask"
+    },
+    "10917": {
+      "$type": "Sprite",
+      "Texture": "UIMask",
+      "Name": "UIMask"
+    },
+    "14000": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "SpeedTree"
+    },
+    "14001": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "SpeedTreeBillboard"
+    },
+    "15100": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "TextureUV"
+    },
+    "15102": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "UV1sAsPositions"
+    },
+    "15103": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "VertexColors"
+    },
+    "15104": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "CubeBlur"
+    },
+    "15105": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "CubeCopy"
+    },
+    "15106": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "CubeBlend"
+    },
+    "15200": {
+      "$type": "NamedObject",
+      "TypeID": 1113,
+      "Name": "Default-HighResolution"
+    },
+    "15201": {
+      "$type": "NamedObject",
+      "TypeID": 1113,
+      "Name": "Default-LowResolution"
+    },
+    "15203": {
+      "$type": "NamedObject",
+      "TypeID": 1113,
+      "Name": "Default-VeryLowResolution"
+    }
+  }
+}
