@@ -3887,7 +3887,7 @@
 -        "_ColorGamut"
 +        "_ColorGamut",
 +        "_ForceGammaToLinear"
---- 2022.3.8f1
+--- 2022.3.10f1
 +++ 2023.1.0a1
 @@ -51,10 +50,0 @@
 -    "600": {
@@ -4002,6 +4002,126 @@
 -        "_ColorGamut"
 +        "_ColorGamut",
 +        "_ForceGammaToLinear"
+--- 2023.1.11f1
++++ 2023.1.12f1
+@@ -1225 +1225,2 @@
+-        "_ForceGammaToLinear"
++        "_ForceGammaToLinear",
++        "_MaxDisplayNits"
+@@ -1228,0 +1230,15 @@
++    "112": {
++      "$type": "Shader",
++      "PropertyNames": [
++        "_MainTex",
++        "_SourceNitsForPaperWhite",
++        "_SourceColorGamut",
++        "_SourceForceGammaToLinear",
++        "_SourceMaxDisplayNits",
++        "_NitsForPaperWhite",
++        "_ColorGamut",
++        "_ForceGammaToLinear",
++        "_MaxDisplayNits"
++      ],
++      "Name": "Hidden/BlitCopyHDRTonemappedToHDRTonemap"
++    },
+@@ -1235,0 +1252,15 @@
++    "114": {
++      "$type": "Shader",
++      "PropertyNames": [
++        "_MainTex",
++        "_SourceNitsForPaperWhite",
++        "_SourceColorGamut",
++        "_SourceForceGammaToLinear",
++        "_SourceMaxDisplayNits",
++        "_NitsForPaperWhite",
++        "_ColorGamut",
++        "_ForceGammaToLinear",
++        "_MaxDisplayNits"
++      ],
++      "Name": "Hidden/BlitCopyHDRTonemappedToSDR"
++    },
+@@ -2598,0 +2630,21 @@
++    },
++    "15313": {
++      "$type": "Shader",
++      "PropertyNames": [
++        "_MainTex"
++      ],
++      "Name": "Hidden/VR/BlitCopyHDRTonemapTexArraySlice"
++    },
++    "15314": {
++      "$type": "Shader",
++      "PropertyNames": [
++        "_MainTex"
++      ],
++      "Name": "Hidden/VR/BlitCopyHDRTonemappedToHDRTonemapTexArraySlice"
++    },
++    "15315": {
++      "$type": "Shader",
++      "PropertyNames": [
++        "_MainTex"
++      ],
++      "Name": "Hidden/VR/BlitCopyHDRTonemappedToSDRTexArraySlice"
+--- 2023.1.16f1
++++ 2023.2.0a6
+@@ -1225,2 +1225 @@
+-        "_ForceGammaToLinear",
+-        "_MaxDisplayNits"
++        "_ForceGammaToLinear"
+@@ -1230,15 +1228,0 @@
+-    "112": {
+-      "$type": "Shader",
+-      "PropertyNames": [
+-        "_MainTex",
+-        "_SourceNitsForPaperWhite",
+-        "_SourceColorGamut",
+-        "_SourceForceGammaToLinear",
+-        "_SourceMaxDisplayNits",
+-        "_NitsForPaperWhite",
+-        "_ColorGamut",
+-        "_ForceGammaToLinear",
+-        "_MaxDisplayNits"
+-      ],
+-      "Name": "Hidden/BlitCopyHDRTonemappedToHDRTonemap"
+-    },
+@@ -1252,15 +1235,0 @@
+-    "114": {
+-      "$type": "Shader",
+-      "PropertyNames": [
+-        "_MainTex",
+-        "_SourceNitsForPaperWhite",
+-        "_SourceColorGamut",
+-        "_SourceForceGammaToLinear",
+-        "_SourceMaxDisplayNits",
+-        "_NitsForPaperWhite",
+-        "_ColorGamut",
+-        "_ForceGammaToLinear",
+-        "_MaxDisplayNits"
+-      ],
+-      "Name": "Hidden/BlitCopyHDRTonemappedToSDR"
+-    },
+@@ -2630,21 +2598,0 @@
+-    },
+-    "15313": {
+-      "$type": "Shader",
+-      "PropertyNames": [
+-        "_MainTex"
+-      ],
+-      "Name": "Hidden/VR/BlitCopyHDRTonemapTexArraySlice"
+-    },
+-    "15314": {
+-      "$type": "Shader",
+-      "PropertyNames": [
+-        "_MainTex"
+-      ],
+-      "Name": "Hidden/VR/BlitCopyHDRTonemappedToHDRTonemapTexArraySlice"
+-    },
+-    "15315": {
+-      "$type": "Shader",
+-      "PropertyNames": [
+-        "_MainTex"
+-      ],
+-      "Name": "Hidden/VR/BlitCopyHDRTonemappedToSDRTexArraySlice"
 --- 2023.2.0a17
 +++ 2023.2.0a18
 @@ -1225 +1225,2 @@
