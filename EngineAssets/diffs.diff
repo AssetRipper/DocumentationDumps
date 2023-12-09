@@ -3947,7 +3947,7 @@
 +        "_MainTex"
 +      ],
 +      "Name": "Hidden/VR/BlitCopyHDRTonemappedToSDRTexArraySlice"
---- 2022.3.12f1
+--- 2022.3.15f1
 +++ 2023.1.0a1
 @@ -51,10 +50,0 @@
 -    "600": {
@@ -4177,7 +4177,7 @@
 +        "_MainTex"
 +      ],
 +      "Name": "Hidden/VR/BlitCopyHDRTonemappedToSDRTexArraySlice"
---- 2023.1.19f1
+--- 2023.1.20f1
 +++ 2023.2.0a6
 @@ -1225,2 +1225 @@
 -        "_ForceGammaToLinear",
@@ -4323,4 +4323,12 @@
 +      "AssemblyName": "UnityEngine",
 +      "Namespace": "UnityEngine.UIElements.InputSystem",
 +      "ClassName": "InputSystemEventSystem"
++    },
+--- 2023.2.2f1
++++ 2023.3.0a3
+@@ -60,0 +61,5 @@
++    "602": {
++      "$type": "NamedObject",
++      "TypeID": 72,
++      "Name": "Internal-YFlipFoveatedShadingTexture"
 +    },
