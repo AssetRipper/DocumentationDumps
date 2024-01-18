@@ -8,13 +8,13 @@
 +    },
 --- 5.1.5f1
 +++ 5.2.0b1
-@@ -688,0 +689,5 @@
+@@ -701,0 +702,5 @@
 +    "74": {
 +      "$type": "Shader",
 +      "PropertyNames": [],
 +      "Name": "Internal-DeferredReflections"
 +    },
-@@ -1104,0 +1110,22 @@
+@@ -1117,0 +1123,22 @@
 +    },
 +    "10914": {
 +      "$type": "Texture2D",
@@ -39,10 +39,10 @@
 +      "Name": "UIMask"
 --- 5.2.0b3
 +++ 5.2.0b4
-@@ -1034 +1034 @@
+@@ -1047 +1047 @@
 -      "Name": "UI-Lit-Refraction(ProOnly)"
 +      "Name": "UI-Lit-Refraction"
-@@ -1039 +1039 @@
+@@ -1052 +1052 @@
 -      "Name": "UI-Lit-RefractionDetail(ProOnly)"
 +      "Name": "UI-Lit-RefractionDetail"
 --- 5.2.2f1
@@ -61,7 +61,7 @@
 -      "PropertyNames": [],
 -      "Name": "Internal-BlitScaleCopy"
 -    },
-@@ -277,0 +273,10 @@
+@@ -290,0 +286,10 @@
 +    },
 +    "10755": {
 +      "$type": "Shader",
@@ -74,7 +74,7 @@
 +      "Name": "FrameDebuggerRenderTargetDisplay"
 --- 5.3.7f1
 +++ 5.3.8f1
-@@ -1060,0 +1061,5 @@
+@@ -1073,0 +1074,5 @@
 +    "10783": {
 +      "$type": "Shader",
 +      "PropertyNames": [],
@@ -88,13 +88,13 @@
 -      "PropertyNames": [],
 -      "Name": "Internal-PrePassCollectShadows"
 -    },
-@@ -693,0 +689,5 @@
+@@ -706,0 +702,5 @@
 +    "64": {
 +      "$type": "Shader",
 +      "PropertyNames": [],
 +      "Name": "Internal-ScreenSpaceShadows"
 +    },
-@@ -1060,5 +1059,0 @@
+@@ -1073,5 +1072,0 @@
 -    },
 -    "10783": {
 -      "$type": "Shader",
@@ -123,19 +123,19 @@
 -      "PropertyNames": [],
 -      "Name": "Internal-SplashShadowReceiverSimple"
 -    },
-@@ -195,2 +175,2 @@
+@@ -208,2 +188,2 @@
 -      "Width": 512,
 -      "Height": 512,
 +      "Width": 1024,
 +      "Height": 256,
-@@ -199,6 +178,0 @@
+@@ -212,6 +191,0 @@
 -    "10404": {
 -      "$type": "Texture2D",
 -      "Width": 612,
 -      "Height": 130,
 -      "Name": "UnitySplash-text"
 -    },
-@@ -207,2 +181,2 @@
+@@ -220,2 +194,2 @@
 -      "Width": 288,
 -      "Height": 51,
 +      "Width": 1024,
@@ -148,7 +148,7 @@
 -      "PropertyNames": [],
 -      "Name": "Camera-DepthNormalTexture"
 -    },
-@@ -656,0 +652,5 @@
+@@ -669,0 +665,5 @@
 +    },
 +    "62": {
 +      "$type": "Shader",
@@ -167,7 +167,7 @@
 -      "PropertyNames": [],
 -      "Name": "Internal-Halo"
 -    },
-@@ -228,10 +217,0 @@
+@@ -241,10 +230,0 @@
 -    "10753": {
 -      "$type": "Shader",
 -      "PropertyNames": [],
@@ -178,19 +178,19 @@
 -      "Shader": "Sprites-Default",
 -      "Name": "Sprites-Default"
 -    },
-@@ -687,0 +668,5 @@
+@@ -700,0 +681,5 @@
 +    "102": {
 +      "$type": "Shader",
 +      "PropertyNames": [],
 +      "Name": "Internal-Flare"
 +    },
-@@ -697,0 +683,5 @@
+@@ -710,0 +696,5 @@
 +    "105": {
 +      "$type": "Shader",
 +      "PropertyNames": [],
 +      "Name": "Internal-Halo"
 +    },
-@@ -973,0 +964,10 @@
+@@ -986,0 +977,10 @@
 +    },
 +    "10753": {
 +      "$type": "Shader",
@@ -203,7 +203,7 @@
 +      "Name": "Sprites-Default"
 --- 5.4.0b15
 +++ 5.4.0b16
-@@ -657,0 +658,5 @@
+@@ -670,0 +671,5 @@
 +    "75": {
 +      "$type": "Shader",
 +      "PropertyNames": [],
@@ -211,7 +211,7 @@
 +    },
 --- 5.4.0b19
 +++ 5.4.0b20
-@@ -217,0 +218,10 @@
+@@ -230,0 +231,10 @@
 +    "10753": {
 +      "$type": "Shader",
 +      "PropertyNames": [],
@@ -222,7 +222,7 @@
 +      "Shader": "Sprites-Default",
 +      "Name": "Sprites-Default"
 +    },
-@@ -969,10 +978,0 @@
+@@ -982,10 +991,0 @@
 -    },
 -    "10753": {
 -      "$type": "Shader",
@@ -246,13 +246,13 @@
 -      "PropertyNames": [],
 -      "Name": "Internal-BlitCopy"
 -    },
-@@ -502,0 +493,5 @@
+@@ -515,0 +506,5 @@
 +    "19": {
 +      "$type": "Shader",
 +      "PropertyNames": [],
 +      "Name": "Internal-StencilWrite"
 +    },
-@@ -656,0 +652,10 @@
+@@ -669,0 +665,10 @@
 +    },
 +    "65": {
 +      "$type": "Shader",
@@ -286,7 +286,7 @@
 -      "PropertyNames": [],
 -      "Name": "Internal-GUITextureBlit"
 -    },
-@@ -208,10 +187,0 @@
+@@ -221,10 +200,0 @@
 -    "10753": {
 -      "$type": "Shader",
 -      "PropertyNames": [],
@@ -297,7 +297,7 @@
 -      "Shader": "Sprites-Default",
 -      "Name": "Sprites-Default"
 -    },
-@@ -752,0 +723,20 @@
+@@ -765,0 +736,20 @@
 +    "9000": {
 +      "$type": "Shader",
 +      "PropertyNames": [],
@@ -318,7 +318,7 @@
 +      "PropertyNames": [],
 +      "Name": "Internal-GUITextureBlit"
 +    },
-@@ -983,0 +974,10 @@
+@@ -996,0 +987,10 @@
 +    },
 +    "10753": {
 +      "$type": "Shader",
@@ -331,7 +331,7 @@
 +      "Name": "Sprites-Default"
 --- 5.4.0b25
 +++ 5.4.0f3
-@@ -1044,0 +1045,5 @@
+@@ -1057,0 +1058,5 @@
 +    "10783": {
 +      "$type": "Shader",
 +      "PropertyNames": [],
@@ -397,17 +397,17 @@
 +        "_Color"
 +      ],
 +      "Name": "GUI/Text Shader"
-@@ -190,2 +229,4 @@
+@@ -203,2 +242,4 @@
 -      "PropertyNames": [],
 -      "Name": "FrameDebuggerRenderTargetDisplay"
 +      "PropertyNames": [
 +        "_MainTex"
 +      ],
 +      "Name": "Hidden/FrameDebuggerRenderTargetDisplay"
-@@ -195 +236 @@
+@@ -208 +249 @@
 -      "Shader": "FrameDebuggerRenderTargetDisplay",
 +      "Shader": "Hidden/FrameDebuggerRenderTargetDisplay",
-@@ -385,2 +426,5 @@
+@@ -398,2 +439,5 @@
 -      "PropertyNames": [],
 -      "Name": "Normal-DiffuseFast"
 +      "PropertyNames": [
@@ -415,7 +415,7 @@
 +        "_MainTex"
 +      ],
 +      "Name": "Legacy Shaders/Diffuse Fast"
-@@ -390,2 +434,6 @@
+@@ -403,2 +447,6 @@
 -      "PropertyNames": [],
 -      "Name": "Normal-Bumped"
 +      "PropertyNames": [
@@ -424,7 +424,7 @@
 +        "_BumpMap"
 +      ],
 +      "Name": "Legacy Shaders/Bumped Diffuse"
-@@ -395,2 +443,7 @@
+@@ -408,2 +456,7 @@
 -      "PropertyNames": [],
 -      "Name": "Normal-Glossy"
 +      "PropertyNames": [
@@ -434,7 +434,7 @@
 +        "_MainTex"
 +      ],
 +      "Name": "Legacy Shaders/Specular"
-@@ -400,2 +453,8 @@
+@@ -413,2 +466,8 @@
 -      "PropertyNames": [],
 -      "Name": "Normal-BumpSpec"
 +      "PropertyNames": [
@@ -445,7 +445,7 @@
 +        "_BumpMap"
 +      ],
 +      "Name": "Legacy Shaders/Bumped Specular"
-@@ -405,2 +464,6 @@
+@@ -418,2 +477,6 @@
 -      "PropertyNames": [],
 -      "Name": "Normal-DiffuseDetail"
 +      "PropertyNames": [
@@ -454,7 +454,7 @@
 +        "_Detail"
 +      ],
 +      "Name": "Legacy Shaders/Diffuse Detail"
-@@ -410,2 +473,8 @@
+@@ -423,2 +486,8 @@
 -      "PropertyNames": [],
 -      "Name": "Normal-VertexLit"
 +      "PropertyNames": [
@@ -465,7 +465,7 @@
 +        "_MainTex"
 +      ],
 +      "Name": "Legacy Shaders/VertexLit"
-@@ -415,2 +484,5 @@
+@@ -428,2 +497,5 @@
 -      "PropertyNames": [],
 -      "Name": "Normal-Diffuse"
 +      "PropertyNames": [
@@ -473,7 +473,7 @@
 +        "_MainTex"
 +      ],
 +      "Name": "Legacy Shaders/Diffuse"
-@@ -420,2 +492,8 @@
+@@ -433,2 +505,8 @@
 -      "PropertyNames": [],
 -      "Name": "Normal-Parallax"
 +      "PropertyNames": [
@@ -484,7 +484,7 @@
 +        "_ParallaxMap"
 +      ],
 +      "Name": "Legacy Shaders/Parallax Diffuse"
-@@ -425,2 +503,10 @@
+@@ -438,2 +516,10 @@
 -      "PropertyNames": [],
 -      "Name": "Normal-ParallaxSpec"
 +      "PropertyNames": [
@@ -497,7 +497,7 @@
 +        "_ParallaxMap"
 +      ],
 +      "Name": "Legacy Shaders/Parallax Specular"
-@@ -430,2 +516,7 @@
+@@ -443,2 +529,7 @@
 -      "PropertyNames": [],
 -      "Name": "Illumin-Diffuse"
 +      "PropertyNames": [
@@ -507,7 +507,7 @@
 +        "_Emission"
 +      ],
 +      "Name": "Legacy Shaders/Self-Illumin/Diffuse"
-@@ -435,2 +526,8 @@
+@@ -448,2 +539,8 @@
 -      "PropertyNames": [],
 -      "Name": "Illumin-Bumped"
 +      "PropertyNames": [
@@ -518,7 +518,7 @@
 +        "_Emission"
 +      ],
 +      "Name": "Legacy Shaders/Self-Illumin/Bumped Diffuse"
-@@ -440,2 +537,9 @@
+@@ -453,2 +550,9 @@
 -      "PropertyNames": [],
 -      "Name": "Illumin-Glossy"
 +      "PropertyNames": [
@@ -530,7 +530,7 @@
 +        "_Emission"
 +      ],
 +      "Name": "Legacy Shaders/Self-Illumin/Specular"
-@@ -445,2 +549,10 @@
+@@ -458,2 +562,10 @@
 -      "PropertyNames": [],
 -      "Name": "Illumin-BumpSpec"
 +      "PropertyNames": [
@@ -543,7 +543,7 @@
 +        "_Emission"
 +      ],
 +      "Name": "Legacy Shaders/Self-Illumin/Bumped Specular"
-@@ -450,2 +562,9 @@
+@@ -463,2 +575,9 @@
 -      "PropertyNames": [],
 -      "Name": "Illumin-VertexLit"
 +      "PropertyNames": [
@@ -555,7 +555,7 @@
 +        "_Emission"
 +      ],
 +      "Name": "Legacy Shaders/Self-Illumin/VertexLit"
-@@ -455,2 +574,10 @@
+@@ -468,2 +587,10 @@
 -      "PropertyNames": [],
 -      "Name": "Illumin-Parallax"
 +      "PropertyNames": [
@@ -568,7 +568,7 @@
 +        "_Emission"
 +      ],
 +      "Name": "Legacy Shaders/Self-Illumin/Parallax Diffuse"
-@@ -460,2 +587,12 @@
+@@ -473,2 +600,12 @@
 -      "PropertyNames": [],
 -      "Name": "Illumin-ParallaxSpec"
 +      "PropertyNames": [
@@ -583,10 +583,10 @@
 +        "_Emission"
 +      ],
 +      "Name": "Legacy Shaders/Self-Illumin/Parallax Specular"
-@@ -466 +603 @@
+@@ -479 +616 @@
 -      "Name": "Internal-StencilWrite"
 +      "Name": "Hidden/Internal-StencilWrite"
-@@ -470,2 +607,7 @@
+@@ -483,2 +620,7 @@
 -      "PropertyNames": [],
 -      "Name": "Reflect-Diffuse"
 +      "PropertyNames": [
@@ -596,7 +596,7 @@
 +        "_Cube"
 +      ],
 +      "Name": "Legacy Shaders/Reflective/Diffuse"
-@@ -475,2 +617,8 @@
+@@ -488,2 +630,8 @@
 -      "PropertyNames": [],
 -      "Name": "Reflect-Bumped"
 +      "PropertyNames": [
@@ -607,7 +607,7 @@
 +        "_BumpMap"
 +      ],
 +      "Name": "Legacy Shaders/Reflective/Bumped Diffuse"
-@@ -480,2 +628,9 @@
+@@ -493,2 +641,9 @@
 -      "PropertyNames": [],
 -      "Name": "Reflect-Glossy"
 +      "PropertyNames": [
@@ -619,7 +619,7 @@
 +        "_Cube"
 +      ],
 +      "Name": "Legacy Shaders/Reflective/Specular"
-@@ -485,2 +640,10 @@
+@@ -498,2 +653,10 @@
 -      "PropertyNames": [],
 -      "Name": "Reflect-BumpSpec"
 +      "PropertyNames": [
@@ -632,7 +632,7 @@
 +        "_BumpMap"
 +      ],
 +      "Name": "Legacy Shaders/Reflective/Bumped Specular"
-@@ -490,2 +653,7 @@
+@@ -503,2 +666,7 @@
 -      "PropertyNames": [],
 -      "Name": "Reflect-VertexLit"
 +      "PropertyNames": [
@@ -642,7 +642,7 @@
 +        "_Cube"
 +      ],
 +      "Name": "Legacy Shaders/Reflective/VertexLit"
-@@ -495,2 +663,8 @@
+@@ -508,2 +676,8 @@
 -      "PropertyNames": [],
 -      "Name": "Reflect-BumpNolight"
 +      "PropertyNames": [
@@ -653,7 +653,7 @@
 +        "_BumpMap"
 +      ],
 +      "Name": "Legacy Shaders/Reflective/Bumped Unlit"
-@@ -500,2 +674,10 @@
+@@ -513,2 +687,10 @@
 -      "PropertyNames": [],
 -      "Name": "Reflect-BumpVertexLit"
 +      "PropertyNames": [
@@ -666,7 +666,7 @@
 +        "_BumpMap"
 +      ],
 +      "Name": "Legacy Shaders/Reflective/Bumped VertexLit"
-@@ -505,2 +687,10 @@
+@@ -518,2 +700,10 @@
 -      "PropertyNames": [],
 -      "Name": "Reflect-Parallax"
 +      "PropertyNames": [
@@ -679,7 +679,7 @@
 +        "_ParallaxMap"
 +      ],
 +      "Name": "Legacy Shaders/Reflective/Parallax Diffuse"
-@@ -510,2 +700,12 @@
+@@ -523,2 +713,12 @@
 -      "PropertyNames": [],
 -      "Name": "Reflect-ParallaxSpec"
 +      "PropertyNames": [
@@ -694,7 +694,7 @@
 +        "_ParallaxMap"
 +      ],
 +      "Name": "Legacy Shaders/Reflective/Parallax Specular"
-@@ -515,2 +715,5 @@
+@@ -528,2 +728,5 @@
 -      "PropertyNames": [],
 -      "Name": "Alpha-Diffuse"
 +      "PropertyNames": [
@@ -702,7 +702,7 @@
 +        "_MainTex"
 +      ],
 +      "Name": "Legacy Shaders/Transparent/Diffuse"
-@@ -520,2 +723,6 @@
+@@ -533,2 +736,6 @@
 -      "PropertyNames": [],
 -      "Name": "Alpha-Bumped"
 +      "PropertyNames": [
@@ -711,7 +711,7 @@
 +        "_BumpMap"
 +      ],
 +      "Name": "Legacy Shaders/Transparent/Bumped Diffuse"
-@@ -525,2 +732,7 @@
+@@ -538,2 +745,7 @@
 -      "PropertyNames": [],
 -      "Name": "Alpha-Glossy"
 +      "PropertyNames": [
@@ -721,7 +721,7 @@
 +        "_MainTex"
 +      ],
 +      "Name": "Legacy Shaders/Transparent/Specular"
-@@ -530,2 +742,8 @@
+@@ -543,2 +755,8 @@
 -      "PropertyNames": [],
 -      "Name": "Alpha-BumpSpec"
 +      "PropertyNames": [
@@ -732,7 +732,7 @@
 +        "_BumpMap"
 +      ],
 +      "Name": "Legacy Shaders/Transparent/Bumped Specular"
-@@ -535,2 +753,8 @@
+@@ -548,2 +766,8 @@
 -      "PropertyNames": [],
 -      "Name": "Alpha-VertexLit"
 +      "PropertyNames": [
@@ -743,7 +743,7 @@
 +        "_MainTex"
 +      ],
 +      "Name": "Legacy Shaders/Transparent/VertexLit"
-@@ -540,2 +764,8 @@
+@@ -553,2 +777,8 @@
 -      "PropertyNames": [],
 -      "Name": "Alpha-Parallax"
 +      "PropertyNames": [
@@ -754,7 +754,7 @@
 +        "_ParallaxMap"
 +      ],
 +      "Name": "Legacy Shaders/Transparent/Parallax Diffuse"
-@@ -545,2 +775,10 @@
+@@ -558,2 +788,10 @@
 -      "PropertyNames": [],
 -      "Name": "Alpha-ParallaxSpec"
 +      "PropertyNames": [
@@ -767,7 +767,7 @@
 +        "_ParallaxMap"
 +      ],
 +      "Name": "Legacy Shaders/Transparent/Parallax Specular"
-@@ -550,2 +788,8 @@
+@@ -563,2 +801,8 @@
 -      "PropertyNames": [],
 -      "Name": "Lightmap-VertexLit"
 +      "PropertyNames": [
@@ -778,7 +778,7 @@
 +        "_LightMap"
 +      ],
 +      "Name": "Legacy Shaders/Lightmapped/VertexLit"
-@@ -555,2 +799,6 @@
+@@ -568,2 +812,6 @@
 -      "PropertyNames": [],
 -      "Name": "Lightmap-Diffuse"
 +      "PropertyNames": [
@@ -787,7 +787,7 @@
 +        "_LightMap"
 +      ],
 +      "Name": "Legacy Shaders/Lightmapped/Diffuse"
-@@ -560,2 +808,7 @@
+@@ -573,2 +821,7 @@
 -      "PropertyNames": [],
 -      "Name": "Lightmap-Bumped"
 +      "PropertyNames": [
@@ -797,7 +797,7 @@
 +        "_LightMap"
 +      ],
 +      "Name": "Legacy Shaders/Lightmapped/Bumped Diffuse"
-@@ -565,2 +818,8 @@
+@@ -578,2 +831,8 @@
 -      "PropertyNames": [],
 -      "Name": "Lightmap-Glossy"
 +      "PropertyNames": [
@@ -808,7 +808,7 @@
 +        "_LightMap"
 +      ],
 +      "Name": "Legacy Shaders/Lightmapped/Specular"
-@@ -570,2 +829,9 @@
+@@ -583,2 +842,9 @@
 -      "PropertyNames": [],
 -      "Name": "Lightmap-BumpSpec"
 +      "PropertyNames": [
@@ -820,7 +820,7 @@
 +        "_LightMap"
 +      ],
 +      "Name": "Legacy Shaders/Lightmapped/Bumped Specular"
-@@ -575,2 +841,30 @@
+@@ -588,2 +854,30 @@
 -      "PropertyNames": [],
 -      "Name": "StandardSpecular"
 +      "PropertyNames": [
@@ -853,7 +853,7 @@
 +        "_ZWrite"
 +      ],
 +      "Name": "Standard (Specular setup)"
-@@ -580 +874,29 @@
+@@ -593 +887,29 @@
 -      "PropertyNames": [],
 +      "PropertyNames": [
 +        "_Color",
@@ -884,7 +884,7 @@
 +        "_DstBlend",
 +        "_ZWrite"
 +      ],
-@@ -585,2 +907,9 @@
+@@ -598,2 +920,9 @@
 -      "PropertyNames": [],
 -      "Name": "AlphaTest-VertexLit"
 +      "PropertyNames": [
@@ -896,7 +896,7 @@
 +        "_Cutoff"
 +      ],
 +      "Name": "Legacy Shaders/Transparent/Cutout/VertexLit"
-@@ -590,2 +919,6 @@
+@@ -603,2 +932,6 @@
 -      "PropertyNames": [],
 -      "Name": "AlphaTest-Diffuse"
 +      "PropertyNames": [
@@ -905,7 +905,7 @@
 +        "_Cutoff"
 +      ],
 +      "Name": "Legacy Shaders/Transparent/Cutout/Diffuse"
-@@ -595,2 +928,7 @@
+@@ -608,2 +941,7 @@
 -      "PropertyNames": [],
 -      "Name": "AlphaTest-Bumped"
 +      "PropertyNames": [
@@ -915,7 +915,7 @@
 +        "_Cutoff"
 +      ],
 +      "Name": "Legacy Shaders/Transparent/Cutout/Bumped Diffuse"
-@@ -600,2 +938,8 @@
+@@ -613,2 +951,8 @@
 -      "PropertyNames": [],
 -      "Name": "AlphaTest-Glossy"
 +      "PropertyNames": [
@@ -926,7 +926,7 @@
 +        "_Cutoff"
 +      ],
 +      "Name": "Legacy Shaders/Transparent/Cutout/Specular"
-@@ -605,2 +949,9 @@
+@@ -618,2 +962,9 @@
 -      "PropertyNames": [],
 -      "Name": "AlphaTest-BumpSpec"
 +      "PropertyNames": [
@@ -938,7 +938,7 @@
 +        "_Cutoff"
 +      ],
 +      "Name": "Legacy Shaders/Transparent/Cutout/Bumped Specular"
-@@ -610,2 +961,6 @@
+@@ -623,2 +974,6 @@
 -      "PropertyNames": [],
 -      "Name": "Internal-DepthNormalsTexture"
 +      "PropertyNames": [
@@ -947,7 +947,7 @@
 +        "_Color"
 +      ],
 +      "Name": "Hidden/Internal-DepthNormalsTexture"
-@@ -615,2 +970,6 @@
+@@ -628,2 +983,6 @@
 -      "PropertyNames": [],
 -      "Name": "Internal-PrePassLighting"
 +      "PropertyNames": [
@@ -956,24 +956,24 @@
 +        "_ShadowMapTexture"
 +      ],
 +      "Name": "Hidden/Internal-PrePassLighting"
-@@ -620,2 +979,4 @@
+@@ -633,2 +992,4 @@
 -      "PropertyNames": [],
 -      "Name": "Internal-ScreenSpaceShadows"
 +      "PropertyNames": [
 +        "_ShadowMapTexture"
 +      ],
 +      "Name": "Hidden/Internal-ScreenSpaceShadows"
-@@ -626 +987 @@
+@@ -639 +1000 @@
 -      "Name": "Internal-CombineDepthNormals"
 +      "Name": "Hidden/Internal-CombineDepthNormals"
-@@ -630,2 +991,4 @@
+@@ -643,2 +1004,4 @@
 -      "PropertyNames": [],
 -      "Name": "Internal-BlitCopy"
 +      "PropertyNames": [
 +        "_MainTex"
 +      ],
 +      "Name": "Hidden/BlitCopy"
-@@ -635,2 +998,8 @@
+@@ -648,2 +1011,8 @@
 -      "PropertyNames": [],
 -      "Name": "Internal-DeferredShading"
 +      "PropertyNames": [
@@ -984,7 +984,7 @@
 +        "_DstBlend"
 +      ],
 +      "Name": "Hidden/Internal-DeferredShading"
-@@ -640,2 +1009,5 @@
+@@ -653,2 +1022,5 @@
 -      "PropertyNames": [],
 -      "Name": "Internal-DeferredReflections"
 +      "PropertyNames": [
@@ -992,10 +992,10 @@
 +        "_DstBlend"
 +      ],
 +      "Name": "Hidden/Internal-DeferredReflections"
-@@ -646 +1018 @@
+@@ -659 +1031 @@
 -      "Name": "Internal-MotionVectors"
 +      "Name": "Hidden/Internal-MotionVectors"
-@@ -650,2 +1022,6 @@
+@@ -663,2 +1035,6 @@
 -      "PropertyNames": [],
 -      "Name": "Decal"
 +      "PropertyNames": [
@@ -1004,17 +1004,17 @@
 +        "_DecalTex"
 +      ],
 +      "Name": "Legacy Shaders/Decal"
-@@ -655,2 +1031,4 @@
+@@ -668,2 +1044,4 @@
 -      "PropertyNames": [],
 -      "Name": "Flare"
 +      "PropertyNames": [
 +        "_MainTex"
 +      ],
 +      "Name": "FX/Flare"
-@@ -661 +1039 @@
+@@ -674 +1052 @@
 -      "Name": "Internal-Flare"
 +      "Name": "Hidden/Internal-Flare"
-@@ -665,2 +1043,7 @@
+@@ -678,2 +1056,7 @@
 -      "PropertyNames": [],
 -      "Name": "Skybox-Cubed"
 +      "PropertyNames": [
@@ -1024,7 +1024,7 @@
 +        "_Tex"
 +      ],
 +      "Name": "Skybox/Cubemap"
-@@ -670,2 +1053,12 @@
+@@ -683,2 +1066,12 @@
 -      "PropertyNames": [],
 -      "Name": "Skybox"
 +      "PropertyNames": [
@@ -1039,10 +1039,10 @@
 +        "_DownTex"
 +      ],
 +      "Name": "Skybox/6 Sided"
-@@ -676 +1069 @@
+@@ -689 +1082 @@
 -      "Name": "Internal-Halo"
 +      "Name": "Hidden/Internal-Halo"
-@@ -680,2 +1073,9 @@
+@@ -693,2 +1086,9 @@
 -      "PropertyNames": [],
 -      "Name": "Skybox-Procedural"
 +      "PropertyNames": [
@@ -1054,7 +1054,7 @@
 +        "_Exposure"
 +      ],
 +      "Name": "Skybox/Procedural"
-@@ -685,2 +1085,6 @@
+@@ -698,2 +1098,6 @@
 -      "PropertyNames": [],
 -      "Name": "Particle Add"
 +      "PropertyNames": [
@@ -1063,7 +1063,7 @@
 +        "_InvFade"
 +      ],
 +      "Name": "Particles/Additive"
-@@ -690,2 +1094,6 @@
+@@ -703,2 +1107,6 @@
 -      "PropertyNames": [],
 -      "Name": "Particle AddMultiply"
 +      "PropertyNames": [
@@ -1072,7 +1072,7 @@
 +        "_InvFade"
 +      ],
 +      "Name": "Particles/~Additive-Multiply"
-@@ -695,2 +1103,5 @@
+@@ -708,2 +1116,5 @@
 -      "PropertyNames": [],
 -      "Name": "Particle AddSmooth"
 +      "PropertyNames": [
@@ -1080,7 +1080,7 @@
 +        "_InvFade"
 +      ],
 +      "Name": "Particles/Additive (Soft)"
-@@ -700,2 +1111,6 @@
+@@ -713,2 +1124,6 @@
 -      "PropertyNames": [],
 -      "Name": "Particle Alpha Blend"
 +      "PropertyNames": [
@@ -1089,7 +1089,7 @@
 +        "_InvFade"
 +      ],
 +      "Name": "Particles/Alpha Blended"
-@@ -705,2 +1120,5 @@
+@@ -718,2 +1133,5 @@
 -      "PropertyNames": [],
 -      "Name": "Particle Multiply"
 +      "PropertyNames": [
@@ -1097,7 +1097,7 @@
 +        "_InvFade"
 +      ],
 +      "Name": "Particles/Multiply"
-@@ -710,2 +1128,5 @@
+@@ -723,2 +1141,5 @@
 -      "PropertyNames": [],
 -      "Name": "Particle MultiplyDouble"
 +      "PropertyNames": [
@@ -1105,7 +1105,7 @@
 +        "_InvFade"
 +      ],
 +      "Name": "Particles/Multiply (Double)"
-@@ -715,2 +1136,5 @@
+@@ -728,2 +1149,5 @@
 -      "PropertyNames": [],
 -      "Name": "Particle Premultiply Blend"
 +      "PropertyNames": [
@@ -1113,7 +1113,7 @@
 +        "_InvFade"
 +      ],
 +      "Name": "Particles/Alpha Blended Premultiply"
-@@ -720,2 +1144,14 @@
+@@ -733,2 +1157,14 @@
 -      "PropertyNames": [],
 -      "Name": "Particle VertexLit Blended"
 +      "PropertyNames": [
@@ -1130,51 +1130,51 @@
 +        "_InvFade"
 +      ],
 +      "Name": "Particles/Anim Alpha Blended"
-@@ -725,2 +1161,4 @@
+@@ -738,2 +1174,4 @@
 -      "PropertyNames": [],
 -      "Name": "Internal-GUITextureClip"
 +      "PropertyNames": [
 +        "_MainTex"
 +      ],
 +      "Name": "Hidden/Internal-GUITextureClip"
-@@ -730,2 +1168,4 @@
+@@ -743,2 +1181,4 @@
 -      "PropertyNames": [],
 -      "Name": "Internal-GUITextureClipText"
 +      "PropertyNames": [
 +        "_MainTex"
 +      ],
 +      "Name": "Hidden/Internal-GUITextureClipText"
-@@ -735,2 +1175,4 @@
+@@ -748,2 +1188,4 @@
 -      "PropertyNames": [],
 -      "Name": "Internal-GUITexture"
 +      "PropertyNames": [
 +        "_MainTex"
 +      ],
 +      "Name": "Hidden/Internal-GUITexture"
-@@ -740,2 +1182,4 @@
+@@ -753,2 +1195,4 @@
 -      "PropertyNames": [],
 -      "Name": "Internal-GUITextureBlit"
 +      "PropertyNames": [
 +        "_MainTex"
 +      ],
 +      "Name": "Hidden/Internal-GUITextureBlit"
-@@ -751 +1195 @@
+@@ -764 +1208 @@
 -      "Shader": "Particle Premultiply Blend",
 +      "Shader": "Particles/Alpha Blended Premultiply",
-@@ -756 +1200 @@
+@@ -769 +1213 @@
 -      "Shader": "Normal-Diffuse",
 +      "Shader": "Legacy Shaders/Diffuse",
-@@ -766 +1210 @@
+@@ -779 +1223 @@
 -      "Shader": "Skybox-Procedural",
 +      "Shader": "Skybox/Procedural",
-@@ -777,2 +1221,4 @@
+@@ -790,2 +1234,4 @@
 -      "PropertyNames": [],
 -      "Name": "VertexLit"
 +      "PropertyNames": [
 +        "_MainTex"
 +      ],
 +      "Name": "Hidden/TerrainEngine/Details/Vertexlit"
-@@ -782,2 +1228,7 @@
+@@ -795,2 +1241,7 @@
 -      "PropertyNames": [],
 -      "Name": "WavingGrass"
 +      "PropertyNames": [
@@ -1184,7 +1184,7 @@
 +        "_Cutoff"
 +      ],
 +      "Name": "Hidden/TerrainEngine/Details/WavingDoublePass"
-@@ -787,2 +1238,7 @@
+@@ -800,2 +1251,7 @@
 -      "PropertyNames": [],
 -      "Name": "WavingGrassBillboard"
 +      "PropertyNames": [
@@ -1194,7 +1194,7 @@
 +        "_Cutoff"
 +      ],
 +      "Name": "Hidden/TerrainEngine/Details/BillboardWavingDoublePass"
-@@ -792,2 +1248,12 @@
+@@ -805,2 +1261,12 @@
 -      "PropertyNames": [],
 -      "Name": "AddPass"
 +      "PropertyNames": [
@@ -1209,7 +1209,7 @@
 +        "_Normal0"
 +      ],
 +      "Name": "Hidden/TerrainEngine/Splatmap/Diffuse-AddPass"
-@@ -797,2 +1263,14 @@
+@@ -810,2 +1276,14 @@
 -      "PropertyNames": [],
 -      "Name": "FirstPass"
 +      "PropertyNames": [
@@ -1226,14 +1226,14 @@
 +        "_Color"
 +      ],
 +      "Name": "Nature/Terrain/Diffuse"
-@@ -802,2 +1280,4 @@
+@@ -815,2 +1293,4 @@
 -      "PropertyNames": [],
 -      "Name": "BillboardTree"
 +      "PropertyNames": [
 +        "_MainTex"
 +      ],
 +      "Name": "Hidden/TerrainEngine/BillboardTree"
-@@ -807,2 +1287,10 @@
+@@ -820,2 +1300,10 @@
 -      "PropertyNames": [],
 -      "Name": "TreeSoftOcclusionBarkRendertex"
 +      "PropertyNames": [
@@ -1246,7 +1246,7 @@
 +        "_SquashAmount"
 +      ],
 +      "Name": "Hidden/Nature/Tree Soft Occlusion Bark Rendertex"
-@@ -812,2 +1300,10 @@
+@@ -825,2 +1313,10 @@
 -      "PropertyNames": [],
 -      "Name": "TreeSoftOcclusionBark"
 +      "PropertyNames": [
@@ -1259,7 +1259,7 @@
 +        "_SquashAmount"
 +      ],
 +      "Name": "Nature/Tree Soft Occlusion Bark"
-@@ -817,2 +1313,13 @@
+@@ -830,2 +1326,13 @@
 -      "PropertyNames": [],
 -      "Name": "TreeSoftOcclusionLeavesRendertex"
 +      "PropertyNames": [
@@ -1275,7 +1275,7 @@
 +        "_SquashAmount"
 +      ],
 +      "Name": "Hidden/Nature/Tree Soft Occlusion Leaves Rendertex"
-@@ -822,2 +1329,12 @@
+@@ -835,2 +1342,12 @@
 -      "PropertyNames": [],
 -      "Name": "TreeSoftOcclusionLeaves"
 +      "PropertyNames": [
@@ -1290,7 +1290,7 @@
 +        "_SquashAmount"
 +      ],
 +      "Name": "Nature/Tree Soft Occlusion Leaves"
-@@ -827,2 +1344,6 @@
+@@ -840,2 +1357,6 @@
 -      "PropertyNames": [],
 -      "Name": "AlphaTest-SoftEdgeUnlit"
 +      "PropertyNames": [
@@ -1299,7 +1299,7 @@
 +        "_Cutoff"
 +      ],
 +      "Name": "Legacy Shaders/Transparent/Cutout/Soft Edge Unlit"
-@@ -832,2 +1353,12 @@
+@@ -845,2 +1366,12 @@
 -      "PropertyNames": [],
 -      "Name": "TreeCreatorBark"
 +      "PropertyNames": [
@@ -1314,7 +1314,7 @@
 +        "_SquashAmount"
 +      ],
 +      "Name": "Nature/Tree Creator Bark"
-@@ -837,2 +1368,14 @@
+@@ -850,2 +1381,14 @@
 -      "PropertyNames": [],
 -      "Name": "TreeCreatorLeaves"
 +      "PropertyNames": [
@@ -1331,7 +1331,7 @@
 +        "_SquashAmount"
 +      ],
 +      "Name": "Nature/Tree Creator Leaves"
-@@ -842,2 +1385,7 @@
+@@ -855,2 +1398,7 @@
 -      "PropertyNames": [],
 -      "Name": "TreeCreatorBarkRendertex"
 +      "PropertyNames": [
@@ -1341,7 +1341,7 @@
 +        "_SpecColor"
 +      ],
 +      "Name": "Hidden/Nature/Tree Creator Bark Rendertex"
-@@ -847,2 +1395,10 @@
+@@ -860,2 +1408,10 @@
 -      "PropertyNames": [],
 -      "Name": "TreeCreatorLeavesRendertex"
 +      "PropertyNames": [
@@ -1354,7 +1354,7 @@
 +        "_TranslucencyMap"
 +      ],
 +      "Name": "Hidden/Nature/Tree Creator Leaves Rendertex"
-@@ -852,2 +1408,11 @@
+@@ -865,2 +1421,11 @@
 -      "PropertyNames": [],
 -      "Name": "TreeCreatorBarkOptimized"
 +      "PropertyNames": [
@@ -1368,7 +1368,7 @@
 +        "_SquashAmount"
 +      ],
 +      "Name": "Hidden/Nature/Tree Creator Bark Optimized"
-@@ -857,2 +1422,16 @@
+@@ -870,2 +1435,16 @@
 -      "PropertyNames": [],
 -      "Name": "TreeCreatorLeavesOptimized"
 +      "PropertyNames": [
@@ -1387,7 +1387,7 @@
 +        "_SquashAmount"
 +      ],
 +      "Name": "Hidden/Nature/Tree Creator Leaves Optimized"
-@@ -862,2 +1441,12 @@
+@@ -875,2 +1454,12 @@
 -      "PropertyNames": [],
 -      "Name": "TreeCreatorLeavesFast"
 +      "PropertyNames": [
@@ -1402,7 +1402,7 @@
 +        "_SquashAmount"
 +      ],
 +      "Name": "Nature/Tree Creator Leaves Fast"
-@@ -867,2 +1456,13 @@
+@@ -880,2 +1469,13 @@
 -      "PropertyNames": [],
 -      "Name": "TreeCreatorLeavesFastOptimized"
 +      "PropertyNames": [
@@ -1418,7 +1418,7 @@
 +        "_SquashAmount"
 +      ],
 +      "Name": "Hidden/Nature/Tree Creator Leaves Fast Optimized"
-@@ -872,2 +1472,16 @@
+@@ -885,2 +1485,16 @@
 -      "PropertyNames": [],
 -      "Name": "Specular-FirstPass"
 +      "PropertyNames": [
@@ -1437,7 +1437,7 @@
 +        "_Color"
 +      ],
 +      "Name": "Nature/Terrain/Specular"
-@@ -877,2 +1491,14 @@
+@@ -890,2 +1504,14 @@
 -      "PropertyNames": [],
 -      "Name": "Specular-AddPass"
 +      "PropertyNames": [
@@ -1454,7 +1454,7 @@
 +        "_Normal0"
 +      ],
 +      "Name": "Hidden/TerrainEngine/Splatmap/Specular-AddPass"
-@@ -882,2 +1508,7 @@
+@@ -895,2 +1521,7 @@
 -      "PropertyNames": [],
 -      "Name": "Specular-Base"
 +      "PropertyNames": [
@@ -1464,7 +1464,7 @@
 +        "_Color"
 +      ],
 +      "Name": "Hidden/TerrainEngine/Splatmap/Specular-Base"
-@@ -887,2 +1518,22 @@
+@@ -900,2 +1531,22 @@
 -      "PropertyNames": [],
 -      "Name": "Standard-FirstPass"
 +      "PropertyNames": [
@@ -1489,7 +1489,7 @@
 +        "_Color"
 +      ],
 +      "Name": "Nature/Terrain/Standard"
-@@ -892,2 +1543,20 @@
+@@ -905,2 +1556,20 @@
 -      "PropertyNames": [],
 -      "Name": "Standard-AddPass"
 +      "PropertyNames": [
@@ -1512,7 +1512,7 @@
 +        "_Smoothness3"
 +      ],
 +      "Name": "Hidden/TerrainEngine/Splatmap/Standard-AddPass"
-@@ -897,2 +1566,6 @@
+@@ -910,2 +1579,6 @@
 -      "PropertyNames": [],
 -      "Name": "Standard-Base"
 +      "PropertyNames": [
@@ -1521,7 +1521,7 @@
 +        "_Color"
 +      ],
 +      "Name": "Hidden/TerrainEngine/Splatmap/Standard-Base"
-@@ -902,2 +1575,9 @@
+@@ -915,2 +1588,9 @@
 -      "PropertyNames": [],
 -      "Name": "Mobile-Skybox"
 +      "PropertyNames": [
@@ -1533,21 +1533,21 @@
 +        "_DownTex"
 +      ],
 +      "Name": "Mobile/Skybox"
-@@ -907,2 +1587,4 @@
+@@ -920,2 +1600,4 @@
 -      "PropertyNames": [],
 -      "Name": "Mobile-VertexLit"
 +      "PropertyNames": [
 +        "_MainTex"
 +      ],
 +      "Name": "Mobile/VertexLit"
-@@ -912,2 +1594,4 @@
+@@ -925,2 +1607,4 @@
 -      "PropertyNames": [],
 -      "Name": "Mobile-Diffuse"
 +      "PropertyNames": [
 +        "_MainTex"
 +      ],
 +      "Name": "Mobile/Diffuse"
-@@ -917,2 +1601,5 @@
+@@ -930,2 +1614,5 @@
 -      "PropertyNames": [],
 -      "Name": "Mobile-Bumped"
 +      "PropertyNames": [
@@ -1555,7 +1555,7 @@
 +        "_BumpMap"
 +      ],
 +      "Name": "Mobile/Bumped Diffuse"
-@@ -922,2 +1609,6 @@
+@@ -935,2 +1622,6 @@
 -      "PropertyNames": [],
 -      "Name": "Mobile-BumpSpec"
 +      "PropertyNames": [
@@ -1564,7 +1564,7 @@
 +        "_BumpMap"
 +      ],
 +      "Name": "Mobile/Bumped Specular"
-@@ -927,2 +1618,6 @@
+@@ -940,2 +1631,6 @@
 -      "PropertyNames": [],
 -      "Name": "Mobile-BumpSpec-1DirectionalLight"
 +      "PropertyNames": [
@@ -1573,35 +1573,35 @@
 +        "_BumpMap"
 +      ],
 +      "Name": "Mobile/Bumped Specular (1 Directional Light)"
-@@ -932,2 +1627,4 @@
+@@ -945,2 +1640,4 @@
 -      "PropertyNames": [],
 -      "Name": "Mobile-VertexLit-OnlyDirectionalLights"
 +      "PropertyNames": [
 +        "_MainTex"
 +      ],
 +      "Name": "Mobile/VertexLit (Only Directional Lights)"
-@@ -937,2 +1634,4 @@
+@@ -950,2 +1647,4 @@
 -      "PropertyNames": [],
 -      "Name": "Mobile-Lightmap-Unlit"
 +      "PropertyNames": [
 +        "_MainTex"
 +      ],
 +      "Name": "Mobile/Unlit (Supports Lightmap)"
-@@ -942,2 +1641,4 @@
+@@ -955,2 +1654,4 @@
 -      "PropertyNames": [],
 -      "Name": "Mobile-Particle-Add"
 +      "PropertyNames": [
 +        "_MainTex"
 +      ],
 +      "Name": "Mobile/Particles/Additive"
-@@ -947,2 +1648,4 @@
+@@ -960,2 +1661,4 @@
 -      "PropertyNames": [],
 -      "Name": "Mobile-Particle-Alpha"
 +      "PropertyNames": [
 +        "_MainTex"
 +      ],
 +      "Name": "Mobile/Particles/Alpha Blended"
-@@ -952,2 +1655,5 @@
+@@ -965,2 +1668,5 @@
 -      "PropertyNames": [],
 -      "Name": "Mobile-Particle-Alpha-VertexLit"
 +      "PropertyNames": [
@@ -1609,21 +1609,21 @@
 +        "_MainTex"
 +      ],
 +      "Name": "Mobile/Particles/VertexLit Blended"
-@@ -957,2 +1663,4 @@
+@@ -970,2 +1676,4 @@
 -      "PropertyNames": [],
 -      "Name": "Mobile-Particle-Multiply"
 +      "PropertyNames": [
 +        "_MainTex"
 +      ],
 +      "Name": "Mobile/Particles/Multiply"
-@@ -962,2 +1670,4 @@
+@@ -975,2 +1683,4 @@
 -      "PropertyNames": [],
 -      "Name": "Unlit-Alpha"
 +      "PropertyNames": [
 +        "_MainTex"
 +      ],
 +      "Name": "Unlit/Transparent"
-@@ -967,2 +1677,5 @@
+@@ -980,2 +1690,5 @@
 -      "PropertyNames": [],
 -      "Name": "Unlit-AlphaTest"
 +      "PropertyNames": [
@@ -1631,14 +1631,14 @@
 +        "_Cutoff"
 +      ],
 +      "Name": "Unlit/Transparent Cutout"
-@@ -972,2 +1685,4 @@
+@@ -985,2 +1698,4 @@
 -      "PropertyNames": [],
 -      "Name": "Unlit-Normal"
 +      "PropertyNames": [
 +        "_MainTex"
 +      ],
 +      "Name": "Unlit/Texture"
-@@ -977,2 +1692,6 @@
+@@ -990,2 +1705,6 @@
 -      "PropertyNames": [],
 -      "Name": "Sprites-Default"
 +      "PropertyNames": [
@@ -1647,17 +1647,17 @@
 +        "PixelSnap"
 +      ],
 +      "Name": "Sprites/Default"
-@@ -982 +1701 @@
+@@ -995 +1714 @@
 -      "Shader": "Sprites-Default",
 +      "Shader": "Sprites/Default",
-@@ -987,2 +1706,4 @@
+@@ -1000,2 +1719,4 @@
 -      "PropertyNames": [],
 -      "Name": "Unlit-Color"
 +      "PropertyNames": [
 +        "_Color"
 +      ],
 +      "Name": "Unlit/Color"
-@@ -992,2 +1713,12 @@
+@@ -1005,2 +1726,12 @@
 -      "PropertyNames": [],
 -      "Name": "UI-Unlit-Transparent"
 +      "PropertyNames": [
@@ -1672,7 +1672,7 @@
 +        "_UseUIAlphaClip"
 +      ],
 +      "Name": "UI/Unlit/Transparent"
-@@ -997,2 +1728,14 @@
+@@ -1010,2 +1741,14 @@
 -      "PropertyNames": [],
 -      "Name": "UI-Unlit-Detail"
 +      "PropertyNames": [
@@ -1689,7 +1689,7 @@
 +        "_UseUIAlphaClip"
 +      ],
 +      "Name": "UI/Unlit/Detail"
-@@ -1002,2 +1745,12 @@
+@@ -1015,2 +1758,12 @@
 -      "PropertyNames": [],
 -      "Name": "UI-Unlit-Text"
 +      "PropertyNames": [
@@ -1704,7 +1704,7 @@
 +        "_UseUIAlphaClip"
 +      ],
 +      "Name": "UI/Unlit/Text"
-@@ -1007,2 +1760,14 @@
+@@ -1020,2 +1773,14 @@
 -      "PropertyNames": [],
 -      "Name": "UI-Unlit-TextDetail"
 +      "PropertyNames": [
@@ -1721,7 +1721,7 @@
 +        "_UseUIAlphaClip"
 +      ],
 +      "Name": "UI/Unlit/Text Detail"
-@@ -1012,2 +1777,13 @@
+@@ -1025,2 +1790,13 @@
 -      "PropertyNames": [],
 -      "Name": "UI-Lit-Transparent"
 +      "PropertyNames": [
@@ -1737,7 +1737,7 @@
 +        "_UseUIAlphaClip"
 +      ],
 +      "Name": "UI/Lit/Transparent"
-@@ -1017,2 +1793,15 @@
+@@ -1030,2 +1806,15 @@
 -      "PropertyNames": [],
 -      "Name": "UI-Lit-Bumped"
 +      "PropertyNames": [
@@ -1755,7 +1755,7 @@
 +        "_UseUIAlphaClip"
 +      ],
 +      "Name": "UI/Lit/Bumped"
-@@ -1022,2 +1811,18 @@
+@@ -1035,2 +1824,18 @@
 -      "PropertyNames": [],
 -      "Name": "UI-Lit-Detail"
 +      "PropertyNames": [
@@ -1776,7 +1776,7 @@
 +        "_UseUIAlphaClip"
 +      ],
 +      "Name": "UI/Lit/Detail"
-@@ -1027,2 +1832,17 @@
+@@ -1040,2 +1845,17 @@
 -      "PropertyNames": [],
 -      "Name": "UI-Lit-Refraction"
 +      "PropertyNames": [
@@ -1796,7 +1796,7 @@
 +        "_UseUIAlphaClip"
 +      ],
 +      "Name": "UI/Lit/Refraction"
-@@ -1032,2 +1852,20 @@
+@@ -1045,2 +1865,20 @@
 -      "PropertyNames": [],
 -      "Name": "UI-Lit-RefractionDetail"
 +      "PropertyNames": [
@@ -1819,7 +1819,7 @@
 +        "_UseUIAlphaClip"
 +      ],
 +      "Name": "UI/Lit/Refraction Detail"
-@@ -1037,2 +1875,12 @@
+@@ -1050,2 +1888,12 @@
 -      "PropertyNames": [],
 -      "Name": "UI-Default"
 +      "PropertyNames": [
@@ -1834,7 +1834,7 @@
 +        "_UseUIAlphaClip"
 +      ],
 +      "Name": "UI/Default"
-@@ -1042,2 +1890,12 @@
+@@ -1055,2 +1903,12 @@
 -      "PropertyNames": [],
 -      "Name": "UI-DefaultFont"
 +      "PropertyNames": [
@@ -1849,7 +1849,7 @@
 +        "_UseUIAlphaClip"
 +      ],
 +      "Name": "UI/Default Font"
-@@ -1047,2 +1905,13 @@
+@@ -1060,2 +1918,13 @@
 -      "PropertyNames": [],
 -      "Name": "UI-DefaultETC1"
 +      "PropertyNames": [
@@ -1865,7 +1865,7 @@
 +        "_UseUIAlphaClip"
 +      ],
 +      "Name": "UI/DefaultETC1"
-@@ -1052,2 +1921,6 @@
+@@ -1065,2 +1934,6 @@
 -      "PropertyNames": [],
 -      "Name": "Sprites-Diffuse"
 +      "PropertyNames": [
@@ -1874,7 +1874,7 @@
 +        "PixelSnap"
 +      ],
 +      "Name": "Sprites/Diffuse"
-@@ -1134,2 +2007,11 @@
+@@ -1147,2 +2020,11 @@
 -      "PropertyNames": [],
 -      "Name": "SpeedTree"
 +      "PropertyNames": [
@@ -1888,7 +1888,7 @@
 +        "_WindQuality"
 +      ],
 +      "Name": "Nature/SpeedTree"
-@@ -1139,2 +2021,9 @@
+@@ -1152,2 +2034,9 @@
 -      "PropertyNames": [],
 -      "Name": "SpeedTreeBillboard"
 +      "PropertyNames": [
@@ -1900,28 +1900,28 @@
 +        "_WindQuality"
 +      ],
 +      "Name": "Nature/SpeedTree Billboard"
-@@ -1144,2 +2033,4 @@
+@@ -1157,2 +2046,4 @@
 -      "PropertyNames": [],
 -      "Name": "TextureUV"
 +      "PropertyNames": [
 +        "_MainTex"
 +      ],
 +      "Name": "Hidden/GIDebug/TextureUV"
-@@ -1149,2 +2040,4 @@
+@@ -1162,2 +2053,4 @@
 -      "PropertyNames": [],
 -      "Name": "UV1sAsPositions"
 +      "PropertyNames": [
 +        "_Color"
 +      ],
 +      "Name": "Hidden/GIDebug/UV1sAsPositions"
-@@ -1154,2 +2047,4 @@
+@@ -1167,2 +2060,4 @@
 -      "PropertyNames": [],
 -      "Name": "VertexColors"
 +      "PropertyNames": [
 +        "_MainTex"
 +      ],
 +      "Name": "Hidden/GIDebug/VertexColors"
-@@ -1159,2 +2054,7 @@
+@@ -1172,2 +2067,7 @@
 -      "PropertyNames": [],
 -      "Name": "CubeBlur"
 +      "PropertyNames": [
@@ -1931,7 +1931,7 @@
 +        "_Scale"
 +      ],
 +      "Name": "Hidden/CubeBlur"
-@@ -1164,2 +2064,5 @@
+@@ -1177,2 +2077,5 @@
 -      "PropertyNames": [],
 -      "Name": "CubeCopy"
 +      "PropertyNames": [
@@ -1939,7 +1939,7 @@
 +        "_Level"
 +      ],
 +      "Name": "Hidden/CubeCopy"
-@@ -1169,2 +2072,6 @@
+@@ -1182,2 +2085,6 @@
 -      "PropertyNames": [],
 -      "Name": "CubeBlend"
 +      "PropertyNames": [
@@ -1948,7 +1948,7 @@
 +        "_value"
 +      ],
 +      "Name": "Hidden/CubeBlend"
-@@ -1185,0 +2093,5 @@
+@@ -1198,0 +2106,5 @@
 +    },
 +    "15204": {
 +      "$type": "NamedObject",
@@ -1956,7 +1956,7 @@
 +      "Name": "Default-Medium"
 --- 5.5.0b1
 +++ 5.5.0b2
-@@ -2097,0 +2098,22 @@
+@@ -2110,0 +2111,22 @@
 +    },
 +    "15300": {
 +      "$type": "Shader",
@@ -2010,7 +2010,7 @@
 -      ],
 -      "Name": "Hidden/Internal-GUITextureBlit"
 -    },
-@@ -173,11 +145,4 @@
+@@ -186,11 +158,4 @@
 -    "10405": {
 -      "$type": "Texture2D",
 -      "Width": 1024,
@@ -2028,7 +2028,7 @@
 +      "Name": "UnitySplash-cube"
 --- 5.5.0b10
 +++ 5.5.0b11
-@@ -960,0 +961,7 @@
+@@ -973,0 +974,7 @@
 +    "67": {
 +      "$type": "Shader",
 +      "PropertyNames": [
@@ -2038,38 +2038,38 @@
 +    },
 --- 5.5.6f1
 +++ 5.6.0b1
-@@ -375,6 +374,0 @@
+@@ -388,6 +387,0 @@
 -    "11999": {
 -      "$type": "MonoScript",
 -      "AssemblyName": "UnityEngine.dll",
 -      "Namespace": "UnityEngine",
 -      "ClassName": "UserAuthorizationDialog"
 -    },
-@@ -957 +951,2 @@
+@@ -970 +964,2 @@
 -        "_MainTex"
 +        "_MainTex",
 +        "_Color"
-@@ -967,0 +963,5 @@
+@@ -980,0 +976,5 @@
 +    "68": {
 +      "$type": "Shader",
 +      "PropertyNames": [],
 +      "Name": "Hidden/ConvertTexture"
 +    },
-@@ -1667 +1667,5 @@
+@@ -1680 +1680,5 @@
 -        "PixelSnap"
 +        "PixelSnap",
 +        "_RendererColor",
 +        "_Flip",
 +        "_AlphaTex",
 +        "_EnableExternalAlpha"
-@@ -1896 +1900,5 @@
+@@ -1909 +1913,5 @@
 -        "PixelSnap"
 +        "PixelSnap",
 +        "_RendererColor",
 +        "_Flip",
 +        "_AlphaTex",
 +        "_EnableExternalAlpha"
-@@ -1899,0 +1908,13 @@
+@@ -1912,0 +1921,13 @@
 +    "10801": {
 +      "$type": "Shader",
 +      "PropertyNames": [
@@ -2083,7 +2083,7 @@
 +      ],
 +      "Name": "Sprites/Instanced"
 +    },
-@@ -2091,0 +2113,16 @@
+@@ -2104,0 +2126,16 @@
 +    },
 +    "15304": {
 +      "$type": "Shader",
@@ -2102,7 +2102,7 @@
 +      "Name": "Hidden/VideoDecode"
 --- 5.6.0b1
 +++ 5.6.0b2
-@@ -2030,0 +2031,10 @@
+@@ -2043,0 +2044,10 @@
 +    "15101": {
 +      "$type": "Shader",
 +      "PropertyNames": [
@@ -2115,7 +2115,7 @@
 +    },
 --- 5.6.0b3
 +++ 5.6.0b4
-@@ -1908,13 +1907,0 @@
+@@ -1921,13 +1920,0 @@
 -    "10801": {
 -      "$type": "Shader",
 -      "PropertyNames": [
@@ -2131,7 +2131,7 @@
 -    },
 --- 5.6.0b4
 +++ 5.6.0b5
-@@ -2125,0 +2126,5 @@
+@@ -2138,0 +2139,5 @@
 +    },
 +    "16001": {
 +      "$type": "Shader",
@@ -2139,7 +2139,7 @@
 +      "Name": "Hidden/VideoDecodeGLSL"
 --- 5.6.0b5
 +++ 5.6.0b6
-@@ -379,0 +380,6 @@
+@@ -392,0 +393,6 @@
 +    },
 +    "15000": {
 +      "$type": "Texture2D",
@@ -2148,7 +2148,7 @@
 +      "Name": "UnitySplash-HolographicTrackingLoss"
 --- 5.6.0b7
 +++ 5.6.0b8
-@@ -2123,0 +2124,7 @@
+@@ -2136,0 +2137,7 @@
 +    "15305": {
 +      "$type": "Shader",
 +      "PropertyNames": [
@@ -2156,12 +2156,12 @@
 +      ],
 +      "Name": "Hidden/VR/Internal-VRDistortion"
 +    },
-@@ -2136 +2143 @@
+@@ -2149 +2156 @@
 -      "Name": "Hidden/VideoDecodeGLSL"
 +      "Name": "Hidden/VideoDecodeOSX"
 --- 5.6.0b9
 +++ 5.6.0b10
-@@ -2143,0 +2144,5 @@
+@@ -2156,0 +2157,5 @@
 +    },
 +    "16002": {
 +      "$type": "Shader",
@@ -2169,14 +2169,14 @@
 +      "Name": "Hidden/VideoDecodeAndroid"
 --- 5.6.7f1
 +++ 2017.1.0b1
-@@ -368,0 +369,6 @@
+@@ -381,0 +382,6 @@
 +    "11997": {
 +      "$type": "MonoScript",
 +      "AssemblyName": "UnityEngine.dll",
 +      "Namespace": "UnityEngine.StyleSheets",
 +      "ClassName": "StyleSheet"
 +    },
-@@ -1164,0 +1171,9 @@
+@@ -1177,0 +1184,9 @@
 +    "9004": {
 +      "$type": "Shader",
 +      "PropertyNames": [
@@ -2186,13 +2186,13 @@
 +      ],
 +      "Name": "Hidden/Internal-GUIRoundedRect"
 +    },
-@@ -1196,0 +1212,5 @@
+@@ -1209,0 +1225,5 @@
 +    "10306": {
 +      "$type": "Material",
 +      "Shader": "Particles/Alpha Blended Premultiply",
 +      "Name": "Default-Line"
 +    },
-@@ -1692,0 +1713,17 @@
+@@ -1705,0 +1726,17 @@
 +    "10757": {
 +      "$type": "Shader",
 +      "PropertyNames": [
@@ -2210,7 +2210,7 @@
 +      "Shader": "Sprites/Mask",
 +      "Name": "Sprites-Mask"
 +    },
-@@ -1899,0 +1937,22 @@
+@@ -1912,0 +1950,22 @@
 +    },
 +    "10784": {
 +      "$type": "Shader",
@@ -2235,24 +2235,24 @@
 +      "Name": "Hidden/UI/Overdraw"
 --- 2017.1.0b7
 +++ 2017.1.0b8
-@@ -1718 +1718 @@
+@@ -1731 +1731 @@
 -        "_MaskingAlphaCutoff",
 +        "_Cutoff",
 --- 2017.1.0b10
 +++ 2017.1.0f2
-@@ -141,2 +141,2 @@
+@@ -154,2 +154,2 @@
 -      "Width": 1024,
 -      "Height": 256,
 +      "Width": 2048,
 +      "Height": 1024,
 --- 2017.1.5f1
 +++ 2017.2.0b2
-@@ -141,2 +141,2 @@
+@@ -154,2 +154,2 @@
 -      "Width": 2048,
 -      "Height": 1024,
 +      "Width": 1024,
 +      "Height": 256,
-@@ -368,0 +369,84 @@
+@@ -381,0 +382,84 @@
 +    "11981": {
 +      "$type": "MonoScript",
 +      "AssemblyName": "UnityEngine.dll",
@@ -2337,7 +2337,7 @@
 +      "Namespace": "UnityEngine.Experimental.UIElements",
 +      "ClassName": "VisualTreeAsset"
 +    },
-@@ -386,0 +471,12 @@
+@@ -399,0 +484,12 @@
 +    "13312": {
 +      "$type": "MonoScript",
 +      "AssemblyName": "UnityEngine.dll",
@@ -2350,13 +2350,13 @@
 +      "Namespace": "UnityEngine.Tilemaps",
 +      "ClassName": "TileBase"
 +    },
-@@ -391,0 +488,5 @@
+@@ -404,0 +501,5 @@
 +    },
 +    "17000": {
 +      "$type": "NamedObject",
 +      "TypeID": 72,
 +      "Name": "internalskinning"
-@@ -875,0 +977,32 @@
+@@ -888,0 +990,32 @@
 +    "47": {
 +      "$type": "Shader",
 +      "PropertyNames": [
@@ -2389,9 +2389,9 @@
 +      ],
 +      "Name": "Standard (Roughness setup)"
 +    },
-@@ -1059,0 +1193 @@
+@@ -1072,0 +1206 @@
 +        "_SunSizeConvergence",
-@@ -1066,0 +1201,8 @@
+@@ -1079,0 +1214,8 @@
 +    "107": {
 +      "$type": "Shader",
 +      "PropertyNames": [
@@ -2400,15 +2400,15 @@
 +      ],
 +      "Name": "Hidden/BlitCopyWithDepth"
 +    },
-@@ -1174,3 +1316 @@
+@@ -1187,3 +1329 @@
 -        "_MainTex",
 -        "_CornerRadius",
 -        "_BorderWidth"
 +        "_MainTex"
-@@ -2181 +2321 @@
+@@ -2194 +2334 @@
 -      "Name": "Hidden/VR/BlitCopyFromTexArray"
 +      "Name": "Hidden/VR/BlitTexArraySlice"
-@@ -2188,0 +2329,24 @@
+@@ -2201,0 +2342,24 @@
 +    },
 +    "15310": {
 +      "$type": "Shader",
@@ -2435,33 +2435,33 @@
 +      "Name": "AR/TangoARRender"
 --- 2017.2.0b6
 +++ 2017.2.0b7
-@@ -141,2 +141,2 @@
+@@ -154,2 +154,2 @@
 -      "Width": 1024,
 -      "Height": 256,
 +      "Width": 2048,
 +      "Height": 1024,
 --- 2017.2.0f3
 +++ 2017.2.1f1
-@@ -2342,5 +2341,0 @@
+@@ -2355,5 +2354,0 @@
 -    "15400": {
 -      "$type": "Material",
 -      "Shader": "AR/TangoARRender",
 -      "Name": "TangoARRender"
 -    },
-@@ -2350 +2345,2 @@
+@@ -2363 +2358,2 @@
 -        "_ScreenOrientation"
 +        "_ScreenOrientation",
 +        "_HeightScale"
 --- 2017.2.5f1
 +++ 2017.3.0b1
-@@ -446,0 +447,6 @@
+@@ -459,0 +460,6 @@
 +    "11994": {
 +      "$type": "MonoScript",
 +      "AssemblyName": "UnityEngine.dll",
 +      "Namespace": "UnityEngine.Experimental.UIElements",
 +      "ClassName": "TemplateAsset"
 +    },
-@@ -1208,0 +1215,14 @@
+@@ -1221,0 +1228,14 @@
 +    "108": {
 +      "$type": "Shader",
 +      "PropertyNames": [
@@ -2476,7 +2476,7 @@
 +      ],
 +      "Name": "Skybox/Panoramic"
 +    },
-@@ -1284,0 +1305,71 @@
+@@ -1297,0 +1318,71 @@
 +    "210": {
 +      "$type": "Shader",
 +      "PropertyNames": [
@@ -2548,7 +2548,7 @@
 +      ],
 +      "Name": "Particles/Standard Unlit"
 +    },
-@@ -1488,0 +1580,7 @@
+@@ -1501,0 +1593,7 @@
 +    "10513": {
 +      "$type": "Shader",
 +      "PropertyNames": [
@@ -2556,19 +2556,19 @@
 +      ],
 +      "Name": "Hidden/TerrainEngine/CameraFacingBillboardTree"
 +    },
-@@ -1550,0 +1649 @@
+@@ -1563,0 +1662 @@
 +        "_Cutoff",
-@@ -2341,0 +2441,5 @@
+@@ -2354,0 +2454,5 @@
 +    "15400": {
 +      "$type": "Material",
 +      "Shader": "AR/TangoARRender",
 +      "Name": "TangoARRender"
 +    },
-@@ -2345,2 +2449 @@
+@@ -2358,2 +2462 @@
 -        "_ScreenOrientation",
 -        "_HeightScale"
 +        "_ScreenOrientation"
-@@ -2367,0 +2471,8 @@
+@@ -2380,0 +2484,8 @@
 +    },
 +    "17000": {
 +      "$type": "Shader",
@@ -2579,23 +2579,23 @@
 +      "Name": "Hidden/Compositing"
 --- 2017.3.0b2
 +++ 2017.3.0b3
-@@ -1337 +1337,2 @@
+@@ -1350 +1350,2 @@
 -        "_CameraFadeParams"
 +        "_CameraFadeParams",
 +        "_DistortionStrengthScaled"
-@@ -1372 +1373,2 @@
+@@ -1385 +1386,2 @@
 -        "_ColorAddSubDiff"
 +        "_ColorAddSubDiff",
 +        "_DistortionStrengthScaled"
 --- 2017.3.0b4
 +++ 2017.3.0b5
-@@ -2443,5 +2442,0 @@
+@@ -2456,5 +2455,0 @@
 -    "15400": {
 -      "$type": "Material",
 -      "Shader": "AR/TangoARRender",
 -      "Name": "TangoARRender"
 -    },
-@@ -2451 +2446,5 @@
+@@ -2464 +2459,5 @@
 -        "_ScreenOrientation"
 +        "_ScreenOrientation",
 +        "_ScreenWidth",
@@ -2604,7 +2604,7 @@
 +        "_ImageHeight"
 --- 2017.3.0b9
 +++ 2017.3.0b10
-@@ -1228,0 +1229,15 @@
+@@ -1241,0 +1242,15 @@
 +    "109": {
 +      "$type": "Shader",
 +      "PropertyNames": [
@@ -2620,7 +2620,7 @@
 +      ],
 +      "Name": "Hidden/BlitToDepth_MSAA"
 +    },
-@@ -2430,0 +2446,14 @@
+@@ -2443,0 +2459,14 @@
 +    "15306": {
 +      "$type": "Shader",
 +      "PropertyNames": [
@@ -2635,7 +2635,7 @@
 +      ],
 +      "Name": "Hidden/VR/BlitTexArraySliceToDepth_MSAA"
 +    },
-@@ -2447,4 +2476 @@
+@@ -2460,4 +2489 @@
 -        "_ScreenWidth",
 -        "_ScreenHeight",
 -        "_ImageWidth",
@@ -2643,20 +2643,20 @@
 +        "_HeightScale"
 --- 2017.4.40f1
 +++ 2018.1.0b2
-@@ -1090 +1090,2 @@
+@@ -1103 +1103,2 @@
 -        "_ShadowMapTexture"
 +        "_ShadowMapTexture",
 +        "_ODSWorldTexture"
-@@ -1424 +1425,3 @@
+@@ -1437 +1438,3 @@
 -        "_MainTex"
 +        "_MainTex",
 +        "_SrcBlend",
 +        "_DstBlend"
-@@ -1600 +1603,2 @@
+@@ -1613 +1616,2 @@
 -        "_MainTex"
 +        "_MainTex",
 +        "_NormalTex"
-@@ -1723,0 +1728,26 @@
+@@ -1736,0 +1741,26 @@
 +    "10608": {
 +      "$type": "Shader",
 +      "PropertyNames": [
@@ -2683,7 +2683,7 @@
 +      ],
 +      "Name": "Hidden/Nature/Tree Creator Normal Rendertex"
 +    },
-@@ -2458,0 +2489,16 @@
+@@ -2471,0 +2502,16 @@
 +    },
 +    "15308": {
 +      "$type": "Shader",
@@ -2702,10 +2702,10 @@
 +      "Name": "Hidden/Internal-CubemapToEquirect"
 --- 2018.1.9f2
 +++ 2018.2.0b1
-@@ -207 +207 @@
+@@ -220 +220 @@
 -      "AssemblyName": "UnityEngine.dll",
 +      "AssemblyName": "",
-@@ -369,78 +368,0 @@
+@@ -382,78 +381,0 @@
 -    "11981": {
 -      "$type": "MonoScript",
 -      "AssemblyName": "UnityEngine.dll",
@@ -2784,32 +2784,32 @@
 -      "Namespace": "UnityEngine.Experimental.UIElements",
 -      "ClassName": "ToggleAsset"
 -    },
-@@ -449 +371 @@
+@@ -462 +384 @@
 -      "AssemblyName": "UnityEngine.dll",
 +      "AssemblyName": "",
-@@ -455 +377 @@
+@@ -468 +390 @@
 -      "AssemblyName": "UnityEngine.dll",
 +      "AssemblyName": "",
-@@ -461 +383 @@
+@@ -474 +396 @@
 -      "AssemblyName": "UnityEngine.dll",
 +      "AssemblyName": "",
-@@ -465,6 +386,0 @@
+@@ -478,6 +399,0 @@
 -    "11998": {
 -      "$type": "MonoScript",
 -      "AssemblyName": "UnityEngine.dll",
 -      "Namespace": "UnityEngine",
 -      "ClassName": "DeveloperConsole"
 -    },
-@@ -473 +389 @@
+@@ -486 +402 @@
 -      "AssemblyName": "UnityEngine.dll",
 +      "AssemblyName": "",
-@@ -479 +395 @@
+@@ -492 +408 @@
 -      "AssemblyName": "UnityEngine.dll",
 +      "AssemblyName": "",
-@@ -485 +401 @@
+@@ -498 +414 @@
 -      "AssemblyName": "UnityEngine.dll",
 +      "AssemblyName": "",
-@@ -1604 +1520,3 @@
+@@ -1617 +1533,3 @@
 -        "_NormalTex"
 +        "_NormalTex",
 +        "_TranslucencyViewDependency",
@@ -2827,56 +2827,56 @@
 +      "TypeID": 72,
 +      "Name": "Internal-BlendShape"
 +    },
-@@ -149,0 +160,6 @@
+@@ -162,0 +173,6 @@
 +    "10406": {
 +      "$type": "Texture2D",
 +      "Width": 512,
 +      "Height": 94,
 +      "Name": "UnityWatermark-trial-big"
 +    },
-@@ -410,5 +425,0 @@
+@@ -423,5 +438,0 @@
 -    },
 -    "17000": {
 -      "$type": "NamedObject",
 -      "TypeID": 72,
 -      "Name": "internalskinning"
-@@ -929 +940 @@
+@@ -942 +953 @@
 -      "Name": "Standard (Roughness setup)"
 +      "Name": "Autodesk Interactive"
-@@ -1168 +1179 @@
+@@ -1181 +1192 @@
 -      "Name": "Particles/Additive"
 +      "Name": "Legacy Shaders/Particles/Additive"
-@@ -1177 +1188 @@
+@@ -1190 +1201 @@
 -      "Name": "Particles/~Additive-Multiply"
 +      "Name": "Legacy Shaders/Particles/~Additive-Multiply"
-@@ -1185 +1196 @@
+@@ -1198 +1209 @@
 -      "Name": "Particles/Additive (Soft)"
 +      "Name": "Legacy Shaders/Particles/Additive (Soft)"
-@@ -1194 +1205 @@
+@@ -1207 +1218 @@
 -      "Name": "Particles/Alpha Blended"
 +      "Name": "Legacy Shaders/Particles/Alpha Blended"
-@@ -1202 +1213 @@
+@@ -1215 +1226 @@
 -      "Name": "Particles/Multiply"
 +      "Name": "Legacy Shaders/Particles/Multiply"
-@@ -1210 +1221 @@
+@@ -1223 +1234 @@
 -      "Name": "Particles/Multiply (Double)"
 +      "Name": "Legacy Shaders/Particles/Multiply (Double)"
-@@ -1218 +1229 @@
+@@ -1231 +1242 @@
 -      "Name": "Particles/Alpha Blended Premultiply"
 +      "Name": "Legacy Shaders/Particles/Alpha Blended Premultiply"
-@@ -1226 +1237 @@
+@@ -1239 +1250 @@
 -      "Name": "Particles/VertexLit Blended"
 +      "Name": "Legacy Shaders/Particles/VertexLit Blended"
-@@ -1235 +1246 @@
+@@ -1248 +1259 @@
 -      "Name": "Particles/Anim Alpha Blended"
 +      "Name": "Legacy Shaders/Particles/Anim Alpha Blended"
-@@ -1355 +1366 @@
+@@ -1368 +1379 @@
 -      "Shader": "Particles/Alpha Blended Premultiply",
 +      "Shader": "Legacy Shaders/Particles/Alpha Blended Premultiply",
-@@ -1381 +1392 @@
+@@ -1394 +1405 @@
 -      "Shader": "Particles/Alpha Blended Premultiply",
 +      "Shader": "Legacy Shaders/Particles/Alpha Blended Premultiply",
-@@ -1383,0 +1395,16 @@
+@@ -1396,0 +1408,16 @@
 +    "10307": {
 +      "$type": "Texture2D",
 +      "Width": 64,
@@ -2893,13 +2893,13 @@
 +      "PropertyNames": [],
 +      "Name": "Hidden/Nature/Terrain/Utilities"
 +    },
-@@ -1412,0 +1440,5 @@
+@@ -1425,0 +1453,5 @@
 +      "PropertyNames": [],
 +      "Name": "Hidden/TerrainEngine/Splatmap/Diffuse-AddPass"
 +    },
 +    "10504": {
 +      "$type": "Shader",
-@@ -1414,9 +1446,2 @@
+@@ -1427,9 +1459,2 @@
 -        "_Control",
 -        "_Splat3",
 -        "_Splat2",
@@ -2911,10 +2911,10 @@
 -        "_Normal0"
 +        "_Color",
 +        "_MainTex"
-@@ -1424 +1449 @@
+@@ -1437 +1462 @@
 -      "Name": "Hidden/TerrainEngine/Splatmap/Diffuse-AddPass"
 +      "Name": "Hidden/TerrainEngine/Splatmap/Diffuse-Base"
-@@ -1429,9 +1453,0 @@
+@@ -1442,9 +1466,0 @@
 -        "_Control",
 -        "_Splat3",
 -        "_Splat2",
@@ -2924,7 +2924,7 @@
 -        "_Normal2",
 -        "_Normal1",
 -        "_Normal0",
-@@ -1442,0 +1459,12 @@
+@@ -1455,0 +1472,12 @@
 +    "10506": {
 +      "$type": "Shader",
 +      "PropertyNames": [
@@ -2937,7 +2937,7 @@
 +      ],
 +      "Name": "Hidden/TerrainEngine/Splatmap/Diffuse-BaseGen"
 +    },
-@@ -1677,9 +1704,0 @@
+@@ -1690,9 +1717,0 @@
 -        "_Control",
 -        "_Splat3",
 -        "_Splat2",
@@ -2947,7 +2947,7 @@
 -        "_Normal2",
 -        "_Normal1",
 -        "_Normal0",
-@@ -1695,10 +1714 @@
+@@ -1708,10 +1727 @@
 -        "_Shininess",
 -        "_Control",
 -        "_Splat3",
@@ -2959,7 +2959,7 @@
 -        "_Normal1",
 -        "_Normal0"
 +        "_Shininess"
-@@ -1721,17 +1730,0 @@
+@@ -1734,17 +1743,0 @@
 -        "_Control",
 -        "_Splat3",
 -        "_Splat2",
@@ -2977,7 +2977,7 @@
 -        "_Smoothness1",
 -        "_Smoothness2",
 -        "_Smoothness3",
-@@ -1744,0 +1738,14 @@
+@@ -1757,0 +1751,14 @@
 +      "PropertyNames": [],
 +      "Name": "Hidden/TerrainEngine/Splatmap/Standard-AddPass"
 +    },
@@ -2992,11 +2992,11 @@
 +    },
 +    "10626": {
 +      "$type": "Shader",
-@@ -1747,3 +1753,0 @@
+@@ -1760,3 +1766,0 @@
 -        "_Splat3",
 -        "_Splat2",
 -        "_Splat1",
-@@ -1751,4 +1755,3 @@
+@@ -1764,4 +1768,3 @@
 -        "_Normal3",
 -        "_Normal2",
 -        "_Normal1",
@@ -3004,7 +3004,7 @@
 +        "_Splat1",
 +        "_Splat2",
 +        "_Splat3",
-@@ -1762,10 +1765,2 @@
+@@ -1775,10 +1778,2 @@
 -        "_Smoothness3"
 -      ],
 -      "Name": "Hidden/TerrainEngine/Splatmap/Standard-AddPass"
@@ -3017,13 +3017,13 @@
 -        "_Color"
 +        "_Smoothness3",
 +        "_DstBlend"
-@@ -1773 +1768 @@
+@@ -1786 +1781 @@
 -      "Name": "Hidden/TerrainEngine/Splatmap/Standard-Base"
 +      "Name": "Hidden/TerrainEngine/Splatmap/Standard-BaseGen"
-@@ -1825 +1820 @@
+@@ -1838 +1833 @@
 -      "Name": "Mobile/Bumped Specular (1 Directional Light)"
 +      "Name": "Mobile/Bumped Specular (1 Directional Realtime Light)"
-@@ -2279,0 +2275,23 @@
+@@ -2292,0 +2288,23 @@
 +    "14002": {
 +      "$type": "Shader",
 +      "PropertyNames": [
@@ -3047,7 +3047,7 @@
 +      ],
 +      "Name": "Nature/SpeedTree8"
 +    },
-@@ -2469,0 +2488,26 @@
+@@ -2482,0 +2501,26 @@
 +    },
 +    "18000": {
 +      "$type": "Shader",
@@ -3076,17 +3076,17 @@
 +      "Name": "Hidden/TerrainEngine/BrushPreview"
 --- 2018.4.36f1
 +++ 2019.1.0a7
-@@ -1550 +1550,2 @@
+@@ -1563 +1563,2 @@
 -        "_TranslucencyColor"
 +        "_TranslucencyColor",
 +        "_AlphaToMask"
-@@ -2480,0 +2482,5 @@
+@@ -2493,0 +2495,5 @@
 +    "16003": {
 +      "$type": "Shader",
 +      "PropertyNames": [],
 +      "Name": "Hidden/VideoDecodeML"
 +    },
-@@ -2513,0 +2520,10 @@
+@@ -2526,0 +2533,10 @@
 +    },
 +    "18005": {
 +      "$type": "Shader",
@@ -3099,15 +3099,15 @@
 +      "Name": "Hidden/TerrainEngine/CrossBlendNeighbors"
 --- 2019.1.0a7
 +++ 2019.1.0a8
-@@ -397 +397 @@
+@@ -410 +410 @@
 -    "11997": {
 +    "11998": {
-@@ -400 +400 @@
+@@ -413 +413 @@
 -      "Namespace": "UnityEngine.StyleSheets",
 +      "Namespace": "UnityEngine.UIElements",
 --- 2019.1.0a8
 +++ 2019.1.0a9
-@@ -2454,0 +2455,7 @@
+@@ -2467,0 +2468,7 @@
 +    "15312": {
 +      "$type": "Shader",
 +      "PropertyNames": [
@@ -3117,7 +3117,7 @@
 +    },
 --- 2019.1.0a9
 +++ 2019.1.0a10
-@@ -2472,0 +2473,7 @@
+@@ -2485,0 +2486,7 @@
 +        "_MainTex"
 +      ],
 +      "Name": "Hidden/VideoComposite"
@@ -3125,18 +3125,18 @@
 +    "16001": {
 +      "$type": "Shader",
 +      "PropertyNames": [
-@@ -2479 +2486 @@
+@@ -2492 +2499 @@
 -    "16001": {
 +    "16002": {
-@@ -2484 +2491 @@
+@@ -2497 +2504 @@
 -    "16002": {
 +    "16003": {
-@@ -2489 +2496 @@
+@@ -2502 +2509 @@
 -    "16003": {
 +    "16004": {
 --- 2019.1.0a10
 +++ 2019.1.0a11
-@@ -1357,0 +1358,32 @@
+@@ -1370,0 +1371,32 @@
 +    "9005": {
 +      "$type": "Shader",
 +      "PropertyNames": [
@@ -3171,7 +3171,7 @@
 +    },
 --- 2019.1.0a12
 +++ 2019.1.0a13
-@@ -1437,0 +1438,6 @@
+@@ -1450,0 +1451,6 @@
 +    "10309": {
 +      "$type": "Texture2D",
 +      "Width": 64,
@@ -3180,27 +3180,27 @@
 +    },
 --- 2019.1.0b2
 +++ 2019.1.0b3
-@@ -385 +385 @@
+@@ -398 +398 @@
 -    "11994": {
 +    "11993": {
-@@ -388 +388 @@
+@@ -401 +401 @@
 -      "Namespace": "UnityEngine.Experimental.UIElements",
 +      "Namespace": "UnityEngine.UIElements",
-@@ -391 +391 @@
+@@ -404 +404 @@
 -    "11996": {
 +    "11995": {
-@@ -394 +394 @@
+@@ -407 +407 @@
 -      "Namespace": "UnityEngine.Experimental.UIElements",
 +      "Namespace": "UnityEngine.UIElements",
 --- 2019.1.0b7
 +++ 2019.1.0b8
-@@ -1500,5 +1499,0 @@
+@@ -1513,5 +1512,0 @@
 -        "_Control",
 -        "_Splat0",
 -        "_Splat1",
 -        "_Splat2",
 -        "_Splat3",
-@@ -1792,13 +1786,0 @@
+@@ -1805,13 +1799,0 @@
 -        "_Control",
 -        "_Splat0",
 -        "_Splat1",
@@ -3216,7 +3216,7 @@
 -        "_Smoothness3",
 --- 2019.1.14f1
 +++ 2019.2.0a6
-@@ -425,0 +426,30 @@
+@@ -438,0 +439,30 @@
 +    },
 +    "19000": {
 +      "$type": "MonoScript",
@@ -3247,13 +3247,13 @@
 +      "AssemblyName": "",
 +      "Namespace": "UnityEngine.TextCore",
 +      "ClassName": "TextStyleSheet"
-@@ -1499,0 +1530,5 @@
+@@ -1512,0 +1543,5 @@
 +        "_Control",
 +        "_Splat0",
 +        "_Splat1",
 +        "_Splat2",
 +        "_Splat3",
-@@ -1786,0 +1822,13 @@
+@@ -1799,0 +1835,13 @@
 +        "_Control",
 +        "_Splat0",
 +        "_Splat1",
@@ -3267,7 +3267,7 @@
 +        "_Smoothness1",
 +        "_Smoothness2",
 +        "_Smoothness3",
-@@ -2563,0 +2612,54 @@
+@@ -2576,0 +2625,54 @@
 +    },
 +    "19010": {
 +      "$type": "Shader",
@@ -3324,13 +3324,13 @@
 +      "Name": "Hidden/TextCore/Distance Field SSD"
 --- 2019.2.0a6
 +++ 2019.2.0a7
-@@ -1530,5 +1529,0 @@
+@@ -1543,5 +1542,0 @@
 -        "_Control",
 -        "_Splat0",
 -        "_Splat1",
 -        "_Splat2",
 -        "_Splat3",
-@@ -1822,13 +1816,0 @@
+@@ -1835,13 +1829,0 @@
 -        "_Control",
 -        "_Splat0",
 -        "_Splat1",
@@ -3346,7 +3346,7 @@
 -        "_Smoothness3",
 --- 2019.2.0a7
 +++ 2019.2.0a8
-@@ -1820,0 +1821,15 @@
+@@ -1833,0 +1834,15 @@
 +    "10650": {
 +      "$type": "Material",
 +      "Shader": "Nature/Terrain/Diffuse",
@@ -3364,7 +3364,7 @@
 +    },
 --- 2019.2.21f1
 +++ 2019.3.0a2
-@@ -1419,0 +1420,9 @@
+@@ -1432,0 +1433,9 @@
 +    "9007": {
 +      "$type": "Shader",
 +      "PropertyNames": [
@@ -3376,83 +3376,83 @@
 +    },
 --- 2019.3.0a4
 +++ 2019.3.0a5
-@@ -1517 +1517,3 @@
+@@ -1530 +1530,3 @@
 -      "PropertyNames": [],
 +      "PropertyNames": [
 +        "_TerrainSurfaceMaskTexture"
 +      ],
-@@ -1524 +1526,2 @@
+@@ -1537 +1539,2 @@
 -        "_MainTex"
 +        "_MainTex",
 +        "_TerrainSurfaceMaskTexture"
-@@ -1532 +1535,2 @@
+@@ -1545 +1548,2 @@
 -        "_Color"
 +        "_Color",
 +        "_TerrainSurfaceMaskTexture"
-@@ -1779 +1783,2 @@
+@@ -1792 +1796,2 @@
 -        "_Color"
 +        "_Color",
 +        "_TerrainSurfaceMaskTexture"
-@@ -1787 +1792,2 @@
+@@ -1800 +1805,2 @@
 -        "_Shininess"
 +        "_Shininess",
 +        "_TerrainSurfaceMaskTexture"
-@@ -1797 +1803,2 @@
+@@ -1810 +1816,2 @@
 -        "_Color"
 +        "_Color",
 +        "_TerrainSurfaceMaskTexture"
-@@ -1805 +1812,2 @@
+@@ -1818 +1825,2 @@
 -        "_Color"
 +        "_Color",
 +        "_TerrainSurfaceMaskTexture"
-@@ -1811 +1819,3 @@
+@@ -1824 +1832,3 @@
 -      "PropertyNames": [],
 +      "PropertyNames": [
 +        "_TerrainSurfaceMaskTexture"
 +      ],
-@@ -1819 +1829,2 @@
+@@ -1832 +1842,2 @@
 -        "_Color"
 +        "_Color",
 +        "_TerrainSurfaceMaskTexture"
 --- 2019.3.0a7
 +++ 2019.3.0a8
-@@ -455,0 +456,6 @@
+@@ -468,0 +469,6 @@
 +    },
 +    "19100": {
 +      "$type": "MonoScript",
 +      "AssemblyName": "",
 +      "Namespace": "UnityEngine.UIElements",
 +      "ClassName": "VectorImage"
-@@ -1518 +1524 @@
+@@ -1531 +1537 @@
 -        "_TerrainSurfaceMaskTexture"
 +        "_TerrainHolesTexture"
-@@ -1527 +1533 @@
+@@ -1540 +1546 @@
 -        "_TerrainSurfaceMaskTexture"
 +        "_TerrainHolesTexture"
-@@ -1536 +1542 @@
+@@ -1549 +1555 @@
 -        "_TerrainSurfaceMaskTexture"
 +        "_TerrainHolesTexture"
-@@ -1784 +1790 @@
+@@ -1797 +1803 @@
 -        "_TerrainSurfaceMaskTexture"
 +        "_TerrainHolesTexture"
-@@ -1793 +1799 @@
+@@ -1806 +1812 @@
 -        "_TerrainSurfaceMaskTexture"
 +        "_TerrainHolesTexture"
-@@ -1804 +1810 @@
+@@ -1817 +1823 @@
 -        "_TerrainSurfaceMaskTexture"
 +        "_TerrainHolesTexture"
-@@ -1813 +1819 @@
+@@ -1826 +1832 @@
 -        "_TerrainSurfaceMaskTexture"
 +        "_TerrainHolesTexture"
-@@ -1820 +1826 @@
+@@ -1833 +1839 @@
 -        "_TerrainSurfaceMaskTexture"
 +        "_TerrainHolesTexture"
-@@ -1830 +1836 @@
+@@ -1843 +1849 @@
 -        "_TerrainSurfaceMaskTexture"
 +        "_TerrainHolesTexture"
 --- 2019.3.0a10
 +++ 2019.3.0a11
-@@ -2606,0 +2607,7 @@
+@@ -2619,0 +2620,7 @@
 +    "18001": {
 +      "$type": "Shader",
 +      "PropertyNames": [
@@ -3462,7 +3462,7 @@
 +    },
 --- 2019.3.0b8
 +++ 2019.3.0b9
-@@ -2534,12 +2533,0 @@
+@@ -2547,12 +2546,0 @@
 -    "15310": {
 -      "$type": "Shader",
 -      "PropertyNames": [],
@@ -3477,7 +3477,7 @@
 -    },
 --- 2019.4.40f1
 +++ 2020.1.0a3
-@@ -2533,0 +2534,12 @@
+@@ -2546,0 +2547,12 @@
 +    "15310": {
 +      "$type": "Shader",
 +      "PropertyNames": [],
@@ -3492,7 +3492,7 @@
 +    },
 --- 2020.1.0a5
 +++ 2020.1.0a7
-@@ -2587,5 +2586,0 @@
+@@ -2600,5 +2599,0 @@
 -    "16004": {
 -      "$type": "Shader",
 -      "PropertyNames": [],
@@ -3500,7 +3500,7 @@
 -    },
 --- 2020.1.0a9
 +++ 2020.1.0a11
-@@ -2534,12 +2533,0 @@
+@@ -2547,12 +2546,0 @@
 -    "15310": {
 -      "$type": "Shader",
 -      "PropertyNames": [],
@@ -3515,7 +3515,7 @@
 -    },
 --- 2020.1.0a12
 +++ 2020.1.0a13
-@@ -1207,0 +1208,9 @@
+@@ -1220,0 +1221,9 @@
 +    "111": {
 +      "$type": "Shader",
 +      "PropertyNames": [
@@ -3527,7 +3527,7 @@
 +    },
 --- 2020.1.0a18
 +++ 2020.1.0a19
-@@ -1409,9 +1409 @@
+@@ -1422,9 +1422 @@
 -        "_Color",
 -        "_StencilCompFront",
 -        "_StencilPassFront",
@@ -3538,7 +3538,7 @@
 -        "_StencilZFailBack",
 -        "_StencilFailBack"
 +        "_Color"
-@@ -1442,0 +1435,10 @@
+@@ -1455,0 +1448,10 @@
 +    },
 +    "9008": {
 +      "$type": "Shader",
@@ -3564,7 +3564,7 @@
 +    },
 --- 2020.1.0b2
 +++ 2020.1.0b3
-@@ -2562,8 +2561,0 @@
+@@ -2575,8 +2574,0 @@
 -    "15401": {
 -      "$type": "Shader",
 -      "PropertyNames": [
@@ -3575,7 +3575,7 @@
 -    },
 --- 2020.1.0b7
 +++ 2020.1.0b8
-@@ -1413 +1413,10 @@
+@@ -1426 +1426,10 @@
 -    "9005": {
 +    "9007": {
 +      "$type": "Shader",
@@ -3587,25 +3587,25 @@
 +      "Name": "Hidden/Internal-GUIRoundedRectWithColorPerBorder"
 +    },
 +    "9100": {
-@@ -1423 +1432 @@
+@@ -1436 +1445 @@
 -    "9006": {
 +    "9101": {
-@@ -1437 +1446 @@
+@@ -1450 +1459 @@
 -    "9007": {
 +    "9102": {
-@@ -1441,2 +1450,3 @@
+@@ -1454,2 +1463,3 @@
 -        "_SrcBlend",
 -        "_DstBlend"
 +        "_FontTex",
 +        "_CustomTex",
 +        "_Color"
-@@ -1444 +1454 @@
+@@ -1457 +1467 @@
 -      "Name": "Hidden/Internal-GUIRoundedRectWithColorPerBorder"
 +      "Name": "Hidden/Internal-UIRDefaultWorld"
-@@ -1446 +1456 @@
+@@ -1459 +1469 @@
 -    "9008": {
 +    "9103": {
-@@ -1454 +1464,11 @@
+@@ -1467 +1477,11 @@
 -      "Name": "Hidden/Internal-UIRDefaultWorld"
 +      "Name": "Hidden/UIElements/EditorUIE"
 +    },
@@ -3628,7 +3628,7 @@
 +    },
 --- 2020.2.0a19
 +++ 2020.2.0a21
-@@ -476,0 +477,6 @@
+@@ -489,0 +490,6 @@
 +    },
 +    "19202": {
 +      "$type": "MonoScript",
@@ -3637,26 +3637,26 @@
 +      "ClassName": "ThemeStyleSheet"
 --- 2021.1.28f1
 +++ 2021.2.0a5
-@@ -445 +445 @@
+@@ -458 +458 @@
 -      "Namespace": "UnityEngine.TextCore",
 +      "Namespace": "UnityEngine.TextCore.Text",
-@@ -451 +451 @@
+@@ -464 +464 @@
 -      "Namespace": "UnityEngine.TextCore",
 +      "Namespace": "UnityEngine.TextCore.Text",
-@@ -457,2 +457,2 @@
+@@ -470,2 +470,2 @@
 -      "Namespace": "UnityEngine.TextCore",
 -      "ClassName": "TextSpriteAsset"
 +      "Namespace": "UnityEngine.TextCore.Text",
 +      "ClassName": "SpriteAsset"
-@@ -463,2 +463,2 @@
+@@ -476,2 +476,2 @@
 -      "Namespace": "UnityEngine.TextCore",
 -      "ClassName": "TextGradientPreset"
 +      "Namespace": "UnityEngine.TextCore.Text",
 +      "ClassName": "TextColorGradient"
-@@ -469 +469 @@
+@@ -482 +482 @@
 -      "Namespace": "UnityEngine.TextCore",
 +      "Namespace": "UnityEngine.TextCore.Text",
-@@ -477,0 +478,18 @@
+@@ -490,0 +491,18 @@
 +    "19101": {
 +      "$type": "MonoScript",
 +      "AssemblyName": "",
@@ -3675,7 +3675,7 @@
 +      "Namespace": "UnityEngine.UIElements",
 +      "ClassName": "PanelTextSettings"
 +    },
-@@ -1485,0 +1504,8 @@
+@@ -1498,0 +1517,8 @@
 +    },
 +    "9105": {
 +      "$type": "Shader",
@@ -3686,7 +3686,7 @@
 +      "Name": "Hidden/Internal-UIE-ColorConversionBlit"
 --- 2021.2.0a8
 +++ 2021.2.0a9
-@@ -2695,0 +2696,8 @@
+@@ -2708,0 +2709,8 @@
 +    "18006": {
 +      "$type": "Shader",
 +      "PropertyNames": [
@@ -3697,11 +3697,11 @@
 +    },
 --- 2021.2.0a13
 +++ 2021.2.0a14
-@@ -2751,0 +2752 @@
+@@ -2764,0 +2765 @@
 +        "_PerspectiveFilter",
 --- 2021.2.0b13
 +++ 2021.2.0b14
-@@ -2757,0 +2758,16 @@
+@@ -2770,0 +2771,16 @@
 +    },
 +    "19012": {
 +      "$type": "Shader",
@@ -3720,7 +3720,7 @@
 +      "Name": "Hidden/TextCore/Sprite"
 --- 2022.1.24f1
 +++ 2022.2.0a9
-@@ -164,11 +163,0 @@
+@@ -177,11 +176,0 @@
 -    "10403": {
 -      "$type": "Texture2D",
 -      "Width": 2048,
@@ -3732,58 +3732,58 @@
 -      "Texture": "UnitySplash-cube",
 -      "Name": "UnitySplash-cube"
 -    },
-@@ -238 +227 @@
+@@ -251 +240 @@
 -      "AssemblyName": "",
 +      "AssemblyName": "UnityEngine",
-@@ -402 +391 @@
+@@ -415 +404 @@
 -      "AssemblyName": "",
 +      "AssemblyName": "UnityEngine",
-@@ -408 +397 @@
+@@ -421 +410 @@
 -      "AssemblyName": "",
 +      "AssemblyName": "UnityEngine",
-@@ -414 +403 @@
+@@ -427 +416 @@
 -      "AssemblyName": "",
 +      "AssemblyName": "UnityEngine",
-@@ -420 +409 @@
+@@ -433 +422 @@
 -      "AssemblyName": "",
 +      "AssemblyName": "UnityEngine",
-@@ -426 +415 @@
+@@ -439 +428 @@
 -      "AssemblyName": "",
 +      "AssemblyName": "UnityEngine",
-@@ -432 +421 @@
+@@ -445 +434 @@
 -      "AssemblyName": "",
 +      "AssemblyName": "UnityEngine",
-@@ -444 +433 @@
+@@ -457 +446 @@
 -      "AssemblyName": "",
 +      "AssemblyName": "UnityEngine",
-@@ -450 +439 @@
+@@ -463 +452 @@
 -      "AssemblyName": "",
 +      "AssemblyName": "UnityEngine",
-@@ -456 +445 @@
+@@ -469 +458 @@
 -      "AssemblyName": "",
 +      "AssemblyName": "UnityEngine",
-@@ -462 +451 @@
+@@ -475 +464 @@
 -      "AssemblyName": "",
 +      "AssemblyName": "UnityEngine",
-@@ -468 +457 @@
+@@ -481 +470 @@
 -      "AssemblyName": "",
 +      "AssemblyName": "UnityEngine",
-@@ -474 +463 @@
+@@ -487 +476 @@
 -      "AssemblyName": "",
 +      "AssemblyName": "UnityEngine",
-@@ -480 +469 @@
+@@ -493 +482 @@
 -      "AssemblyName": "",
 +      "AssemblyName": "UnityEngine",
-@@ -486 +475 @@
+@@ -499 +488 @@
 -      "AssemblyName": "",
 +      "AssemblyName": "UnityEngine",
-@@ -492 +481 @@
+@@ -505 +494 @@
 -      "AssemblyName": "",
 +      "AssemblyName": "UnityEngine",
-@@ -498 +487 @@
+@@ -511 +500 @@
 -      "AssemblyName": "",
 +      "AssemblyName": "UnityEngine",
-@@ -1080,9 +1068,0 @@
+@@ -1093,9 +1081,0 @@
 -    "63": {
 -      "$type": "Shader",
 -      "PropertyNames": [
@@ -3793,7 +3793,7 @@
 -      ],
 -      "Name": "Hidden/Internal-PrePassLighting"
 -    },
-@@ -1566,0 +1547,11 @@
+@@ -1579,0 +1560,11 @@
 +    "10403": {
 +      "$type": "Texture2D",
 +      "Width": 2048,
@@ -3805,7 +3805,7 @@
 +      "Texture": "UnitySplash-Light",
 +      "Name": "UnitySplash-Light"
 +    },
-@@ -2773,0 +2765,11 @@
+@@ -2786,0 +2778,11 @@
 +    },
 +    "20000": {
 +      "$type": "Texture2D",
@@ -3819,14 +3819,14 @@
 +      "Name": "UnitySplash-Dark"
 --- 2022.2.0a10
 +++ 2022.2.0a11
-@@ -223,0 +224,6 @@
+@@ -236,0 +237,6 @@
 +    "10800": {
 +      "$type": "Texture2D",
 +      "Width": 64,
 +      "Height": 8,
 +      "Name": "Invalidated"
 +    },
-@@ -1234,0 +1241,7 @@
+@@ -1247,0 +1254,7 @@
 +    },
 +    "113": {
 +      "$type": "Shader",
@@ -3841,7 +3841,7 @@
 +      "Name": "LegacyRuntime"
 --- 2022.2.0a13
 +++ 2022.2.0a16
-@@ -1505,0 +1506,10 @@
+@@ -1518,0 +1519,10 @@
 +    "9106": {
 +      "$type": "Shader",
 +      "PropertyNames": [
@@ -3867,14 +3867,14 @@
 +    },
 --- 2022.2.2f1
 +++ 2022.2.3f1
-@@ -234,6 +233,0 @@
+@@ -247,6 +246,0 @@
 -    "10800": {
 -      "$type": "Texture2D",
 -      "Width": 64,
 -      "Height": 8,
 -      "Name": "Invalidated"
 -    },
-@@ -2808,0 +2803,6 @@
+@@ -2821,0 +2816,6 @@
 +    },
 +    "20100": {
 +      "$type": "Texture2D",
@@ -3883,17 +3883,17 @@
 +      "Name": "Invalidated"
 --- 2022.2.14f1
 +++ 2022.2.15f1
-@@ -1242 +1242,2 @@
+@@ -1255 +1255,2 @@
 -        "_ColorGamut"
 +        "_ColorGamut",
 +        "_ForceGammaToLinear"
 --- 2022.3.10f1
 +++ 2022.3.11f1
-@@ -1243 +1243,2 @@
+@@ -1256 +1256,2 @@
 -        "_ForceGammaToLinear"
 +        "_ForceGammaToLinear",
 +        "_MaxDisplayNits"
-@@ -1246,0 +1248,15 @@
+@@ -1259,0 +1261,15 @@
 +    "112": {
 +      "$type": "Shader",
 +      "PropertyNames": [
@@ -3909,7 +3909,7 @@
 +      ],
 +      "Name": "Hidden/BlitCopyHDRTonemappedToHDRTonemap"
 +    },
-@@ -1253,0 +1270,15 @@
+@@ -1266,0 +1283,15 @@
 +    "114": {
 +      "$type": "Shader",
 +      "PropertyNames": [
@@ -3925,7 +3925,7 @@
 +      ],
 +      "Name": "Hidden/BlitCopyHDRTonemappedToSDR"
 +    },
-@@ -2636,0 +2668,21 @@
+@@ -2649,0 +2681,21 @@
 +    },
 +    "15313": {
 +      "$type": "Shader",
@@ -3960,19 +3960,19 @@
 -      "TypeID": 72,
 -      "Name": "Internal-CreateFoveatedShadingRateTextureNoArray"
 -    },
-@@ -233,0 +224,6 @@
+@@ -246,0 +237,6 @@
 +    "10800": {
 +      "$type": "Texture2D",
 +      "Width": 64,
 +      "Height": 8,
 +      "Name": "Invalidated"
 +    },
-@@ -1242,3 +1238 @@
+@@ -1255,3 +1251 @@
 -        "_ColorGamut",
 -        "_ForceGammaToLinear",
 -        "_MaxDisplayNits"
 +        "_ColorGamut"
-@@ -1248,15 +1241,0 @@
+@@ -1261,15 +1254,0 @@
 -    "112": {
 -      "$type": "Shader",
 -      "PropertyNames": [
@@ -3988,7 +3988,7 @@
 -      ],
 -      "Name": "Hidden/BlitCopyHDRTonemappedToHDRTonemap"
 -    },
-@@ -1270,15 +1248,0 @@
+@@ -1283,15 +1261,0 @@
 -    "114": {
 -      "$type": "Shader",
 -      "PropertyNames": [
@@ -4004,7 +4004,7 @@
 -      ],
 -      "Name": "Hidden/BlitCopyHDRTonemappedToSDR"
 -    },
-@@ -2669,21 +2632,0 @@
+@@ -2682,21 +2645,0 @@
 -    "15313": {
 -      "$type": "Shader",
 -      "PropertyNames": [
@@ -4026,7 +4026,7 @@
 -      ],
 -      "Name": "Hidden/VR/BlitCopyHDRTonemappedToSDRTexArraySlice"
 -    },
-@@ -2856,6 +2798,0 @@
+@@ -2869,6 +2811,0 @@
 -    },
 -    "20100": {
 -      "$type": "Texture2D",
@@ -4035,21 +4035,21 @@
 -      "Name": "Invalidated"
 --- 2023.1.0a6
 +++ 2023.1.0a8
-@@ -146,6 +145,0 @@
+@@ -159,6 +158,0 @@
 -    "10400": {
 -      "$type": "Texture2D",
 -      "Width": 128,
 -      "Height": 58,
 -      "Name": "UnityWatermark-small"
 -    },
-@@ -176,6 +169,0 @@
+@@ -189,6 +182,0 @@
 -    "10408": {
 -      "$type": "Texture2D",
 -      "Width": 127,
 -      "Height": 17,
 -      "Name": "UnityWatermark-beta"
 -    },
-@@ -205,6 +192,0 @@
+@@ -218,6 +205,0 @@
 -    },
 -    "10414": {
 -      "$type": "Texture2D",
@@ -4058,7 +4058,7 @@
 -      "Name": "UnityWatermarkPlugin-beta"
 --- 2023.1.0a9
 +++ 2023.1.0a10
-@@ -1470,10 +1469,0 @@
+@@ -1483,10 +1482,0 @@
 -    "9104": {
 -      "$type": "Shader",
 -      "PropertyNames": [
@@ -4084,7 +4084,7 @@
 +    },
 --- 2023.1.0a12
 +++ 2023.1.0a13
-@@ -1488,10 +1487,0 @@
+@@ -1501,10 +1500,0 @@
 -    "9106": {
 -      "$type": "Shader",
 -      "PropertyNames": [
@@ -4097,14 +4097,14 @@
 -    },
 --- 2023.1.0a17
 +++ 2023.1.0a18
-@@ -216,6 +215,0 @@
+@@ -229,6 +228,0 @@
 -    "10800": {
 -      "$type": "Texture2D",
 -      "Width": 64,
 -      "Height": 8,
 -      "Name": "Invalidated"
 -    },
-@@ -2770,0 +2765,6 @@
+@@ -2783,0 +2778,6 @@
 +    },
 +    "20100": {
 +      "$type": "Texture2D",
@@ -4113,17 +4113,17 @@
 +      "Name": "Invalidated"
 --- 2023.1.0a21
 +++ 2023.1.0a22
-@@ -1224 +1224,2 @@
+@@ -1237 +1237,2 @@
 -        "_ColorGamut"
 +        "_ColorGamut",
 +        "_ForceGammaToLinear"
 --- 2023.1.11f1
 +++ 2023.1.12f1
-@@ -1225 +1225,2 @@
+@@ -1238 +1238,2 @@
 -        "_ForceGammaToLinear"
 +        "_ForceGammaToLinear",
 +        "_MaxDisplayNits"
-@@ -1228,0 +1230,15 @@
+@@ -1241,0 +1243,15 @@
 +    "112": {
 +      "$type": "Shader",
 +      "PropertyNames": [
@@ -4139,7 +4139,7 @@
 +      ],
 +      "Name": "Hidden/BlitCopyHDRTonemappedToHDRTonemap"
 +    },
-@@ -1235,0 +1252,15 @@
+@@ -1248,0 +1265,15 @@
 +    "114": {
 +      "$type": "Shader",
 +      "PropertyNames": [
@@ -4155,7 +4155,7 @@
 +      ],
 +      "Name": "Hidden/BlitCopyHDRTonemappedToSDR"
 +    },
-@@ -2598,0 +2630,21 @@
+@@ -2611,0 +2643,21 @@
 +    },
 +    "15313": {
 +      "$type": "Shader",
@@ -4179,11 +4179,11 @@
 +      "Name": "Hidden/VR/BlitCopyHDRTonemappedToSDRTexArraySlice"
 --- 2023.1.20f1
 +++ 2023.2.0a6
-@@ -1225,2 +1225 @@
+@@ -1238,2 +1238 @@
 -        "_ForceGammaToLinear",
 -        "_MaxDisplayNits"
 +        "_ForceGammaToLinear"
-@@ -1230,15 +1228,0 @@
+@@ -1243,15 +1241,0 @@
 -    "112": {
 -      "$type": "Shader",
 -      "PropertyNames": [
@@ -4199,7 +4199,7 @@
 -      ],
 -      "Name": "Hidden/BlitCopyHDRTonemappedToHDRTonemap"
 -    },
-@@ -1252,15 +1235,0 @@
+@@ -1265,15 +1248,0 @@
 -    "114": {
 -      "$type": "Shader",
 -      "PropertyNames": [
@@ -4215,7 +4215,7 @@
 -      ],
 -      "Name": "Hidden/BlitCopyHDRTonemappedToSDR"
 -    },
-@@ -2630,21 +2598,0 @@
+@@ -2643,21 +2611,0 @@
 -    },
 -    "15313": {
 -      "$type": "Shader",
@@ -4239,11 +4239,11 @@
 -      "Name": "Hidden/VR/BlitCopyHDRTonemappedToSDRTexArraySlice"
 --- 2023.2.0a17
 +++ 2023.2.0a18
-@@ -1225 +1225,2 @@
+@@ -1238 +1238,2 @@
 -        "_ForceGammaToLinear"
 +        "_ForceGammaToLinear",
 +        "_MaxDisplayNits"
-@@ -1228,0 +1230,15 @@
+@@ -1241,0 +1243,15 @@
 +    "112": {
 +      "$type": "Shader",
 +      "PropertyNames": [
@@ -4259,7 +4259,7 @@
 +      ],
 +      "Name": "Hidden/BlitCopyHDRTonemappedToHDRTonemap"
 +    },
-@@ -1235,0 +1252,15 @@
+@@ -1248,0 +1265,15 @@
 +    "114": {
 +      "$type": "Shader",
 +      "PropertyNames": [
@@ -4275,7 +4275,7 @@
 +      ],
 +      "Name": "Hidden/BlitCopyHDRTonemappedToSDR"
 +    },
-@@ -2599,0 +2631,21 @@
+@@ -2612,0 +2644,21 @@
 +    "15313": {
 +      "$type": "Shader",
 +      "PropertyNames": [
@@ -4297,7 +4297,7 @@
 +      ],
 +      "Name": "Hidden/VR/BlitCopyHDRTonemappedToSDRTexArraySlice"
 +    },
-@@ -2771,0 +2824,11 @@
+@@ -2784,0 +2837,11 @@
 +    },
 +    "20200": {
 +      "$type": "Cubemap",
@@ -4311,7 +4311,7 @@
 +      "Name": "LightingData"
 --- 2023.2.0a20
 +++ 2023.2.0a22
-@@ -476,0 +477,12 @@
+@@ -489,0 +490,12 @@
 +    "19104": {
 +      "$type": "MonoScript",
 +      "AssemblyName": "UnityEngine",
@@ -4334,7 +4334,7 @@
 +    },
 --- 2023.3.0a16
 +++ 2023.3.0a17
-@@ -2496,0 +2497,28 @@
+@@ -2509,0 +2510,28 @@
 +    "14003": {
 +      "$type": "Shader",
 +      "PropertyNames": [
