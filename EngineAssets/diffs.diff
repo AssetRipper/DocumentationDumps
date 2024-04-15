@@ -3947,7 +3947,7 @@
 +        "_MainTex"
 +      ],
 +      "Name": "Hidden/VR/BlitCopyHDRTonemappedToSDRTexArraySlice"
---- 2022.3.19f1
+--- 2022.3.24f1
 +++ 2023.1.0a1
 @@ -51,10 +50,0 @@
 -    "600": {
@@ -4324,7 +4324,7 @@
 +      "Namespace": "UnityEngine.UIElements.InputSystem",
 +      "ClassName": "InputSystemEventSystem"
 +    },
---- 2023.2.8f1
+--- 2023.2.17f1
 +++ 2023.3.0a3
 @@ -60,0 +61,5 @@
 +    "602": {
