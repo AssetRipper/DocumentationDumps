@@ -4324,7 +4324,7 @@
 +      "Namespace": "UnityEngine.UIElements.InputSystem",
 +      "ClassName": "InputSystemEventSystem"
 +    },
---- 2023.2.17f1
+--- 2023.2.18f1
 +++ 2023.3.0a3
 @@ -60,0 +61,5 @@
 +    "602": {
