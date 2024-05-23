@@ -329,7 +329,7 @@
 +      "$type": "Material",
 +      "Shader": "Sprites-Default",
 +      "Name": "Sprites-Default"
---- 5.4.0b25
+--- 5.4.0f2
 +++ 5.4.0f3
 @@ -1057,0 +1058,5 @@
 +    "10783": {
@@ -2239,7 +2239,7 @@
 -        "_MaskingAlphaCutoff",
 +        "_Cutoff",
 --- 2017.1.0b10
-+++ 2017.1.0f2
++++ 2017.1.0f1
 @@ -154,2 +154,2 @@
 -      "Width": 1024,
 -      "Height": 256,
@@ -3947,7 +3947,7 @@
 +        "_MainTex"
 +      ],
 +      "Name": "Hidden/VR/BlitCopyHDRTonemappedToSDRTexArraySlice"
---- 2022.3.27f1
+--- 2022.3.29f1
 +++ 2023.1.0a1
 @@ -51,10 +50,0 @@
 -    "600": {
