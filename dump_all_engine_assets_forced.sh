@@ -53,6 +53,8 @@ dump_engine_assets 4.6.9 --force
 dump_engine_assets 4.7.0 --force
 dump_engine_assets 4.7.1 --force
 dump_engine_assets 4.7.2 --force
+dump_engine_assets 5.0.0b1 --force
+dump_engine_assets 5.0.0b5 --force
 dump_engine_assets 5.0.0f4 --force
 dump_engine_assets 5.0.1f1 --force
 dump_engine_assets 5.0.2f1 --force
@@ -818,6 +820,7 @@ dump_engine_assets 2021.3.35f1 --force
 dump_engine_assets 2021.3.36f1 --force
 dump_engine_assets 2021.3.37f1 --force
 dump_engine_assets 2021.3.38f1 --force
+dump_engine_assets 2021.3.39f1 --force
 dump_engine_assets 2022.1.0a7 --force
 dump_engine_assets 2022.1.0a8 --force
 dump_engine_assets 2022.1.0a9 --force
@@ -944,6 +947,9 @@ dump_engine_assets 2022.3.26f1 --force
 dump_engine_assets 2022.3.27f1 --force
 dump_engine_assets 2022.3.28f1 --force
 dump_engine_assets 2022.3.29f1 --force
+dump_engine_assets 2022.3.30f1 --force
+dump_engine_assets 2022.3.31f1 --force
+dump_engine_assets 2022.3.32f1 --force
 dump_engine_assets 2023.1.0a1 --force
 dump_engine_assets 2023.1.0a2 --force
 dump_engine_assets 2023.1.0a3 --force
@@ -1097,3 +1103,6 @@ dump_engine_assets 6000.0.0b16 --force
 dump_engine_assets 6000.0.0f1 --force
 dump_engine_assets 6000.0.1f1 --force
 dump_engine_assets 6000.0.2f1 --force
+dump_engine_assets 6000.0.3f1 --force
+dump_engine_assets 6000.0.4f1 --force
+dump_engine_assets 6000.0.5f1 --force
