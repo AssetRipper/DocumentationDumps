@@ -121,78 +121,234 @@
       "$type": "Mesh",
       "VertexCount": 439,
       "SubMeshCount": 1,
+      "LocalAABB": {
+        "Center": {
+          "X": 1.1920929E-07,
+          "Y": 0,
+          "Z": -1.7881393E-07
+        },
+        "Extent": {
+          "X": 1.0000001,
+          "Y": 1,
+          "Z": 1.0000002
+        }
+      },
       "Name": "pSphere1"
     },
     "10202": {
       "$type": "Mesh",
       "VertexCount": 24,
       "SubMeshCount": 1,
+      "LocalAABB": {
+        "Center": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "Extent": {
+          "X": 0.5,
+          "Y": 0.5,
+          "Z": 0.5
+        }
+      },
       "Name": "Cube"
     },
     "10203": {
       "$type": "Mesh",
       "VertexCount": 124,
       "SubMeshCount": 1,
+      "LocalAABB": {
+        "Center": {
+          "X": 1.1920929E-07,
+          "Y": 0,
+          "Z": -1.7881393E-07
+        },
+        "Extent": {
+          "X": 1.0000001,
+          "Y": 1,
+          "Z": 1.0000002
+        }
+      },
       "Name": "pCylinder1"
     },
     "10204": {
       "$type": "Mesh",
       "VertexCount": 121,
       "SubMeshCount": 1,
+      "LocalAABB": {
+        "Center": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "Extent": {
+          "X": 0.5,
+          "Y": 1.110223E-16,
+          "Z": 0.5
+        }
+      },
       "Name": "pPlane1"
     },
     "10205": {
       "$type": "Mesh",
       "VertexCount": 410,
       "SubMeshCount": 1,
+      "LocalAABB": {
+        "Center": {
+          "X": 1.1920929E-07,
+          "Y": 0,
+          "Z": -1.7881393E-07
+        },
+        "Extent": {
+          "X": 1.0000001,
+          "Y": 2,
+          "Z": 1.0000002
+        }
+      },
       "Name": "polySurface2"
     },
     "10206": {
       "$type": "Mesh",
       "VertexCount": 88,
       "SubMeshCount": 1,
+      "LocalAABB": {
+        "Center": {
+          "X": 5.9604645E-08,
+          "Y": 0,
+          "Z": -8.940697E-08
+        },
+        "Extent": {
+          "X": 0.50000006,
+          "Y": 1,
+          "Z": 0.5000001
+        }
+      },
       "Name": "Cylinder"
     },
     "10207": {
       "$type": "Mesh",
       "VertexCount": 515,
       "SubMeshCount": 1,
+      "LocalAABB": {
+        "Center": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "Extent": {
+          "X": 0.5,
+          "Y": 0.5,
+          "Z": 0.5
+        }
+      },
       "Name": "Sphere"
     },
     "10208": {
       "$type": "Mesh",
       "VertexCount": 550,
       "SubMeshCount": 1,
+      "LocalAABB": {
+        "Center": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "Extent": {
+          "X": 0.5,
+          "Y": 1,
+          "Z": 0.5
+        }
+      },
       "Name": "Capsule"
     },
     "10209": {
       "$type": "Mesh",
       "VertexCount": 121,
       "SubMeshCount": 1,
+      "LocalAABB": {
+        "Center": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "Extent": {
+          "X": 5,
+          "Y": 1.110223E-16,
+          "Z": 5
+        }
+      },
       "Name": "Plane"
     },
     "10210": {
       "$type": "Mesh",
       "VertexCount": 4,
       "SubMeshCount": 1,
+      "LocalAABB": {
+        "Center": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "Extent": {
+          "X": 0.5,
+          "Y": 0.5,
+          "Z": 3.0616168E-17
+        }
+      },
       "Name": "Quad"
     },
     "10211": {
       "$type": "Mesh",
       "VertexCount": 42,
       "SubMeshCount": 1,
+      "LocalAABB": {
+        "Center": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "Extent": {
+          "X": 1.017401,
+          "Y": 1.069757,
+          "Z": 1.069758
+        }
+      },
       "Name": "Icosphere"
     },
     "10212": {
       "$type": "Mesh",
       "VertexCount": 12,
       "SubMeshCount": 1,
+      "LocalAABB": {
+        "Center": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "Extent": {
+          "X": 1.124684,
+          "Y": 1.069627,
+          "Z": 1.257438
+        }
+      },
       "Name": "icosahedron"
     },
     "10213": {
       "$type": "Mesh",
       "VertexCount": 5,
       "SubMeshCount": 1,
+      "LocalAABB": {
+        "Center": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0.5
+        },
+        "Extent": {
+          "X": 1,
+          "Y": 1,
+          "Z": 0.5
+        }
+      },
       "Name": "pyramid"
     },
     "10400": {
