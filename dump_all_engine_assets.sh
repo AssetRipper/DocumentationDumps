@@ -975,6 +975,7 @@ dump_engine_assets 2022.3.48f1
 dump_engine_assets 2022.3.49f1
 dump_engine_assets 2022.3.50f1
 dump_engine_assets 2022.3.51f1
+dump_engine_assets 2022.3.52f1
 dump_engine_assets 2023.1.0a1
 dump_engine_assets 2023.1.0a2
 dump_engine_assets 2023.1.0a3
@@ -1150,4 +1151,6 @@ dump_engine_assets 6000.0.22f1
 dump_engine_assets 6000.0.23f1
 dump_engine_assets 6000.0.24f1
 dump_engine_assets 6000.0.25f1
+dump_engine_assets 6000.0.26f1
 dump_engine_assets 6000.1.0a2
+dump_engine_assets 6000.1.0a3
