@@ -967,126 +967,27 @@
 +      "Name": "UnitySplashVRPoweredBy"
 +    },
 --- 4.7.2
-+++ 5.0.0f4
-@@ -8 +8 @@
--    "60": {
-+    "62": {
-@@ -11 +11 @@
--      "Name": "Shadow-ScreenBlur"
-+      "Name": "Camera-DepthNormalTexture"
-@@ -13 +13 @@
++++ 5.0.0b1
+@@ -13,5 +12,0 @@
 -    "61": {
-+    "64": {
-@@ -16 +16 @@
+-      "$type": "Shader",
+-      "PropertyNames": [],
 -      "Name": "Camera-DepthTexture"
-+      "Name": "Internal-PrePassCollectShadows"
-@@ -18 +18 @@
--    "62": {
-+    "65": {
-@@ -21 +21 @@
--      "Name": "Camera-DepthNormalTexture"
-+      "Name": "Internal-CombineDepthNormals"
-@@ -23 +23 @@
+-    },
+@@ -23,5 +17,0 @@
 -    "63": {
-+    "66": {
-@@ -26 +26 @@
+-      "$type": "Shader",
+-      "PropertyNames": [],
 -      "Name": "Internal-PrePassLighting"
-+      "Name": "Internal-BlitCopy"
-@@ -28 +28 @@
--    "64": {
-+    "68": {
-@@ -31 +31 @@
--      "Name": "Internal-PrePassCollectShadows"
-+      "Name": "Internal-Clear"
-@@ -33 +33 @@
--    "65": {
-+    "70": {
-@@ -36 +36 @@
--      "Name": "Internal-CombineDepthNormals"
-+      "Name": "Internal-SplashShadowCaster"
-@@ -38 +38 @@
--    "66": {
-+    "71": {
-@@ -41 +41 @@
--      "Name": "Internal-BlitCopy"
-+      "Name": "Internal-SplashShadowBlur"
-@@ -43 +43 @@
--    "67": {
-+    "72": {
-@@ -46 +46 @@
--      "Name": "Shadow-ScreenBlurRotated"
-+      "Name": "Internal-SplashShadowReceiver"
-@@ -48 +48 @@
--    "68": {
-+    "73": {
-@@ -51 +51 @@
--      "Name": "Internal-Clear"
-+      "Name": "Internal-SplashShadowReceiverSimple"
-@@ -220 +220 @@
--      "VertexCount": 525,
-+      "VertexCount": 515,
-@@ -224 +224 @@
--          "X": 5.9604645E-08,
-+          "X": 0,
-@@ -226 +226 @@
--          "Z": -8.940697E-08
-+          "Z": 0
-@@ -229 +229 @@
--          "X": 0.50000006,
-+          "X": 0.5,
-@@ -231 +231 @@
--          "Z": 0.5000001
-+          "Z": 0.5
-@@ -238 +238 @@
--      "VertexCount": 412,
-+      "VertexCount": 550,
-@@ -242 +242 @@
--          "X": 5.9604645E-08,
-+          "X": 0,
-@@ -244 +244 @@
--          "Z": -8.940697E-08
-+          "Z": 0
-@@ -247 +247 @@
--          "X": 0.50000006,
-+          "X": 0.5,
-@@ -249 +249 @@
--          "Z": 0.5000001
-+          "Z": 0.5
-@@ -364,3 +364,3 @@
--      "Width": 206,
--      "Height": 214,
--      "Name": "UnitySplash"
-+      "Width": 512,
-+      "Height": 512,
-+      "Name": "UnitySplash-cube"
-@@ -370,3 +370,3 @@
--      "Width": 146,
--      "Height": 19,
--      "Name": "UnitySplash2"
-+      "Width": 612,
-+      "Height": 130,
-+      "Name": "UnitySplash-text"
-@@ -376,3 +376,3 @@
--      "Width": 64,
--      "Height": 128,
--      "Name": "UnitySplash3"
-+      "Width": 288,
-+      "Height": 51,
-+      "Name": "UnitySplash-free"
-@@ -394 +394 @@
--      "Width": 138,
-+      "Width": 127,
-@@ -416,6 +415,0 @@
+-    },
+@@ -416,6 +405,0 @@
 -    "10412": {
 -      "$type": "Texture2D",
 -      "Width": 180,
 -      "Height": 16,
 -      "Name": "UnityWatermark-DebugFlashPlayer"
 -    },
-@@ -430 +424 @@
--      "Width": 76,
-+      "Width": 66,
-@@ -434,12 +427,0 @@
+@@ -434,12 +417,0 @@
 -    "10415": {
 -      "$type": "Texture2D",
 -      "Width": 128,
@@ -1099,25 +1000,26 @@
 -      "Height": 64,
 -      "Name": "UnitySplashVRPoweredBy"
 -    },
-@@ -633,6 +614,0 @@
+@@ -633,6 +604,0 @@
 -    "12000": {
 -      "$type": "MonoScript",
 -      "AssemblyName": "UnityEngine.dll",
 -      "Namespace": "UnityEngine",
 -      "ClassName": "Terrain"
 -    },
-@@ -831,0 +808,10 @@
+@@ -643,0 +610,5 @@
++    },
++    "15000": {
++      "$type": "Shader",
++      "PropertyNames": [],
++      "Name": "GIMaterialMapping"
+@@ -831,0 +803,5 @@
 +    "45": {
 +      "$type": "Shader",
 +      "PropertyNames": [],
-+      "Name": "StandardSpecular"
++      "Name": "Universal"
 +    },
-+    "46": {
-+      "$type": "Shader",
-+      "PropertyNames": [],
-+      "Name": "Standard"
-+    },
-@@ -856,0 +843,10 @@
+@@ -856,0 +833,10 @@
 +    "63": {
 +      "$type": "Shader",
 +      "PropertyNames": [],
@@ -1128,22 +1030,16 @@
 +      "PropertyNames": [],
 +      "Name": "Internal-DeferredShading"
 +    },
-@@ -860 +856 @@
--      "Name": ""
-+      "Name": "Decal"
-@@ -870 +866 @@
--      "Name": "skybox cubed"
-+      "Name": "Skybox-Cubed"
-@@ -876,0 +873,5 @@
+@@ -876,0 +863,5 @@
 +    "106": {
 +      "$type": "Shader",
 +      "PropertyNames": [],
 +      "Name": "Skybox-Procedural"
 +    },
-@@ -932,0 +934,16 @@
+@@ -932,0 +924,16 @@
 +    "10303": {
 +      "$type": "Material",
-+      "Shader": "Standard",
++      "Shader": "Universal",
 +      "Name": "Default-Material"
 +    },
 +    "10304": {
@@ -1157,10 +1053,280 @@
 +      "Height": 64,
 +      "Name": "Default-Checker"
 +    },
-@@ -1031 +1048 @@
+@@ -1112,0 +1120,5 @@
++    "10755": {
++      "$type": "Shader",
++      "PropertyNames": [],
++      "Name": "Unlit-Color"
++    },
+@@ -1116 +1128 @@
+-      "Name": "UI-Unlit-Transparent"
++      "Name": "GUI-Unlit-Transparent"
+@@ -1121 +1133 @@
+-      "Name": "UI-Unlit-Detail"
++      "Name": "GUI-Unlit-Detail"
+@@ -1126 +1138 @@
+-      "Name": "UI-Unlit-Text"
++      "Name": "GUI-Unlit-Text"
+@@ -1131 +1143 @@
+-      "Name": "UI-Unlit-TextDetail"
++      "Name": "GUI-Unlit-TextDetail"
+@@ -1136 +1148 @@
+-      "Name": "UI-Lit-Transparent"
++      "Name": "GUI-Lit-Transparent"
+@@ -1141 +1153 @@
+-      "Name": "UI-Lit-Bumped"
++      "Name": "GUI-Lit-Bumped"
+@@ -1146 +1158 @@
+-      "Name": "UI-Lit-Detail"
++      "Name": "GUI-Lit-Detail"
+@@ -1151 +1163 @@
+-      "Name": "UI-Lit-Refraction(ProOnly)"
++      "Name": "GUI-Lit-Refraction(ProOnly)"
+@@ -1156 +1168,6 @@
+-      "Name": "UI-Lit-RefractionDetail(ProOnly)"
++      "Name": "GUI-Lit-RefractionDetail(ProOnly)"
++    },
++    "10769": {
++      "$type": "Shader",
++      "PropertyNames": [],
++      "Name": "StencilMask"
+@@ -1161 +1178 @@
+-      "Name": "UI-Default"
++      "Name": "GUI-Default"
+@@ -1166 +1183 @@
+-      "Name": "UI-DefaultFont"
++      "Name": "GUI-DefaultFont"
+@@ -1175,2 +1192,2 @@
+-      "Width": 64,
+-      "Height": 64,
++      "Width": 22,
++      "Height": 22,
+@@ -1183,0 +1201,11 @@
++    "10902": {
++      "$type": "Texture2D",
++      "Width": 13,
++      "Height": 8,
++      "Name": "PopupArrow"
++    },
++    "10903": {
++      "$type": "Sprite",
++      "Texture": "PopupArrow",
++      "Name": "PopupArrow"
++    },
+@@ -1186,3 +1214,3 @@
+-      "Width": 32,
+-      "Height": 32,
+-      "Name": "UISprite"
++      "Width": 16,
++      "Height": 16,
++      "Name": "GUISprite"
+@@ -1192,2 +1220,2 @@
+-      "Texture": "UISprite",
+-      "Name": "UISprite"
++      "Texture": "GUISprite",
++      "Name": "GUISprite"
+@@ -1197,2 +1225,2 @@
+-      "Width": 32,
+-      "Height": 32,
++      "Width": 24,
++      "Height": 24,
+@@ -1206 +1234 @@
+-    "10910": {
++    "10908": {
+@@ -1210 +1238 @@
+-      "Name": "InputFieldBackground"
++      "Name": "PopupHighlight"
+@@ -1212 +1240 @@
+-    "10911": {
++    "10909": {
+@@ -1214,2 +1242,2 @@
+-      "Texture": "InputFieldBackground",
+-      "Name": "InputFieldBackground"
++      "Texture": "PopupHighlight",
++      "Name": "PopupHighlight"
+@@ -1217,5 +1245,4 @@
+-    "10912": {
+-      "$type": "Texture2D",
+-      "Width": 64,
+-      "Height": 64,
+-      "Name": "Knob"
++    "14000": {
++      "$type": "Shader",
++      "PropertyNames": [],
++      "Name": "SpeedTree"
+@@ -1223,4 +1250,24 @@
+-    "10913": {
+-      "$type": "Sprite",
+-      "Texture": "Knob",
+-      "Name": "Knob"
++    "14001": {
++      "$type": "Shader",
++      "PropertyNames": [],
++      "Name": "SpeedTreeBillboard"
++    },
++    "15100": {
++      "$type": "Shader",
++      "PropertyNames": [],
++      "Name": "TextureUV0"
++    },
++    "15101": {
++      "$type": "Shader",
++      "PropertyNames": [],
++      "Name": "TextureUV1"
++    },
++    "15102": {
++      "$type": "Shader",
++      "PropertyNames": [],
++      "Name": "UV1sAsPositions"
++    },
++    "15103": {
++      "$type": "Shader",
++      "PropertyNames": [],
++      "Name": "VertexColors"
+--- 5.0.0b1
++++ 5.0.0b5
+@@ -354,2 +354,2 @@
+-      "Width": 206,
+-      "Height": 214,
++      "Width": 154,
++      "Height": 130,
+@@ -360,2 +360,2 @@
+-      "Width": 146,
+-      "Height": 19,
++      "Width": 150,
++      "Height": 66,
+@@ -364,6 +363,0 @@
+-    "10405": {
+-      "$type": "Texture2D",
+-      "Width": 64,
+-      "Height": 128,
+-      "Name": "UnitySplash3"
+-    },
+@@ -1169,5 +1162,0 @@
+-    },
+-    "10769": {
+-      "$type": "Shader",
+-      "PropertyNames": [],
+-      "Name": "StencilMask"
+--- 5.0.0b5
++++ 5.0.0f4
+@@ -8,5 +7,0 @@
+-    "60": {
+-      "$type": "Shader",
+-      "PropertyNames": [],
+-      "Name": "Shadow-ScreenBlur"
+-    },
+@@ -33 +28 @@
+-    "67": {
++    "68": {
+@@ -36 +31 @@
+-      "Name": "Shadow-ScreenBlurRotated"
++      "Name": "Internal-Clear"
+@@ -38 +33 @@
+-    "68": {
++    "70": {
+@@ -41 +36,16 @@
+-      "Name": "Internal-Clear"
++      "Name": "Internal-SplashShadowCaster"
++    },
++    "71": {
++      "$type": "Shader",
++      "PropertyNames": [],
++      "Name": "Internal-SplashShadowBlur"
++    },
++    "72": {
++      "$type": "Shader",
++      "PropertyNames": [],
++      "Name": "Internal-SplashShadowReceiver"
++    },
++    "73": {
++      "$type": "Shader",
++      "PropertyNames": [],
++      "Name": "Internal-SplashShadowReceiverSimple"
+@@ -210 +220 @@
+-      "VertexCount": 525,
++      "VertexCount": 515,
+@@ -214 +224 @@
+-          "X": 5.9604645E-08,
++          "X": 0,
+@@ -216 +226 @@
+-          "Z": -8.940697E-08
++          "Z": 0
+@@ -219 +229 @@
+-          "X": 0.50000006,
++          "X": 0.5,
+@@ -221 +231 @@
+-          "Z": 0.5000001
++          "Z": 0.5
+@@ -228 +238 @@
+-      "VertexCount": 412,
++      "VertexCount": 550,
+@@ -232 +242 @@
+-          "X": 5.9604645E-08,
++          "X": 0,
+@@ -234 +244 @@
+-          "Z": -8.940697E-08
++          "Z": 0
+@@ -237 +247 @@
+-          "X": 0.50000006,
++          "X": 0.5,
+@@ -239 +249 @@
+-          "Z": 0.5000001
++          "Z": 0.5
+@@ -354,3 +364,3 @@
+-      "Width": 154,
+-      "Height": 130,
+-      "Name": "UnitySplash"
++      "Width": 512,
++      "Height": 512,
++      "Name": "UnitySplash-cube"
+@@ -360,3 +370,9 @@
+-      "Width": 150,
+-      "Height": 66,
+-      "Name": "UnitySplash2"
++      "Width": 612,
++      "Height": 130,
++      "Name": "UnitySplash-text"
++    },
++    "10405": {
++      "$type": "Texture2D",
++      "Width": 288,
++      "Height": 51,
++      "Name": "UnitySplash-free"
+@@ -378 +394 @@
+-      "Width": 138,
++      "Width": 127,
+@@ -408 +424 @@
+-      "Width": 76,
++      "Width": 66,
+@@ -604,5 +619,0 @@
+-    },
+-    "15000": {
+-      "$type": "Shader",
+-      "PropertyNames": [],
+-      "Name": "GIMaterialMapping"
+@@ -800 +811,6 @@
+-      "Name": "Universal"
++      "Name": "StandardSpecular"
++    },
++    "46": {
++      "$type": "Shader",
++      "PropertyNames": [],
++      "Name": "Standard"
+@@ -840 +856 @@
+-      "Name": ""
++      "Name": "Decal"
+@@ -850 +866 @@
+-      "Name": "skybox cubed"
++      "Name": "Skybox-Cubed"
+@@ -920 +936 @@
+-      "Shader": "Universal",
++      "Shader": "Standard",
+@@ -1032 +1048 @@
 -      "Name": "TerrBumpFirstPass"
 +      "Name": "Specular-FirstPass"
-@@ -1036 +1053,21 @@
+@@ -1037 +1053,21 @@
 -      "Name": "TerrBumpAddPass"
 +      "Name": "Specular-AddPass"
 +    },
@@ -1183,38 +1349,107 @@
 +      "$type": "Shader",
 +      "PropertyNames": [],
 +      "Name": "Standard-Base"
-@@ -1112,0 +1150,5 @@
-+    "10755": {
-+      "$type": "Shader",
-+      "PropertyNames": [],
-+      "Name": "Unlit-Color"
+@@ -1122 +1158 @@
+-      "Name": "GUI-Unlit-Transparent"
++      "Name": "UI-Unlit-Transparent"
+@@ -1127 +1163 @@
+-      "Name": "GUI-Unlit-Detail"
++      "Name": "UI-Unlit-Detail"
+@@ -1132 +1168 @@
+-      "Name": "GUI-Unlit-Text"
++      "Name": "UI-Unlit-Text"
+@@ -1137 +1173 @@
+-      "Name": "GUI-Unlit-TextDetail"
++      "Name": "UI-Unlit-TextDetail"
+@@ -1142 +1178 @@
+-      "Name": "GUI-Lit-Transparent"
++      "Name": "UI-Lit-Transparent"
+@@ -1147 +1183 @@
+-      "Name": "GUI-Lit-Bumped"
++      "Name": "UI-Lit-Bumped"
+@@ -1152 +1188 @@
+-      "Name": "GUI-Lit-Detail"
++      "Name": "UI-Lit-Detail"
+@@ -1157 +1193 @@
+-      "Name": "GUI-Lit-Refraction(ProOnly)"
++      "Name": "UI-Lit-Refraction(ProOnly)"
+@@ -1162 +1198 @@
+-      "Name": "GUI-Lit-RefractionDetail(ProOnly)"
++      "Name": "UI-Lit-RefractionDetail(ProOnly)"
+@@ -1167 +1203 @@
+-      "Name": "GUI-Default"
++      "Name": "UI-Default"
+@@ -1172 +1208 @@
+-      "Name": "GUI-DefaultFont"
++      "Name": "UI-DefaultFont"
+@@ -1181,2 +1217,2 @@
+-      "Width": 22,
+-      "Height": 22,
++      "Width": 64,
++      "Height": 64,
+@@ -1190,11 +1225,0 @@
+-    "10902": {
+-      "$type": "Texture2D",
+-      "Width": 13,
+-      "Height": 8,
+-      "Name": "PopupArrow"
+-    },
+-    "10903": {
+-      "$type": "Sprite",
+-      "Texture": "PopupArrow",
+-      "Name": "PopupArrow"
+-    },
+@@ -1203,3 +1228,3 @@
+-      "Width": 16,
+-      "Height": 16,
+-      "Name": "GUISprite"
++      "Width": 32,
++      "Height": 32,
++      "Name": "UISprite"
+@@ -1209,2 +1234,2 @@
+-      "Texture": "GUISprite",
+-      "Name": "GUISprite"
++      "Texture": "UISprite",
++      "Name": "UISprite"
+@@ -1214,2 +1239,2 @@
+-      "Width": 24,
+-      "Height": 24,
++      "Width": 32,
++      "Height": 32,
+@@ -1223 +1248 @@
+-    "10908": {
++    "10910": {
+@@ -1227 +1252 @@
+-      "Name": "PopupHighlight"
++      "Name": "InputFieldBackground"
+@@ -1229 +1254 @@
+-    "10909": {
++    "10911": {
+@@ -1231,2 +1256,13 @@
+-      "Texture": "PopupHighlight",
+-      "Name": "PopupHighlight"
++      "Texture": "InputFieldBackground",
++      "Name": "InputFieldBackground"
 +    },
-@@ -1226,0 +1269,55 @@
++    "10912": {
++      "$type": "Texture2D",
++      "Width": 64,
++      "Height": 64,
++      "Name": "Knob"
 +    },
-+    "14000": {
-+      "$type": "Shader",
-+      "PropertyNames": [],
-+      "Name": "SpeedTree"
-+    },
-+    "14001": {
-+      "$type": "Shader",
-+      "PropertyNames": [],
-+      "Name": "SpeedTreeBillboard"
-+    },
-+    "15100": {
-+      "$type": "Shader",
-+      "PropertyNames": [],
++    "10913": {
++      "$type": "Sprite",
++      "Texture": "Knob",
++      "Name": "Knob"
+@@ -1247,6 +1283 @@
+-      "Name": "TextureUV0"
+-    },
+-    "15101": {
+-      "$type": "Shader",
+-      "PropertyNames": [],
+-      "Name": "TextureUV1"
 +      "Name": "TextureUV"
-+    },
-+    "15102": {
-+      "$type": "Shader",
-+      "PropertyNames": [],
-+      "Name": "UV1sAsPositions"
-+    },
-+    "15103": {
-+      "$type": "Shader",
-+      "PropertyNames": [],
-+      "Name": "VertexColors"
+@@ -1262,0 +1294,30 @@
 +    },
 +    "15104": {
 +      "$type": "Shader",
@@ -1293,7 +1528,7 @@
 -      "Name": "UI-Lit-RefractionDetail(ProOnly)"
 +      "Name": "UI-Lit-RefractionDetail"
 --- 5.2.2f1
-+++ 5.2.3f1
++++ 5.2.2p1
 @@ -67,0 +68,5 @@
 +    "111": {
 +      "$type": "Shader",
@@ -1319,15 +1554,15 @@
 +      "$type": "Material",
 +      "Shader": "FrameDebuggerRenderTargetDisplay",
 +      "Name": "FrameDebuggerRenderTargetDisplay"
---- 5.3.7f1
-+++ 5.3.8f1
+--- 5.3.7p1
++++ 5.3.7p2
 @@ -1229,0 +1230,5 @@
 +    "10783": {
 +      "$type": "Shader",
 +      "PropertyNames": [],
 +      "Name": "UI-DefaultETC1"
 +    },
---- 5.3.8f2
+--- 5.3.8p2
 +++ 5.4.0b1
 @@ -13,5 +12,0 @@
 -    "64": {
@@ -3688,16 +3923,27 @@
 +      "Width": 2048,
 +      "Height": 1024,
 --- 2017.2.0f3
-+++ 2017.2.1f1
++++ 2017.2.0p1
 @@ -2511,5 +2510,0 @@
 -    "15400": {
 -      "$type": "Material",
 -      "Shader": "AR/TangoARRender",
 -      "Name": "TangoARRender"
 -    },
-@@ -2519 +2514,2 @@
+@@ -2519 +2514,5 @@
 -        "_ScreenOrientation"
 +        "_ScreenOrientation",
++        "_ScreenWidth",
++        "_ScreenHeight",
++        "_ImageWidth",
++        "_ImageHeight"
+--- 2017.2.0p1
++++ 2017.2.0p2
+@@ -2515,4 +2515 @@
+-        "_ScreenWidth",
+-        "_ScreenHeight",
+-        "_ImageWidth",
+-        "_ImageHeight"
 +        "_HeightScale"
 --- 2017.2.5f1
 +++ 2017.3.0b1
@@ -4062,7 +4308,7 @@
 +        "_TranslucencyViewDependency",
 +        "_TranslucencyColor"
 --- 2018.2.21f1
-+++ 2018.3.0b7
++++ 2018.3.0b1
 @@ -25,0 +26,10 @@
 +    "300": {
 +      "$type": "NamedObject",
@@ -4294,7 +4540,7 @@
 +      ],
 +      "Name": "Nature/SpeedTree8"
 +    },
-@@ -2638,0 +2657,26 @@
+@@ -2638,0 +2657,28 @@
 +    },
 +    "18000": {
 +      "$type": "Shader",
@@ -4319,8 +4565,17 @@
 +    },
 +    "18004": {
 +      "$type": "Shader",
-+      "PropertyNames": [],
++      "PropertyNames": [
++        "_MainTex"
++      ],
 +      "Name": "Hidden/TerrainEngine/BrushPreview"
+--- 2018.3.0b5
++++ 2018.3.0b6
+@@ -2681,3 +2681 @@
+-      "PropertyNames": [
+-        "_MainTex"
+-      ],
++      "PropertyNames": [],
 --- 2018.4.36f1
 +++ 2019.1.0a7
 @@ -1719 +1719,2 @@
@@ -4462,7 +4717,7 @@
 -        "_Smoothness2",
 -        "_Smoothness3",
 --- 2019.1.14f1
-+++ 2019.2.0a6
++++ 2019.2.0a4
 @@ -594,0 +595,30 @@
 +    },
 +    "19000": {
@@ -5194,7 +5449,7 @@
 +        "_MainTex"
 +      ],
 +      "Name": "Hidden/VR/BlitCopyHDRTonemappedToSDRTexArraySlice"
---- 2022.3.52f1
+--- 2022.3.61f1
 +++ 2023.1.0a1
 @@ -51,10 +50,0 @@
 -    "600": {
@@ -5610,11 +5865,42 @@
 +      ],
 +      "Name": "Nature/SpeedTree9"
 +    },
---- 6000.0.26f1
+--- 6000.0.28f1
++++ 6000.0.29f1
+@@ -3048,0 +3049,5 @@
++    },
++    "20204": {
++      "$type": "NamedObject",
++      "TypeID": 49,
++      "Name": "icudt73l"
+--- 6000.0.48f1
 +++ 6000.1.0a2
 @@ -40,0 +41,5 @@
 +    "302": {
 +      "$type": "NamedObject",
 +      "TypeID": 72,
 +      "Name": "Internal-RayTracing-AddInstancesIndirect"
++    },
+@@ -3049,5 +3053,0 @@
+-    },
+-    "20204": {
+-      "$type": "NamedObject",
+-      "TypeID": 49,
+-      "Name": "icudt73l"
+--- 6000.1.0a5
++++ 6000.1.0a6
+@@ -3053,0 +3054,5 @@
++    },
++    "20204": {
++      "$type": "NamedObject",
++      "TypeID": 49,
++      "Name": "icudt73l"
+--- 6000.2.0a6
++++ 6000.2.0a8
+@@ -667,0 +668,6 @@
++    "19106": {
++      "$type": "MonoScript",
++      "AssemblyName": "UnityEngine",
++      "Namespace": "UnityEngine.UIElements",
++      "ClassName": "PanelInputConfiguration"
 +    },
