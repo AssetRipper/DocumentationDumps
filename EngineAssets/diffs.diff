@@ -5449,7 +5449,7 @@
 +        "_MainTex"
 +      ],
 +      "Name": "Hidden/VR/BlitCopyHDRTonemappedToSDRTexArraySlice"
---- 2022.3.63f1
+--- 2022.3.64f1
 +++ 2023.1.0a1
 @@ -51,10 +50,0 @@
 -    "600": {
@@ -5873,7 +5873,7 @@
 +      "$type": "NamedObject",
 +      "TypeID": 49,
 +      "Name": "icudt73l"
---- 6000.0.51f1
+--- 6000.0.53f1
 +++ 6000.1.0a2
 @@ -40,0 +41,5 @@
 +    "302": {
@@ -5904,3 +5904,35 @@
 +      "Namespace": "UnityEngine.UIElements",
 +      "ClassName": "PanelInputConfiguration"
 +    },
+--- 6000.2.0b10
++++ 6000.3.0a2
+@@ -44 +44,6 @@
+-      "Name": "Internal-RayTracing-AddInstancesIndirect"
++      "Name": "Internal-RayTracing-AddInstancesIndirectSingleGeometry"
++    },
++    "303": {
++      "$type": "NamedObject",
++      "TypeID": 72,
++      "Name": "Internal-RayTracing-AddInstancesIndirectMultiGeometry"
+@@ -673,0 +679,6 @@
++    "19107": {
++      "$type": "MonoScript",
++      "AssemblyName": "UnityEngine",
++      "Namespace": "UnityEngine.UIElements",
++      "ClassName": "FilterFunctionDefinition"
++    },
+@@ -3064,0 +3076,14 @@
++    },
++    "20300": {
++      "$type": "Shader",
++      "PropertyNames": [
++        "_MainTex"
++      ],
++      "Name": "Hidden/UIR/GaussianBlur"
++    },
++    "20301": {
++      "$type": "Shader",
++      "PropertyNames": [
++        "_MainTex"
++      ],
++      "Name": "Hidden/UIR/ColorEffect"
