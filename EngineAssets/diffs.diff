@@ -5449,7 +5449,7 @@
 +        "_MainTex"
 +      ],
 +      "Name": "Hidden/VR/BlitCopyHDRTonemappedToSDRTexArraySlice"
---- 2022.3.64f1
+--- 2022.3.66f1
 +++ 2023.1.0a1
 @@ -51,10 +50,0 @@
 -    "600": {
@@ -5873,7 +5873,7 @@
 +      "$type": "NamedObject",
 +      "TypeID": 49,
 +      "Name": "icudt73l"
---- 6000.0.53f1
+--- 6000.0.57f1
 +++ 6000.1.0a2
 @@ -40,0 +41,5 @@
 +    "302": {
@@ -5904,7 +5904,7 @@
 +      "Namespace": "UnityEngine.UIElements",
 +      "ClassName": "PanelInputConfiguration"
 +    },
---- 6000.2.0b10
+--- 6000.2.4f1
 +++ 6000.3.0a2
 @@ -44 +44,6 @@
 -      "Name": "Internal-RayTracing-AddInstancesIndirect"
@@ -5936,3 +5936,178 @@
 +        "_MainTex"
 +      ],
 +      "Name": "Hidden/UIR/ColorEffect"
+--- 6000.3.0a3
++++ 6000.3.0a5
+@@ -689,0 +690,60 @@
++    },
++    "19300": {
++      "$type": "MonoScript",
++      "AssemblyName": "UnityEngine",
++      "Namespace": "UnityEngine.LowLevelPhysics2D",
++      "ClassName": "PhysicsLowLevelSettings2D"
++    },
++    "21000": {
++      "$type": "MonoScript",
++      "AssemblyName": "UnityEngine",
++      "Namespace": "UnityEngine.AdaptivePerformance",
++      "ClassName": "AdaptivePerformanceGeneralSettings"
++    },
++    "21001": {
++      "$type": "MonoScript",
++      "AssemblyName": "UnityEngine",
++      "Namespace": "UnityEngine.AdaptivePerformance",
++      "ClassName": "AdaptivePerformanceManagerSettings"
++    },
++    "21002": {
++      "$type": "MonoScript",
++      "AssemblyName": "UnityEngine",
++      "Namespace": "UnityEngine.AdaptivePerformance",
++      "ClassName": "AdaptivePerformanceLoader"
++    },
++    "21003": {
++      "$type": "MonoScript",
++      "AssemblyName": "UnityEngine",
++      "Namespace": "UnityEngine.AdaptivePerformance",
++      "ClassName": "AdaptivePerformanceLoaderHelper"
++    },
++    "21004": {
++      "$type": "MonoScript",
++      "AssemblyName": "UnityEngine",
++      "Namespace": "UnityEngine.AdaptivePerformance",
++      "ClassName": "AdaptivePerformanceManagerSpawner"
++    },
++    "21005": {
++      "$type": "MonoScript",
++      "AssemblyName": "UnityEngine",
++      "Namespace": "UnityEngine.AdaptivePerformance",
++      "ClassName": "AdaptivePerformanceScaler"
++    },
++    "21006": {
++      "$type": "MonoScript",
++      "AssemblyName": "UnityEngine",
++      "Namespace": "UnityEngine.AdaptivePerformance",
++      "ClassName": "IAdaptivePerformanceSettings"
++    },
++    "21007": {
++      "$type": "MonoScript",
++      "AssemblyName": "UnityEngine",
++      "Namespace": "UnityEngine.AdaptivePerformance.Basic",
++      "ClassName": "BasicProviderLoader"
++    },
++    "21008": {
++      "$type": "MonoScript",
++      "AssemblyName": "UnityEngine",
++      "Namespace": "UnityEngine.AdaptivePerformance.Basic",
++      "ClassName": "BasicProviderSettings"
+@@ -2638,0 +2699,7 @@
++    "13000": {
++      "$type": "Shader",
++      "PropertyNames": [
++        "_MainTex"
++      ],
++      "Name": "Hidden/VisualizeShadingRateImage"
++    },
+@@ -3089,0 +3157,103 @@
++    },
++    "20400": {
++      "$type": "Shader",
++      "PropertyNames": [
++        "_MainTex",
++        "_Color",
++        "PixelSnap",
++        "_RendererColor",
++        "_Flip",
++        "_AlphaTex",
++        "_EnableExternalAlpha"
++      ],
++      "Name": "Hidden/VectorGraphics/Vector"
++    },
++    "20401": {
++      "$type": "Shader",
++      "PropertyNames": [
++        "_MainTex",
++        "_Color",
++        "_RendererColor"
++      ],
++      "Name": "Hidden/VectorGraphics/VectorGradient"
++    },
++    "20402": {
++      "$type": "Shader",
++      "PropertyNames": [
++        "_MainTex"
++      ],
++      "Name": "Hidden/VectorGraphics/VectorBlendMax"
++    },
++    "20403": {
++      "$type": "Shader",
++      "PropertyNames": [
++        "_MainTex"
++      ],
++      "Name": "Hidden/VectorGraphics/VectorDemultiply"
++    },
++    "20404": {
++      "$type": "Shader",
++      "PropertyNames": [
++        "_MainTex"
++      ],
++      "Name": "Hidden/VectorGraphics/VectorExpandEdges"
++    },
++    "20410": {
++      "$type": "Material",
++      "Shader": "Hidden/VectorGraphics/Vector",
++      "Name": "Internal-VectorGraphics-Vector"
++    },
++    "20411": {
++      "$type": "Material",
++      "Shader": "Hidden/VectorGraphics/VectorGradient",
++      "Name": "Internal-VectorGraphics-VectorGradient"
++    },
++    "20500": {
++      "$type": "Shader",
++      "PropertyNames": [],
++      "Name": "Hidden/Physics2D/SDF_CircleGeometry"
++    },
++    "20501": {
++      "$type": "Shader",
++      "PropertyNames": [],
++      "Name": "Hidden/Physics2D/SDF_CapsuleGeometry"
++    },
++    "20502": {
++      "$type": "Shader",
++      "PropertyNames": [],
++      "Name": "Hidden/Physics2D/SDF_PolygonGeometry"
++    },
++    "20506": {
++      "$type": "Shader",
++      "PropertyNames": [],
++      "Name": "Hidden/Physics2D/SDF_Line"
++    },
++    "20507": {
++      "$type": "Shader",
++      "PropertyNames": [],
++      "Name": "Hidden/Physics2D/SDF_Point"
++    },
++    "20510": {
++      "$type": "Material",
++      "Shader": "Hidden/Physics2D/SDF_CircleGeometry",
++      "Name": "SDF_CircleGeometry"
++    },
++    "20511": {
++      "$type": "Material",
++      "Shader": "Hidden/Physics2D/SDF_CapsuleGeometry",
++      "Name": "SDF_CapsuleGeometry"
++    },
++    "20512": {
++      "$type": "Material",
++      "Shader": "Hidden/Physics2D/SDF_PolygonGeometry",
++      "Name": "SDF_PolygonGeometry"
++    },
++    "20516": {
++      "$type": "Material",
++      "Shader": "Hidden/Physics2D/SDF_Line",
++      "Name": "SDF_Line"
++    },
++    "20517": {
++      "$type": "Material",
++      "Shader": "Hidden/Physics2D/SDF_Point",
++      "Name": "SDF_Point"
