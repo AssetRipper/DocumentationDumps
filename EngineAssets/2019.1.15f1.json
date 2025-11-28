@@ -1,0 +1,2735 @@
+{
+  "DefaultResources": {
+    "17": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "Hidden/InternalErrorShader"
+    },
+    "68": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "Hidden/InternalClear"
+    },
+    "69": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_Color",
+        "_SrcBlend",
+        "_DstBlend",
+        "_ZWrite",
+        "_ZTest",
+        "_Cull",
+        "_ZBias"
+      ],
+      "Name": "Hidden/Internal-Colored"
+    },
+    "300": {
+      "$type": "NamedObject",
+      "TypeID": 72,
+      "Name": "Internal-Skinning"
+    },
+    "301": {
+      "$type": "NamedObject",
+      "TypeID": 72,
+      "Name": "Internal-BlendShape"
+    },
+    "10001": {
+      "$type": "Texture2D",
+      "Width": 128,
+      "Height": 128,
+      "Name": "Soft"
+    },
+    "10100": {
+      "$type": "Material",
+      "Shader": "GUI/Text Shader",
+      "Name": "Font Material"
+    },
+    "10101": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_MainTex",
+        "_Color"
+      ],
+      "Name": "GUI/Text Shader"
+    },
+    "10102": {
+      "$type": "NamedObject",
+      "TypeID": 128,
+      "Name": "Arial"
+    },
+    "10103": {
+      "$type": "Texture2D",
+      "Width": 0,
+      "Height": 0,
+      "Name": "Font Texture"
+    },
+    "10200": {
+      "$type": "Mesh",
+      "VertexCount": 439,
+      "SubMeshCount": 1,
+      "LocalAABB": {
+        "Center": {
+          "X": 1.1920929E-07,
+          "Y": 0,
+          "Z": -1.7881393E-07
+        },
+        "Extent": {
+          "X": 1.0000001,
+          "Y": 1,
+          "Z": 1.0000002
+        }
+      },
+      "Name": "pSphere1"
+    },
+    "10202": {
+      "$type": "Mesh",
+      "VertexCount": 24,
+      "SubMeshCount": 1,
+      "LocalAABB": {
+        "Center": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "Extent": {
+          "X": 0.5,
+          "Y": 0.5,
+          "Z": 0.5
+        }
+      },
+      "Name": "Cube"
+    },
+    "10203": {
+      "$type": "Mesh",
+      "VertexCount": 124,
+      "SubMeshCount": 1,
+      "LocalAABB": {
+        "Center": {
+          "X": 1.1920929E-07,
+          "Y": 0,
+          "Z": -1.7881393E-07
+        },
+        "Extent": {
+          "X": 1.0000001,
+          "Y": 1,
+          "Z": 1.0000002
+        }
+      },
+      "Name": "pCylinder1"
+    },
+    "10204": {
+      "$type": "Mesh",
+      "VertexCount": 121,
+      "SubMeshCount": 1,
+      "LocalAABB": {
+        "Center": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "Extent": {
+          "X": 0.5,
+          "Y": 1.110223E-16,
+          "Z": 0.5
+        }
+      },
+      "Name": "pPlane1"
+    },
+    "10205": {
+      "$type": "Mesh",
+      "VertexCount": 410,
+      "SubMeshCount": 1,
+      "LocalAABB": {
+        "Center": {
+          "X": 1.1920929E-07,
+          "Y": 0,
+          "Z": -1.7881393E-07
+        },
+        "Extent": {
+          "X": 1.0000001,
+          "Y": 2,
+          "Z": 1.0000002
+        }
+      },
+      "Name": "polySurface2"
+    },
+    "10206": {
+      "$type": "Mesh",
+      "VertexCount": 88,
+      "SubMeshCount": 1,
+      "LocalAABB": {
+        "Center": {
+          "X": 5.9604645E-08,
+          "Y": 0,
+          "Z": -8.940697E-08
+        },
+        "Extent": {
+          "X": 0.50000006,
+          "Y": 1,
+          "Z": 0.5000001
+        }
+      },
+      "Name": "Cylinder"
+    },
+    "10207": {
+      "$type": "Mesh",
+      "VertexCount": 515,
+      "SubMeshCount": 1,
+      "LocalAABB": {
+        "Center": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "Extent": {
+          "X": 0.5,
+          "Y": 0.5,
+          "Z": 0.5
+        }
+      },
+      "Name": "Sphere"
+    },
+    "10208": {
+      "$type": "Mesh",
+      "VertexCount": 550,
+      "SubMeshCount": 1,
+      "LocalAABB": {
+        "Center": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "Extent": {
+          "X": 0.5,
+          "Y": 1,
+          "Z": 0.5
+        }
+      },
+      "Name": "Capsule"
+    },
+    "10209": {
+      "$type": "Mesh",
+      "VertexCount": 121,
+      "SubMeshCount": 1,
+      "LocalAABB": {
+        "Center": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "Extent": {
+          "X": 5,
+          "Y": 1.110223E-16,
+          "Z": 5
+        }
+      },
+      "Name": "Plane"
+    },
+    "10210": {
+      "$type": "Mesh",
+      "VertexCount": 4,
+      "SubMeshCount": 1,
+      "LocalAABB": {
+        "Center": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "Extent": {
+          "X": 0.5,
+          "Y": 0.5,
+          "Z": 3.0616168E-17
+        }
+      },
+      "Name": "Quad"
+    },
+    "10211": {
+      "$type": "Mesh",
+      "VertexCount": 42,
+      "SubMeshCount": 1,
+      "LocalAABB": {
+        "Center": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "Extent": {
+          "X": 1.017401,
+          "Y": 1.069757,
+          "Z": 1.069758
+        }
+      },
+      "Name": "Icosphere"
+    },
+    "10212": {
+      "$type": "Mesh",
+      "VertexCount": 12,
+      "SubMeshCount": 1,
+      "LocalAABB": {
+        "Center": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "Extent": {
+          "X": 1.124684,
+          "Y": 1.069627,
+          "Z": 1.257438
+        }
+      },
+      "Name": "icosahedron"
+    },
+    "10213": {
+      "$type": "Mesh",
+      "VertexCount": 5,
+      "SubMeshCount": 1,
+      "LocalAABB": {
+        "Center": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0.5
+        },
+        "Extent": {
+          "X": 1,
+          "Y": 1,
+          "Z": 0.5
+        }
+      },
+      "Name": "pyramid"
+    },
+    "10400": {
+      "$type": "Texture2D",
+      "Width": 128,
+      "Height": 58,
+      "Name": "UnityWatermark-small"
+    },
+    "10401": {
+      "$type": "Texture2D",
+      "Width": 74,
+      "Height": 71,
+      "Name": "EscToExit_back"
+    },
+    "10402": {
+      "$type": "Texture2D",
+      "Width": 267,
+      "Height": 20,
+      "Name": "EscToExit_Text"
+    },
+    "10403": {
+      "$type": "Texture2D",
+      "Width": 2048,
+      "Height": 1024,
+      "Name": "UnitySplash-cube"
+    },
+    "10404": {
+      "$type": "Sprite",
+      "Texture": "UnitySplash-cube",
+      "Name": "UnitySplash-cube"
+    },
+    "10406": {
+      "$type": "Texture2D",
+      "Width": 512,
+      "Height": 94,
+      "Name": "UnityWatermark-trial-big"
+    },
+    "10407": {
+      "$type": "Texture2D",
+      "Width": 76,
+      "Height": 14,
+      "Name": "UnityWatermark-trial"
+    },
+    "10408": {
+      "$type": "Texture2D",
+      "Width": 127,
+      "Height": 17,
+      "Name": "UnityWatermark-beta"
+    },
+    "10409": {
+      "$type": "Texture2D",
+      "Width": 148,
+      "Height": 17,
+      "Name": "UnityWatermark-edu"
+    },
+    "10410": {
+      "$type": "Texture2D",
+      "Width": 115,
+      "Height": 17,
+      "Name": "UnityWatermark-dev"
+    },
+    "10411": {
+      "$type": "Texture2D",
+      "Width": 64,
+      "Height": 64,
+      "Name": "WarningSign"
+    },
+    "10413": {
+      "$type": "Texture2D",
+      "Width": 87,
+      "Height": 13,
+      "Name": "UnityWatermark-proto"
+    },
+    "10414": {
+      "$type": "Texture2D",
+      "Width": 66,
+      "Height": 17,
+      "Name": "UnityWatermarkPlugin-beta"
+    },
+    "10755": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_MainTex"
+      ],
+      "Name": "Hidden/FrameDebuggerRenderTargetDisplay"
+    },
+    "10756": {
+      "$type": "Material",
+      "Shader": "Hidden/FrameDebuggerRenderTargetDisplay",
+      "Name": "FrameDebuggerRenderTargetDisplay"
+    },
+    "11000": {
+      "$type": "MonoBehaviour",
+      "Name": "GameSkin",
+      "AssemblyName": "",
+      "Namespace": "UnityEngine",
+      "ClassName": "GUISkin",
+      "Enabled": true,
+      "GameObject": null
+    },
+    "11001": {
+      "$type": "Texture2D",
+      "Width": 12,
+      "Height": 12,
+      "Name": "box"
+    },
+    "11002": {
+      "$type": "Texture2D",
+      "Width": 12,
+      "Height": 12,
+      "Name": "button active"
+    },
+    "11003": {
+      "$type": "Texture2D",
+      "Width": 12,
+      "Height": 12,
+      "Name": "button hover"
+    },
+    "11004": {
+      "$type": "Texture2D",
+      "Width": 12,
+      "Height": 12,
+      "Name": "button on hover"
+    },
+    "11005": {
+      "$type": "Texture2D",
+      "Width": 12,
+      "Height": 12,
+      "Name": "button on"
+    },
+    "11006": {
+      "$type": "Texture2D",
+      "Width": 12,
+      "Height": 12,
+      "Name": "button"
+    },
+    "11007": {
+      "$type": "Texture2D",
+      "Width": 12,
+      "Height": 12,
+      "Name": "horizontal scrollbar thumb"
+    },
+    "11008": {
+      "$type": "Texture2D",
+      "Width": 18,
+      "Height": 15,
+      "Name": "horizontal scrollbar"
+    },
+    "11009": {
+      "$type": "Texture2D",
+      "Width": 8,
+      "Height": 7,
+      "Name": "horizontalslider"
+    },
+    "11010": {
+      "$type": "Texture2D",
+      "Width": 8,
+      "Height": 12,
+      "Name": "slider thumb active"
+    },
+    "11011": {
+      "$type": "Texture2D",
+      "Width": 8,
+      "Height": 12,
+      "Name": "slider thumb"
+    },
+    "11012": {
+      "$type": "Texture2D",
+      "Width": 8,
+      "Height": 12,
+      "Name": "slidert humb hover"
+    },
+    "11013": {
+      "$type": "Texture2D",
+      "Width": 14,
+      "Height": 14,
+      "Name": "toggle active"
+    },
+    "11014": {
+      "$type": "Texture2D",
+      "Width": 14,
+      "Height": 14,
+      "Name": "toggle hover"
+    },
+    "11015": {
+      "$type": "Texture2D",
+      "Width": 14,
+      "Height": 14,
+      "Name": "toggle on hover"
+    },
+    "11016": {
+      "$type": "Texture2D",
+      "Width": 14,
+      "Height": 14,
+      "Name": "toggle on"
+    },
+    "11017": {
+      "$type": "Texture2D",
+      "Width": 14,
+      "Height": 14,
+      "Name": "toggle on active"
+    },
+    "11018": {
+      "$type": "Texture2D",
+      "Width": 14,
+      "Height": 14,
+      "Name": "toggle"
+    },
+    "11019": {
+      "$type": "Texture2D",
+      "Width": 12,
+      "Height": 12,
+      "Name": "vertical scrollbar thumb"
+    },
+    "11020": {
+      "$type": "Texture2D",
+      "Width": 15,
+      "Height": 18,
+      "Name": "vertical scrollbar"
+    },
+    "11021": {
+      "$type": "Texture2D",
+      "Width": 7,
+      "Height": 8,
+      "Name": "verticalslider"
+    },
+    "11022": {
+      "$type": "Texture2D",
+      "Width": 17,
+      "Height": 27,
+      "Name": "window on"
+    },
+    "11023": {
+      "$type": "Texture2D",
+      "Width": 17,
+      "Height": 27,
+      "Name": "window"
+    },
+    "11024": {
+      "$type": "Texture2D",
+      "Width": 12,
+      "Height": 12,
+      "Name": "textfield"
+    },
+    "11025": {
+      "$type": "Texture2D",
+      "Width": 12,
+      "Height": 12,
+      "Name": "textfield on"
+    },
+    "11026": {
+      "$type": "Texture2D",
+      "Width": 12,
+      "Height": 12,
+      "Name": "textfield hover"
+    },
+    "11993": {
+      "$type": "MonoScript",
+      "AssemblyName": "",
+      "Namespace": "UnityEngine.UIElements",
+      "ClassName": "TemplateAsset"
+    },
+    "11995": {
+      "$type": "MonoScript",
+      "AssemblyName": "",
+      "Namespace": "UnityEngine.UIElements",
+      "ClassName": "VisualTreeAsset"
+    },
+    "11998": {
+      "$type": "MonoScript",
+      "AssemblyName": "",
+      "Namespace": "UnityEngine.UIElements",
+      "ClassName": "StyleSheet"
+    },
+    "12001": {
+      "$type": "MonoScript",
+      "AssemblyName": "",
+      "Namespace": "UnityEngine",
+      "ClassName": "GUISkin"
+    },
+    "13312": {
+      "$type": "MonoScript",
+      "AssemblyName": "",
+      "Namespace": "UnityEngine.Tilemaps",
+      "ClassName": "Tile"
+    },
+    "13313": {
+      "$type": "MonoScript",
+      "AssemblyName": "",
+      "Namespace": "UnityEngine.Tilemaps",
+      "ClassName": "TileBase"
+    },
+    "15000": {
+      "$type": "Texture2D",
+      "Width": 32,
+      "Height": 32,
+      "Name": "UnitySplash-HolographicTrackingLoss"
+    }
+  },
+  "ExtraResources": {
+    "1": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_Color",
+        "_MainTex"
+      ],
+      "Name": "Legacy Shaders/Diffuse Fast"
+    },
+    "2": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_Color",
+        "_MainTex",
+        "_BumpMap"
+      ],
+      "Name": "Legacy Shaders/Bumped Diffuse"
+    },
+    "3": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_Color",
+        "_SpecColor",
+        "_Shininess",
+        "_MainTex"
+      ],
+      "Name": "Legacy Shaders/Specular"
+    },
+    "4": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_Color",
+        "_SpecColor",
+        "_Shininess",
+        "_MainTex",
+        "_BumpMap"
+      ],
+      "Name": "Legacy Shaders/Bumped Specular"
+    },
+    "5": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_Color",
+        "_MainTex",
+        "_Detail"
+      ],
+      "Name": "Legacy Shaders/Diffuse Detail"
+    },
+    "6": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_Color",
+        "_SpecColor",
+        "_Emission",
+        "_Shininess",
+        "_MainTex"
+      ],
+      "Name": "Legacy Shaders/VertexLit"
+    },
+    "7": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_Color",
+        "_MainTex"
+      ],
+      "Name": "Legacy Shaders/Diffuse"
+    },
+    "8": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_Color",
+        "_Parallax",
+        "_MainTex",
+        "_BumpMap",
+        "_ParallaxMap"
+      ],
+      "Name": "Legacy Shaders/Parallax Diffuse"
+    },
+    "9": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_Color",
+        "_SpecColor",
+        "_Shininess",
+        "_Parallax",
+        "_MainTex",
+        "_BumpMap",
+        "_ParallaxMap"
+      ],
+      "Name": "Legacy Shaders/Parallax Specular"
+    },
+    "10": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_Color",
+        "_MainTex",
+        "_Illum",
+        "_Emission"
+      ],
+      "Name": "Legacy Shaders/Self-Illumin/Diffuse"
+    },
+    "11": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_Color",
+        "_MainTex",
+        "_Illum",
+        "_BumpMap",
+        "_Emission"
+      ],
+      "Name": "Legacy Shaders/Self-Illumin/Bumped Diffuse"
+    },
+    "12": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_Color",
+        "_SpecColor",
+        "_Shininess",
+        "_MainTex",
+        "_Illum",
+        "_Emission"
+      ],
+      "Name": "Legacy Shaders/Self-Illumin/Specular"
+    },
+    "13": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_Color",
+        "_SpecColor",
+        "_Shininess",
+        "_MainTex",
+        "_Illum",
+        "_BumpMap",
+        "_Emission"
+      ],
+      "Name": "Legacy Shaders/Self-Illumin/Bumped Specular"
+    },
+    "14": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_Color",
+        "_SpecColor",
+        "_Shininess",
+        "_MainTex",
+        "_Illum",
+        "_Emission"
+      ],
+      "Name": "Legacy Shaders/Self-Illumin/VertexLit"
+    },
+    "15": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_Color",
+        "_Parallax",
+        "_MainTex",
+        "_Illum",
+        "_BumpMap",
+        "_ParallaxMap",
+        "_Emission"
+      ],
+      "Name": "Legacy Shaders/Self-Illumin/Parallax Diffuse"
+    },
+    "16": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_Color",
+        "_SpecColor",
+        "_Shininess",
+        "_Parallax",
+        "_MainTex",
+        "_Illum",
+        "_BumpMap",
+        "_ParallaxMap",
+        "_Emission"
+      ],
+      "Name": "Legacy Shaders/Self-Illumin/Parallax Specular"
+    },
+    "19": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "Hidden/Internal-StencilWrite"
+    },
+    "20": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_Color",
+        "_ReflectColor",
+        "_MainTex",
+        "_Cube"
+      ],
+      "Name": "Legacy Shaders/Reflective/Diffuse"
+    },
+    "21": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_Color",
+        "_ReflectColor",
+        "_MainTex",
+        "_Cube",
+        "_BumpMap"
+      ],
+      "Name": "Legacy Shaders/Reflective/Bumped Diffuse"
+    },
+    "22": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_Color",
+        "_SpecColor",
+        "_Shininess",
+        "_ReflectColor",
+        "_MainTex",
+        "_Cube"
+      ],
+      "Name": "Legacy Shaders/Reflective/Specular"
+    },
+    "23": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_Color",
+        "_SpecColor",
+        "_Shininess",
+        "_ReflectColor",
+        "_MainTex",
+        "_Cube",
+        "_BumpMap"
+      ],
+      "Name": "Legacy Shaders/Reflective/Bumped Specular"
+    },
+    "24": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_Color",
+        "_ReflectColor",
+        "_MainTex",
+        "_Cube"
+      ],
+      "Name": "Legacy Shaders/Reflective/VertexLit"
+    },
+    "25": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_Color",
+        "_ReflectColor",
+        "_MainTex",
+        "_Cube",
+        "_BumpMap"
+      ],
+      "Name": "Legacy Shaders/Reflective/Bumped Unlit"
+    },
+    "26": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_Color",
+        "_SpecColor",
+        "_Shininess",
+        "_ReflectColor",
+        "_MainTex",
+        "_Cube",
+        "_BumpMap"
+      ],
+      "Name": "Legacy Shaders/Reflective/Bumped VertexLit"
+    },
+    "27": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_Color",
+        "_ReflectColor",
+        "_Parallax",
+        "_MainTex",
+        "_Cube",
+        "_BumpMap",
+        "_ParallaxMap"
+      ],
+      "Name": "Legacy Shaders/Reflective/Parallax Diffuse"
+    },
+    "28": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_Color",
+        "_SpecColor",
+        "_Shininess",
+        "_ReflectColor",
+        "_Parallax",
+        "_MainTex",
+        "_Cube",
+        "_BumpMap",
+        "_ParallaxMap"
+      ],
+      "Name": "Legacy Shaders/Reflective/Parallax Specular"
+    },
+    "30": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_Color",
+        "_MainTex"
+      ],
+      "Name": "Legacy Shaders/Transparent/Diffuse"
+    },
+    "31": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_Color",
+        "_MainTex",
+        "_BumpMap"
+      ],
+      "Name": "Legacy Shaders/Transparent/Bumped Diffuse"
+    },
+    "32": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_Color",
+        "_SpecColor",
+        "_Shininess",
+        "_MainTex"
+      ],
+      "Name": "Legacy Shaders/Transparent/Specular"
+    },
+    "33": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_Color",
+        "_SpecColor",
+        "_Shininess",
+        "_MainTex",
+        "_BumpMap"
+      ],
+      "Name": "Legacy Shaders/Transparent/Bumped Specular"
+    },
+    "34": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_Color",
+        "_SpecColor",
+        "_Emission",
+        "_Shininess",
+        "_MainTex"
+      ],
+      "Name": "Legacy Shaders/Transparent/VertexLit"
+    },
+    "35": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_Color",
+        "_Parallax",
+        "_MainTex",
+        "_BumpMap",
+        "_ParallaxMap"
+      ],
+      "Name": "Legacy Shaders/Transparent/Parallax Diffuse"
+    },
+    "36": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_Color",
+        "_SpecColor",
+        "_Shininess",
+        "_Parallax",
+        "_MainTex",
+        "_BumpMap",
+        "_ParallaxMap"
+      ],
+      "Name": "Legacy Shaders/Transparent/Parallax Specular"
+    },
+    "40": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_Color",
+        "_SpecColor",
+        "_Shininess",
+        "_MainTex",
+        "_LightMap"
+      ],
+      "Name": "Legacy Shaders/Lightmapped/VertexLit"
+    },
+    "41": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_Color",
+        "_MainTex",
+        "_LightMap"
+      ],
+      "Name": "Legacy Shaders/Lightmapped/Diffuse"
+    },
+    "42": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_Color",
+        "_MainTex",
+        "_BumpMap",
+        "_LightMap"
+      ],
+      "Name": "Legacy Shaders/Lightmapped/Bumped Diffuse"
+    },
+    "43": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_Color",
+        "_SpecColor",
+        "_Shininess",
+        "_MainTex",
+        "_LightMap"
+      ],
+      "Name": "Legacy Shaders/Lightmapped/Specular"
+    },
+    "44": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_Color",
+        "_SpecColor",
+        "_Shininess",
+        "_MainTex",
+        "_BumpMap",
+        "_LightMap"
+      ],
+      "Name": "Legacy Shaders/Lightmapped/Bumped Specular"
+    },
+    "45": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_Color",
+        "_MainTex",
+        "_Cutoff",
+        "_Glossiness",
+        "_GlossMapScale",
+        "_SmoothnessTextureChannel",
+        "_SpecColor",
+        "_SpecGlossMap",
+        "_SpecularHighlights",
+        "_GlossyReflections",
+        "_BumpScale",
+        "_BumpMap",
+        "_Parallax",
+        "_ParallaxMap",
+        "_OcclusionStrength",
+        "_OcclusionMap",
+        "_EmissionColor",
+        "_EmissionMap",
+        "_DetailMask",
+        "_DetailAlbedoMap",
+        "_DetailNormalMapScale",
+        "_DetailNormalMap",
+        "_UVSec",
+        "_Mode",
+        "_SrcBlend",
+        "_DstBlend",
+        "_ZWrite"
+      ],
+      "Name": "Standard (Specular setup)"
+    },
+    "46": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_Color",
+        "_MainTex",
+        "_Cutoff",
+        "_Glossiness",
+        "_GlossMapScale",
+        "_SmoothnessTextureChannel",
+        "_Metallic",
+        "_MetallicGlossMap",
+        "_SpecularHighlights",
+        "_GlossyReflections",
+        "_BumpScale",
+        "_BumpMap",
+        "_Parallax",
+        "_ParallaxMap",
+        "_OcclusionStrength",
+        "_OcclusionMap",
+        "_EmissionColor",
+        "_EmissionMap",
+        "_DetailMask",
+        "_DetailAlbedoMap",
+        "_DetailNormalMapScale",
+        "_DetailNormalMap",
+        "_UVSec",
+        "_Mode",
+        "_SrcBlend",
+        "_DstBlend",
+        "_ZWrite"
+      ],
+      "Name": "Standard"
+    },
+    "47": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_Color",
+        "_MainTex",
+        "_Cutoff",
+        "_Glossiness",
+        "_SpecGlossMap",
+        "_Metallic",
+        "_MetallicGlossMap",
+        "_SpecularHighlights",
+        "_GlossyReflections",
+        "_BumpScale",
+        "_BumpMap",
+        "_Parallax",
+        "_ParallaxMap",
+        "_OcclusionStrength",
+        "_OcclusionMap",
+        "_EmissionColor",
+        "_EmissionMap",
+        "_DetailMask",
+        "_DetailAlbedoMap",
+        "_DetailNormalMapScale",
+        "_DetailNormalMap",
+        "_UVSec",
+        "_Mode",
+        "_SrcBlend",
+        "_DstBlend",
+        "_ZWrite"
+      ],
+      "Name": "Autodesk Interactive"
+    },
+    "50": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_Color",
+        "_SpecColor",
+        "_Emission",
+        "_Shininess",
+        "_MainTex",
+        "_Cutoff"
+      ],
+      "Name": "Legacy Shaders/Transparent/Cutout/VertexLit"
+    },
+    "51": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_Color",
+        "_MainTex",
+        "_Cutoff"
+      ],
+      "Name": "Legacy Shaders/Transparent/Cutout/Diffuse"
+    },
+    "52": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_Color",
+        "_MainTex",
+        "_BumpMap",
+        "_Cutoff"
+      ],
+      "Name": "Legacy Shaders/Transparent/Cutout/Bumped Diffuse"
+    },
+    "53": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_Color",
+        "_SpecColor",
+        "_Shininess",
+        "_MainTex",
+        "_Cutoff"
+      ],
+      "Name": "Legacy Shaders/Transparent/Cutout/Specular"
+    },
+    "54": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_Color",
+        "_SpecColor",
+        "_Shininess",
+        "_MainTex",
+        "_BumpMap",
+        "_Cutoff"
+      ],
+      "Name": "Legacy Shaders/Transparent/Cutout/Bumped Specular"
+    },
+    "62": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_MainTex",
+        "_Cutoff",
+        "_Color"
+      ],
+      "Name": "Hidden/Internal-DepthNormalsTexture"
+    },
+    "63": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_LightTexture0",
+        "_LightTextureB0",
+        "_ShadowMapTexture"
+      ],
+      "Name": "Hidden/Internal-PrePassLighting"
+    },
+    "64": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_ShadowMapTexture",
+        "_ODSWorldTexture"
+      ],
+      "Name": "Hidden/Internal-ScreenSpaceShadows"
+    },
+    "65": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "Hidden/Internal-CombineDepthNormals"
+    },
+    "66": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_MainTex",
+        "_Color"
+      ],
+      "Name": "Hidden/BlitCopy"
+    },
+    "67": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_MainTex"
+      ],
+      "Name": "Hidden/BlitCopyDepth"
+    },
+    "68": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "Hidden/ConvertTexture"
+    },
+    "69": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_LightTexture0",
+        "_LightTextureB0",
+        "_ShadowMapTexture",
+        "_SrcBlend",
+        "_DstBlend"
+      ],
+      "Name": "Hidden/Internal-DeferredShading"
+    },
+    "74": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_SrcBlend",
+        "_DstBlend"
+      ],
+      "Name": "Hidden/Internal-DeferredReflections"
+    },
+    "75": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "Hidden/Internal-MotionVectors"
+    },
+    "100": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_Color",
+        "_MainTex",
+        "_DecalTex"
+      ],
+      "Name": "Legacy Shaders/Decal"
+    },
+    "101": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_MainTex"
+      ],
+      "Name": "FX/Flare"
+    },
+    "102": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "Hidden/Internal-Flare"
+    },
+    "103": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_Tint",
+        "_Exposure",
+        "_Rotation",
+        "_Tex"
+      ],
+      "Name": "Skybox/Cubemap"
+    },
+    "104": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_Tint",
+        "_Exposure",
+        "_Rotation",
+        "_FrontTex",
+        "_BackTex",
+        "_LeftTex",
+        "_RightTex",
+        "_UpTex",
+        "_DownTex"
+      ],
+      "Name": "Skybox/6 Sided"
+    },
+    "105": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "Hidden/Internal-Halo"
+    },
+    "106": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_SunDisk",
+        "_SunSize",
+        "_SunSizeConvergence",
+        "_AtmosphereThickness",
+        "_SkyTint",
+        "_GroundColor",
+        "_Exposure"
+      ],
+      "Name": "Skybox/Procedural"
+    },
+    "107": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_MainTex",
+        "_Color"
+      ],
+      "Name": "Hidden/BlitCopyWithDepth"
+    },
+    "108": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_Tint",
+        "_Exposure",
+        "_Rotation",
+        "_MainTex",
+        "_Mapping",
+        "_ImageType",
+        "_MirrorOnBack",
+        "_Layout"
+      ],
+      "Name": "Skybox/Panoramic"
+    },
+    "109": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_MainTex",
+        "_Color"
+      ],
+      "Name": "Hidden/BlitToDepth"
+    },
+    "110": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_MainTex"
+      ],
+      "Name": "Hidden/BlitToDepth_MSAA"
+    },
+    "200": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_TintColor",
+        "_MainTex",
+        "_InvFade"
+      ],
+      "Name": "Legacy Shaders/Particles/Additive"
+    },
+    "201": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_TintColor",
+        "_MainTex",
+        "_InvFade"
+      ],
+      "Name": "Legacy Shaders/Particles/~Additive-Multiply"
+    },
+    "202": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_MainTex",
+        "_InvFade"
+      ],
+      "Name": "Legacy Shaders/Particles/Additive (Soft)"
+    },
+    "203": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_TintColor",
+        "_MainTex",
+        "_InvFade"
+      ],
+      "Name": "Legacy Shaders/Particles/Alpha Blended"
+    },
+    "205": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_MainTex",
+        "_InvFade"
+      ],
+      "Name": "Legacy Shaders/Particles/Multiply"
+    },
+    "206": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_MainTex",
+        "_InvFade"
+      ],
+      "Name": "Legacy Shaders/Particles/Multiply (Double)"
+    },
+    "207": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_MainTex",
+        "_InvFade"
+      ],
+      "Name": "Legacy Shaders/Particles/Alpha Blended Premultiply"
+    },
+    "208": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_EmisColor",
+        "_MainTex"
+      ],
+      "Name": "Legacy Shaders/Particles/VertexLit Blended"
+    },
+    "209": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_TintColor",
+        "_MainTex",
+        "_InvFade"
+      ],
+      "Name": "Legacy Shaders/Particles/Anim Alpha Blended"
+    },
+    "210": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_MainTex",
+        "_Color",
+        "_Cutoff",
+        "_MetallicGlossMap",
+        "_Metallic",
+        "_Glossiness",
+        "_BumpScale",
+        "_BumpMap",
+        "_EmissionColor",
+        "_EmissionMap",
+        "_DistortionStrength",
+        "_DistortionBlend",
+        "_SoftParticlesNearFadeDistance",
+        "_SoftParticlesFarFadeDistance",
+        "_CameraNearFadeDistance",
+        "_CameraFarFadeDistance",
+        "_Mode",
+        "_FlipbookMode",
+        "_LightingEnabled",
+        "_DistortionEnabled",
+        "_EmissionEnabled",
+        "_BlendOp",
+        "_SrcBlend",
+        "_DstBlend",
+        "_ZWrite",
+        "_Cull",
+        "_SoftParticlesEnabled",
+        "_CameraFadingEnabled",
+        "_SoftParticleFadeParams",
+        "_CameraFadeParams",
+        "_DistortionStrengthScaled"
+      ],
+      "Name": "Particles/Standard Surface"
+    },
+    "211": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_MainTex",
+        "_Color",
+        "_Cutoff",
+        "_BumpScale",
+        "_BumpMap",
+        "_EmissionColor",
+        "_EmissionMap",
+        "_DistortionStrength",
+        "_DistortionBlend",
+        "_SoftParticlesNearFadeDistance",
+        "_SoftParticlesFarFadeDistance",
+        "_CameraNearFadeDistance",
+        "_CameraFarFadeDistance",
+        "_Mode",
+        "_ColorMode",
+        "_FlipbookMode",
+        "_LightingEnabled",
+        "_DistortionEnabled",
+        "_EmissionEnabled",
+        "_BlendOp",
+        "_SrcBlend",
+        "_DstBlend",
+        "_ZWrite",
+        "_Cull",
+        "_SoftParticlesEnabled",
+        "_CameraFadingEnabled",
+        "_SoftParticleFadeParams",
+        "_CameraFadeParams",
+        "_ColorAddSubDiff",
+        "_DistortionStrengthScaled"
+      ],
+      "Name": "Particles/Standard Unlit"
+    },
+    "9000": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_MainTex"
+      ],
+      "Name": "Hidden/Internal-GUITextureClip"
+    },
+    "9001": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_MainTex"
+      ],
+      "Name": "Hidden/Internal-GUITextureClipText"
+    },
+    "9002": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_MainTex"
+      ],
+      "Name": "Hidden/Internal-GUITexture"
+    },
+    "9003": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_MainTex"
+      ],
+      "Name": "Hidden/Internal-GUITextureBlit"
+    },
+    "9004": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_MainTex",
+        "_SrcBlend",
+        "_DstBlend"
+      ],
+      "Name": "Hidden/Internal-GUIRoundedRect"
+    },
+    "9005": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_MainTex",
+        "_FontTex",
+        "_CustomTex",
+        "_Color",
+        "_StencilCompFront",
+        "_StencilPassFront",
+        "_StencilZFailFront",
+        "_StencilFailFront",
+        "_StencilCompBack",
+        "_StencilPassBack",
+        "_StencilZFailBack",
+        "_StencilFailBack"
+      ],
+      "Name": "Hidden/Internal-UIRDefault"
+    },
+    "9006": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_MainTex0",
+        "_MainTex1",
+        "_MainTex2",
+        "_MainTex3",
+        "_MainTex4",
+        "_MainTex5",
+        "_MainTex6",
+        "_MainTex7"
+      ],
+      "Name": "Hidden/Internal-UIRAtlasBlitCopy"
+    },
+    "10300": {
+      "$type": "Texture2D",
+      "Width": 64,
+      "Height": 64,
+      "Name": "Default-Particle"
+    },
+    "10301": {
+      "$type": "Material",
+      "Shader": "Legacy Shaders/Particles/Alpha Blended Premultiply",
+      "Name": "Default-Particle"
+    },
+    "10302": {
+      "$type": "Material",
+      "Shader": "Legacy Shaders/Diffuse",
+      "Name": "Default-Diffuse"
+    },
+    "10303": {
+      "$type": "Material",
+      "Shader": "Standard",
+      "Name": "Default-Material"
+    },
+    "10304": {
+      "$type": "Material",
+      "Shader": "Skybox/Procedural",
+      "Name": "Default-Skybox"
+    },
+    "10305": {
+      "$type": "Texture2D",
+      "Width": 64,
+      "Height": 64,
+      "Name": "Default-Checker"
+    },
+    "10306": {
+      "$type": "Material",
+      "Shader": "Legacy Shaders/Particles/Alpha Blended Premultiply",
+      "Name": "Default-Line"
+    },
+    "10307": {
+      "$type": "Texture2D",
+      "Width": 64,
+      "Height": 64,
+      "Name": "Default-ParticleSystem"
+    },
+    "10308": {
+      "$type": "Material",
+      "Shader": "Particles/Standard Unlit",
+      "Name": "Default-ParticleSystem"
+    },
+    "10309": {
+      "$type": "Texture2D",
+      "Width": 64,
+      "Height": 64,
+      "Name": "Default-Checker-Gray"
+    },
+    "10490": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "Hidden/Nature/Terrain/Utilities"
+    },
+    "10500": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_MainTex"
+      ],
+      "Name": "Hidden/TerrainEngine/Details/Vertexlit"
+    },
+    "10501": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_WavingTint",
+        "_MainTex",
+        "_WaveAndDistance",
+        "_Cutoff"
+      ],
+      "Name": "Hidden/TerrainEngine/Details/WavingDoublePass"
+    },
+    "10502": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_WavingTint",
+        "_MainTex",
+        "_WaveAndDistance",
+        "_Cutoff"
+      ],
+      "Name": "Hidden/TerrainEngine/Details/BillboardWavingDoublePass"
+    },
+    "10503": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "Hidden/TerrainEngine/Splatmap/Diffuse-AddPass"
+    },
+    "10504": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_Color",
+        "_MainTex"
+      ],
+      "Name": "Hidden/TerrainEngine/Splatmap/Diffuse-Base"
+    },
+    "10505": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_MainTex",
+        "_Color"
+      ],
+      "Name": "Nature/Terrain/Diffuse"
+    },
+    "10506": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_DstBlend"
+      ],
+      "Name": "Hidden/TerrainEngine/Splatmap/Diffuse-BaseGen"
+    },
+    "10507": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_MainTex"
+      ],
+      "Name": "Hidden/TerrainEngine/BillboardTree"
+    },
+    "10508": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_Color",
+        "_MainTex",
+        "_BaseLight",
+        "_AO",
+        "_TreeInstanceColor",
+        "_TreeInstanceScale",
+        "_SquashAmount"
+      ],
+      "Name": "Hidden/Nature/Tree Soft Occlusion Bark Rendertex"
+    },
+    "10509": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_Color",
+        "_MainTex",
+        "_BaseLight",
+        "_AO",
+        "_TreeInstanceColor",
+        "_TreeInstanceScale",
+        "_SquashAmount"
+      ],
+      "Name": "Nature/Tree Soft Occlusion Bark"
+    },
+    "10510": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_Color",
+        "_MainTex",
+        "_Cutoff",
+        "_HalfOverCutoff",
+        "_BaseLight",
+        "_AO",
+        "_Occlusion",
+        "_TreeInstanceColor",
+        "_TreeInstanceScale",
+        "_SquashAmount"
+      ],
+      "Name": "Hidden/Nature/Tree Soft Occlusion Leaves Rendertex"
+    },
+    "10511": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_Color",
+        "_MainTex",
+        "_Cutoff",
+        "_BaseLight",
+        "_AO",
+        "_Occlusion",
+        "_TreeInstanceColor",
+        "_TreeInstanceScale",
+        "_SquashAmount"
+      ],
+      "Name": "Nature/Tree Soft Occlusion Leaves"
+    },
+    "10512": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_Color",
+        "_MainTex",
+        "_Cutoff"
+      ],
+      "Name": "Legacy Shaders/Transparent/Cutout/Soft Edge Unlit"
+    },
+    "10513": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_MainTex",
+        "_NormalTex",
+        "_TranslucencyViewDependency",
+        "_TranslucencyColor",
+        "_AlphaToMask"
+      ],
+      "Name": "Hidden/TerrainEngine/CameraFacingBillboardTree"
+    },
+    "10600": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_Color",
+        "_Shininess",
+        "_MainTex",
+        "_BumpMap",
+        "_GlossMap",
+        "_SpecColor",
+        "_TreeInstanceColor",
+        "_TreeInstanceScale",
+        "_SquashAmount"
+      ],
+      "Name": "Nature/Tree Creator Bark"
+    },
+    "10601": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_Color",
+        "_Shininess",
+        "_MainTex",
+        "_BumpMap",
+        "_GlossMap",
+        "_TranslucencyMap",
+        "_ShadowOffset",
+        "_Cutoff",
+        "_TreeInstanceColor",
+        "_TreeInstanceScale",
+        "_SquashAmount"
+      ],
+      "Name": "Nature/Tree Creator Leaves"
+    },
+    "10602": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_MainTex",
+        "_BumpSpecMap",
+        "_TranslucencyMap",
+        "_SpecColor"
+      ],
+      "Name": "Hidden/Nature/Tree Creator Bark Rendertex"
+    },
+    "10603": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_TranslucencyColor",
+        "_Cutoff",
+        "_HalfOverCutoff",
+        "_TranslucencyViewDependency",
+        "_MainTex",
+        "_BumpSpecMap",
+        "_TranslucencyMap"
+      ],
+      "Name": "Hidden/Nature/Tree Creator Leaves Rendertex"
+    },
+    "10604": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_Color",
+        "_MainTex",
+        "_BumpSpecMap",
+        "_TranslucencyMap",
+        "_Cutoff",
+        "_SpecColor",
+        "_TreeInstanceColor",
+        "_TreeInstanceScale",
+        "_SquashAmount"
+      ],
+      "Name": "Hidden/Nature/Tree Creator Bark Optimized"
+    },
+    "10605": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_Color",
+        "_TranslucencyColor",
+        "_Cutoff",
+        "_TranslucencyViewDependency",
+        "_ShadowStrength",
+        "_ShadowOffsetScale",
+        "_MainTex",
+        "_ShadowTex",
+        "_BumpSpecMap",
+        "_TranslucencyMap",
+        "_TreeInstanceColor",
+        "_TreeInstanceScale",
+        "_SquashAmount"
+      ],
+      "Name": "Hidden/Nature/Tree Creator Leaves Optimized"
+    },
+    "10606": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_Color",
+        "_TranslucencyColor",
+        "_Cutoff",
+        "_TranslucencyViewDependency",
+        "_ShadowStrength",
+        "_MainTex",
+        "_TreeInstanceColor",
+        "_TreeInstanceScale",
+        "_SquashAmount"
+      ],
+      "Name": "Nature/Tree Creator Leaves Fast"
+    },
+    "10607": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_Color",
+        "_TranslucencyColor",
+        "_Cutoff",
+        "_TranslucencyViewDependency",
+        "_ShadowStrength",
+        "_MainTex",
+        "_ShadowTex",
+        "_TreeInstanceColor",
+        "_TreeInstanceScale",
+        "_SquashAmount"
+      ],
+      "Name": "Hidden/Nature/Tree Creator Leaves Fast Optimized"
+    },
+    "10608": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_TranslucencyColor",
+        "_Cutoff",
+        "_HalfOverCutoff",
+        "_TranslucencyViewDependency",
+        "_MainTex",
+        "_BumpSpecMap",
+        "_TranslucencyMap"
+      ],
+      "Name": "Hidden/Nature/Tree Creator Albedo Rendertex"
+    },
+    "10609": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_TranslucencyColor",
+        "_Cutoff",
+        "_HalfOverCutoff",
+        "_TranslucencyViewDependency",
+        "_MainTex",
+        "_BumpSpecMap",
+        "_TranslucencyMap"
+      ],
+      "Name": "Hidden/Nature/Tree Creator Normal Rendertex"
+    },
+    "10620": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_SpecColor",
+        "_Shininess",
+        "_MainTex",
+        "_Color"
+      ],
+      "Name": "Nature/Terrain/Specular"
+    },
+    "10621": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_SpecColor",
+        "_Shininess"
+      ],
+      "Name": "Hidden/TerrainEngine/Splatmap/Specular-AddPass"
+    },
+    "10622": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_SpecColor",
+        "_Shininess",
+        "_MainTex",
+        "_Color"
+      ],
+      "Name": "Hidden/TerrainEngine/Splatmap/Specular-Base"
+    },
+    "10623": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_MainTex",
+        "_Color"
+      ],
+      "Name": "Nature/Terrain/Standard"
+    },
+    "10624": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "Hidden/TerrainEngine/Splatmap/Standard-AddPass"
+    },
+    "10625": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_MainTex",
+        "_MetallicTex",
+        "_Color"
+      ],
+      "Name": "Hidden/TerrainEngine/Splatmap/Standard-Base"
+    },
+    "10626": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_DstBlend"
+      ],
+      "Name": "Hidden/TerrainEngine/Splatmap/Standard-BaseGen"
+    },
+    "10700": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_FrontTex",
+        "_BackTex",
+        "_LeftTex",
+        "_RightTex",
+        "_UpTex",
+        "_DownTex"
+      ],
+      "Name": "Mobile/Skybox"
+    },
+    "10701": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_MainTex"
+      ],
+      "Name": "Mobile/VertexLit"
+    },
+    "10703": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_MainTex"
+      ],
+      "Name": "Mobile/Diffuse"
+    },
+    "10704": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_MainTex",
+        "_BumpMap"
+      ],
+      "Name": "Mobile/Bumped Diffuse"
+    },
+    "10705": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_Shininess",
+        "_MainTex",
+        "_BumpMap"
+      ],
+      "Name": "Mobile/Bumped Specular"
+    },
+    "10706": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_Shininess",
+        "_MainTex",
+        "_BumpMap"
+      ],
+      "Name": "Mobile/Bumped Specular (1 Directional Realtime Light)"
+    },
+    "10707": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_MainTex"
+      ],
+      "Name": "Mobile/VertexLit (Only Directional Lights)"
+    },
+    "10708": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_MainTex"
+      ],
+      "Name": "Mobile/Unlit (Supports Lightmap)"
+    },
+    "10720": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_MainTex"
+      ],
+      "Name": "Mobile/Particles/Additive"
+    },
+    "10721": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_MainTex"
+      ],
+      "Name": "Mobile/Particles/Alpha Blended"
+    },
+    "10722": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_EmisColor",
+        "_MainTex"
+      ],
+      "Name": "Mobile/Particles/VertexLit Blended"
+    },
+    "10723": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_MainTex"
+      ],
+      "Name": "Mobile/Particles/Multiply"
+    },
+    "10750": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_MainTex"
+      ],
+      "Name": "Unlit/Transparent"
+    },
+    "10751": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_MainTex",
+        "_Cutoff"
+      ],
+      "Name": "Unlit/Transparent Cutout"
+    },
+    "10752": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_MainTex"
+      ],
+      "Name": "Unlit/Texture"
+    },
+    "10753": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_MainTex",
+        "_Color",
+        "PixelSnap",
+        "_RendererColor",
+        "_Flip",
+        "_AlphaTex",
+        "_EnableExternalAlpha"
+      ],
+      "Name": "Sprites/Default"
+    },
+    "10754": {
+      "$type": "Material",
+      "Shader": "Sprites/Default",
+      "Name": "Sprites-Default"
+    },
+    "10755": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_Color"
+      ],
+      "Name": "Unlit/Color"
+    },
+    "10757": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_MainTex",
+        "_AlphaTex",
+        "_Cutoff",
+        "_Color",
+        "_EnableExternalAlpha",
+        "PixelSnap"
+      ],
+      "Name": "Sprites/Mask"
+    },
+    "10758": {
+      "$type": "Material",
+      "Shader": "Sprites/Mask",
+      "Name": "Sprites-Mask"
+    },
+    "10760": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_MainTex",
+        "_Color",
+        "_StencilComp",
+        "_Stencil",
+        "_StencilOp",
+        "_StencilWriteMask",
+        "_StencilReadMask",
+        "_ColorMask",
+        "_UseUIAlphaClip"
+      ],
+      "Name": "UI/Unlit/Transparent"
+    },
+    "10761": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_MainTex",
+        "_Color",
+        "_DetailTex",
+        "_Strength",
+        "_StencilComp",
+        "_Stencil",
+        "_StencilOp",
+        "_StencilWriteMask",
+        "_StencilReadMask",
+        "_ColorMask",
+        "_UseUIAlphaClip"
+      ],
+      "Name": "UI/Unlit/Detail"
+    },
+    "10762": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_MainTex",
+        "_Color",
+        "_StencilComp",
+        "_Stencil",
+        "_StencilOp",
+        "_StencilWriteMask",
+        "_StencilReadMask",
+        "_ColorMask",
+        "_UseUIAlphaClip"
+      ],
+      "Name": "UI/Unlit/Text"
+    },
+    "10763": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_MainTex",
+        "_Color",
+        "_DetailTex",
+        "_Strength",
+        "_StencilComp",
+        "_Stencil",
+        "_StencilOp",
+        "_StencilWriteMask",
+        "_StencilReadMask",
+        "_ColorMask",
+        "_UseUIAlphaClip"
+      ],
+      "Name": "UI/Unlit/Text Detail"
+    },
+    "10764": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_MainTex",
+        "_Color",
+        "_Specular",
+        "_StencilComp",
+        "_Stencil",
+        "_StencilOp",
+        "_StencilWriteMask",
+        "_StencilReadMask",
+        "_ColorMask",
+        "_UseUIAlphaClip"
+      ],
+      "Name": "UI/Lit/Transparent"
+    },
+    "10765": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_Color",
+        "_Specular",
+        "_MainTex",
+        "_MainBump",
+        "_Shininess",
+        "_StencilComp",
+        "_Stencil",
+        "_StencilOp",
+        "_StencilWriteMask",
+        "_StencilReadMask",
+        "_ColorMask",
+        "_UseUIAlphaClip"
+      ],
+      "Name": "UI/Lit/Bumped"
+    },
+    "10766": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_Color",
+        "_Specular",
+        "_MainTex",
+        "_MainBump",
+        "_DetailTex",
+        "_DetailBump",
+        "_Strength",
+        "_Shininess",
+        "_StencilComp",
+        "_Stencil",
+        "_StencilOp",
+        "_StencilWriteMask",
+        "_StencilReadMask",
+        "_ColorMask",
+        "_UseUIAlphaClip"
+      ],
+      "Name": "UI/Lit/Detail"
+    },
+    "10767": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_Color",
+        "_Specular",
+        "_MainTex",
+        "_MainBump",
+        "_Mask",
+        "_Shininess",
+        "_Focus",
+        "_StencilComp",
+        "_Stencil",
+        "_StencilOp",
+        "_StencilWriteMask",
+        "_StencilReadMask",
+        "_ColorMask",
+        "_UseUIAlphaClip"
+      ],
+      "Name": "UI/Lit/Refraction"
+    },
+    "10768": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_Color",
+        "_Specular",
+        "_MainTex",
+        "_MainBump",
+        "_Mask",
+        "_DetailTex",
+        "_DetailBump",
+        "_DetailMask",
+        "_Shininess",
+        "_Focus",
+        "_StencilComp",
+        "_Stencil",
+        "_StencilOp",
+        "_StencilWriteMask",
+        "_StencilReadMask",
+        "_ColorMask",
+        "_UseUIAlphaClip"
+      ],
+      "Name": "UI/Lit/Refraction Detail"
+    },
+    "10770": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_MainTex",
+        "_Color",
+        "_StencilComp",
+        "_Stencil",
+        "_StencilOp",
+        "_StencilWriteMask",
+        "_StencilReadMask",
+        "_ColorMask",
+        "_UseUIAlphaClip"
+      ],
+      "Name": "UI/Default"
+    },
+    "10782": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_MainTex",
+        "_Color",
+        "_StencilComp",
+        "_Stencil",
+        "_StencilOp",
+        "_StencilWriteMask",
+        "_StencilReadMask",
+        "_ColorMask",
+        "_UseUIAlphaClip"
+      ],
+      "Name": "UI/Default Font"
+    },
+    "10783": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_MainTex",
+        "_AlphaTex",
+        "_Color",
+        "_StencilComp",
+        "_Stencil",
+        "_StencilOp",
+        "_StencilWriteMask",
+        "_StencilReadMask",
+        "_ColorMask",
+        "_UseUIAlphaClip"
+      ],
+      "Name": "UI/DefaultETC1"
+    },
+    "10784": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_MainTex"
+      ],
+      "Name": "Hidden/UI/CompositeOverdraw"
+    },
+    "10785": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_MainTex",
+        "_Color",
+        "_StencilComp",
+        "_Stencil",
+        "_StencilOp",
+        "_StencilWriteMask",
+        "_StencilReadMask",
+        "_ColorMask",
+        "_UseUIAlphaClip"
+      ],
+      "Name": "Hidden/UI/Overdraw"
+    },
+    "10800": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_MainTex",
+        "_Color",
+        "PixelSnap",
+        "_RendererColor",
+        "_Flip",
+        "_AlphaTex",
+        "_EnableExternalAlpha"
+      ],
+      "Name": "Sprites/Diffuse"
+    },
+    "10900": {
+      "$type": "Texture2D",
+      "Width": 64,
+      "Height": 64,
+      "Name": "Checkmark"
+    },
+    "10901": {
+      "$type": "Sprite",
+      "Texture": "Checkmark",
+      "Name": "Checkmark"
+    },
+    "10904": {
+      "$type": "Texture2D",
+      "Width": 32,
+      "Height": 32,
+      "Name": "UISprite"
+    },
+    "10905": {
+      "$type": "Sprite",
+      "Texture": "UISprite",
+      "Name": "UISprite"
+    },
+    "10906": {
+      "$type": "Texture2D",
+      "Width": 32,
+      "Height": 32,
+      "Name": "Background"
+    },
+    "10907": {
+      "$type": "Sprite",
+      "Texture": "Background",
+      "Name": "Background"
+    },
+    "10910": {
+      "$type": "Texture2D",
+      "Width": 32,
+      "Height": 32,
+      "Name": "InputFieldBackground"
+    },
+    "10911": {
+      "$type": "Sprite",
+      "Texture": "InputFieldBackground",
+      "Name": "InputFieldBackground"
+    },
+    "10912": {
+      "$type": "Texture2D",
+      "Width": 64,
+      "Height": 64,
+      "Name": "Knob"
+    },
+    "10913": {
+      "$type": "Sprite",
+      "Texture": "Knob",
+      "Name": "Knob"
+    },
+    "10914": {
+      "$type": "Texture2D",
+      "Width": 64,
+      "Height": 64,
+      "Name": "DropdownArrow"
+    },
+    "10915": {
+      "$type": "Sprite",
+      "Texture": "DropdownArrow",
+      "Name": "DropdownArrow"
+    },
+    "10916": {
+      "$type": "Texture2D",
+      "Width": 32,
+      "Height": 32,
+      "Name": "UIMask"
+    },
+    "10917": {
+      "$type": "Sprite",
+      "Texture": "UIMask",
+      "Name": "UIMask"
+    },
+    "14000": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_Color",
+        "_HueVariation",
+        "_MainTex",
+        "_DetailTex",
+        "_BumpMap",
+        "_Cutoff",
+        "_Cull",
+        "_WindQuality"
+      ],
+      "Name": "Nature/SpeedTree"
+    },
+    "14001": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_Color",
+        "_HueVariation",
+        "_MainTex",
+        "_BumpMap",
+        "_Cutoff",
+        "_WindQuality"
+      ],
+      "Name": "Nature/SpeedTree Billboard"
+    },
+    "14002": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_MainTex",
+        "_Color",
+        "_HueVariationKwToggle",
+        "_HueVariationColor",
+        "_NormalMapKwToggle",
+        "_BumpMap",
+        "_ExtraTex",
+        "_Glossiness",
+        "_Metallic",
+        "_SubsurfaceKwToggle",
+        "_SubsurfaceTex",
+        "_SubsurfaceColor",
+        "_SubsurfaceIndirect",
+        "_BillboardKwToggle",
+        "_BillboardShadowFade",
+        "_TwoSided",
+        "_WindQuality"
+      ],
+      "Name": "Nature/SpeedTree8"
+    },
+    "15100": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_MainTex"
+      ],
+      "Name": "Hidden/GIDebug/TextureUV"
+    },
+    "15101": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_MainTex",
+        "_LightTexture",
+        "_SrcBlend",
+        "_DstBlend"
+      ],
+      "Name": "Hidden/GIDebug/ShowLightMask"
+    },
+    "15102": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_Color"
+      ],
+      "Name": "Hidden/GIDebug/UV1sAsPositions"
+    },
+    "15103": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_MainTex"
+      ],
+      "Name": "Hidden/GIDebug/VertexColors"
+    },
+    "15104": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_MainTex",
+        "_Texel",
+        "_Level",
+        "_Scale"
+      ],
+      "Name": "Hidden/CubeBlur"
+    },
+    "15105": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_MainTex",
+        "_Level"
+      ],
+      "Name": "Hidden/CubeCopy"
+    },
+    "15106": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_TexA",
+        "_TexB",
+        "_value"
+      ],
+      "Name": "Hidden/CubeBlend"
+    },
+    "15200": {
+      "$type": "NamedObject",
+      "TypeID": 1113,
+      "Name": "Default-HighResolution"
+    },
+    "15201": {
+      "$type": "NamedObject",
+      "TypeID": 1113,
+      "Name": "Default-LowResolution"
+    },
+    "15203": {
+      "$type": "NamedObject",
+      "TypeID": 1113,
+      "Name": "Default-VeryLowResolution"
+    },
+    "15204": {
+      "$type": "NamedObject",
+      "TypeID": 1113,
+      "Name": "Default-Medium"
+    },
+    "15300": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "VR/SpatialMapping/Occlusion"
+    },
+    "15301": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_WireThickness"
+      ],
+      "Name": "VR/SpatialMapping/Wireframe"
+    },
+    "15302": {
+      "$type": "Material",
+      "Shader": "VR/SpatialMapping/Occlusion",
+      "Name": "SpatialMappingOcclusion"
+    },
+    "15303": {
+      "$type": "Material",
+      "Shader": "VR/SpatialMapping/Wireframe",
+      "Name": "SpatialMappingWireframe"
+    },
+    "15304": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_MainTex"
+      ],
+      "Name": "Hidden/VR/BlitTexArraySlice"
+    },
+    "15305": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_MainTex"
+      ],
+      "Name": "Hidden/VR/Internal-VRDistortion"
+    },
+    "15306": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_MainTex"
+      ],
+      "Name": "Hidden/VR/BlitTexArraySliceToDepth"
+    },
+    "15307": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_MainTex"
+      ],
+      "Name": "Hidden/VR/BlitTexArraySliceToDepth_MSAA"
+    },
+    "15308": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_MainTex",
+        "_Cutoff",
+        "_Color"
+      ],
+      "Name": "Hidden/Internal-ODSWorldTexture"
+    },
+    "15309": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_MainTex"
+      ],
+      "Name": "Hidden/Internal-CubemapToEquirect"
+    },
+    "15310": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "Hidden/VR/ClippingMask"
+    },
+    "15311": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_MainTex"
+      ],
+      "Name": "Hidden/VR/VideoBackground"
+    },
+    "15312": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_MainTex"
+      ],
+      "Name": "Hidden/VR/BlitFromTex2DToTexArraySlice"
+    },
+    "15401": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_ScreenOrientation",
+        "_HeightScale"
+      ],
+      "Name": "AR/TangoARRender"
+    },
+    "16000": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_MainTex"
+      ],
+      "Name": "Hidden/VideoComposite"
+    },
+    "16001": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_MainTex",
+        "_SecondTex",
+        "_ThirdTex"
+      ],
+      "Name": "Hidden/VideoDecode"
+    },
+    "16002": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "Hidden/VideoDecodeOSX"
+    },
+    "16003": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "Hidden/VideoDecodeAndroid"
+    },
+    "16004": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "Hidden/VideoDecodeML"
+    },
+    "17000": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_MainTex",
+        "_SecondTex"
+      ],
+      "Name": "Hidden/Compositing"
+    },
+    "18000": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_MainTex"
+      ],
+      "Name": "Hidden/TerrainEngine/PaintHeight"
+    },
+    "18002": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_MainTex"
+      ],
+      "Name": "Hidden/TerrainEngine/GenerateNormalmap"
+    },
+    "18003": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_MainTex"
+      ],
+      "Name": "Hidden/TerrainEngine/TerrainLayerUtils"
+    },
+    "18004": {
+      "$type": "Shader",
+      "PropertyNames": [],
+      "Name": "Hidden/TerrainEngine/BrushPreview"
+    },
+    "18005": {
+      "$type": "Shader",
+      "PropertyNames": [
+        "_TopTex",
+        "_BottomTex",
+        "_LeftTex",
+        "_RightTex"
+      ],
+      "Name": "Hidden/TerrainEngine/CrossBlendNeighbors"
+    }
+  }
+}

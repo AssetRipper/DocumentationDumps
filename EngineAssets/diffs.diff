@@ -4716,7 +4716,7 @@
 -        "_Smoothness1",
 -        "_Smoothness2",
 -        "_Smoothness3",
---- 2019.1.14f1
+--- 2019.1.15f1
 +++ 2019.2.0a4
 @@ -594,0 +595,30 @@
 +    },
@@ -4864,7 +4864,7 @@
 +      "Shader": "Nature/Terrain/Standard",
 +      "Name": "Default-Terrain-Standard"
 +    },
---- 2019.2.21f1
+--- 2019.2.23f1
 +++ 2019.3.0a2
 @@ -1588,0 +1589,9 @@
 +    "9007": {
@@ -4977,7 +4977,7 @@
 -      ],
 -      "Name": "Hidden/VR/VideoBackground"
 -    },
---- 2019.4.40f1
+--- 2019.4.41f2
 +++ 2020.1.0a3
 @@ -2702,0 +2703,12 @@
 +    "15310": {
@@ -5137,7 +5137,7 @@
 +      "AssemblyName": "",
 +      "Namespace": "UnityEngine.UIElements",
 +      "ClassName": "ThemeStyleSheet"
---- 2021.1.28f1
+--- 2021.1.29f1
 +++ 2021.2.0a5
 @@ -614 +614 @@
 -      "Namespace": "UnityEngine.TextCore",
@@ -5220,7 +5220,7 @@
 +        "_ClipRect"
 +      ],
 +      "Name": "Hidden/TextCore/Sprite"
---- 2022.1.24f1
+--- 2022.1.25f1
 +++ 2022.2.0a9
 @@ -333,11 +332,0 @@
 -    "10403": {
@@ -5449,7 +5449,7 @@
 +        "_MainTex"
 +      ],
 +      "Name": "Hidden/VR/BlitCopyHDRTonemappedToSDRTexArraySlice"
---- 2022.3.66f1
+--- 2022.3.69f1
 +++ 2023.1.0a1
 @@ -51,10 +50,0 @@
 -    "600": {
@@ -5679,7 +5679,7 @@
 +        "_MainTex"
 +      ],
 +      "Name": "Hidden/VR/BlitCopyHDRTonemappedToSDRTexArraySlice"
---- 2023.1.20f1
+--- 2023.1.22f1
 +++ 2023.2.0a6
 @@ -1394,2 +1394 @@
 -        "_ForceGammaToLinear",
@@ -5826,7 +5826,7 @@
 +      "Namespace": "UnityEngine.UIElements.InputSystem",
 +      "ClassName": "InputSystemEventSystem"
 +    },
---- 2023.2.20f1
+--- 2023.2.22f1
 +++ 2023.3.0a3
 @@ -60,0 +61,5 @@
 +    "602": {
@@ -5873,7 +5873,7 @@
 +      "$type": "NamedObject",
 +      "TypeID": 49,
 +      "Name": "icudt73l"
---- 6000.0.57f1
+--- 6000.0.62f1
 +++ 6000.1.0a2
 @@ -40,0 +41,5 @@
 +    "302": {
@@ -5904,7 +5904,30 @@
 +      "Namespace": "UnityEngine.UIElements",
 +      "ClassName": "PanelInputConfiguration"
 +    },
---- 6000.2.4f1
+--- 6000.2.7f2
++++ 6000.2.8f1
+@@ -1683,20 +1682,0 @@
+-    "9102": {
+-      "$type": "Shader",
+-      "PropertyNames": [
+-        "_MainTex",
+-        "_FontTex",
+-        "_CustomTex",
+-        "_Color"
+-      ],
+-      "Name": "Hidden/Internal-UIRDefaultWorld"
+-    },
+-    "9103": {
+-      "$type": "Shader",
+-      "PropertyNames": [
+-        "_MainTex",
+-        "_FontTex",
+-        "_CustomTex",
+-        "_Color"
+-      ],
+-      "Name": "Hidden/UIElements/EditorUIE"
+-    },
+--- 6000.2.14f1
 +++ 6000.3.0a2
 @@ -44 +44,6 @@
 -      "Name": "Internal-RayTracing-AddInstancesIndirect"
@@ -5921,7 +5944,28 @@
 +      "Namespace": "UnityEngine.UIElements",
 +      "ClassName": "FilterFunctionDefinition"
 +    },
-@@ -3064,0 +3076,14 @@
+@@ -1682,0 +1694,20 @@
++    "9102": {
++      "$type": "Shader",
++      "PropertyNames": [
++        "_MainTex",
++        "_FontTex",
++        "_CustomTex",
++        "_Color"
++      ],
++      "Name": "Hidden/Internal-UIRDefaultWorld"
++    },
++    "9103": {
++      "$type": "Shader",
++      "PropertyNames": [
++        "_MainTex",
++        "_FontTex",
++        "_CustomTex",
++        "_Color"
++      ],
++      "Name": "Hidden/UIElements/EditorUIE"
++    },
+@@ -3044,0 +3076,14 @@
 +    },
 +    "20300": {
 +      "$type": "Shader",
@@ -6111,3 +6155,26 @@
 +      "$type": "Material",
 +      "Shader": "Hidden/Physics2D/SDF_Point",
 +      "Name": "SDF_Point"
+--- 6000.3.0b5
++++ 6000.3.0b6
+@@ -1754,20 +1753,0 @@
+-    "9102": {
+-      "$type": "Shader",
+-      "PropertyNames": [
+-        "_MainTex",
+-        "_FontTex",
+-        "_CustomTex",
+-        "_Color"
+-      ],
+-      "Name": "Hidden/Internal-UIRDefaultWorld"
+-    },
+-    "9103": {
+-      "$type": "Shader",
+-      "PropertyNames": [
+-        "_MainTex",
+-        "_FontTex",
+-        "_CustomTex",
+-        "_Color"
+-      ],
+-      "Name": "Hidden/UIElements/EditorUIE"
+-    },
