@@ -5449,7 +5449,7 @@
 +        "_MainTex"
 +      ],
 +      "Name": "Hidden/VR/BlitCopyHDRTonemappedToSDRTexArraySlice"
---- 2022.3.70f1
+--- 2022.3.75f1
 +++ 2023.1.0a1
 @@ -51,10 +50,0 @@
 -    "600": {
@@ -5873,7 +5873,7 @@
 +      "$type": "NamedObject",
 +      "TypeID": 49,
 +      "Name": "icudt73l"
---- 6000.0.64f1
+--- 6000.0.73f1
 +++ 6000.1.0a2
 @@ -40,0 +41,5 @@
 +    "302": {
@@ -6178,3 +6178,35 @@
 -      ],
 -      "Name": "Hidden/UIElements/EditorUIE"
 -    },
+--- 6000.4.0b6
++++ 6000.4.0b7
+@@ -601,6 +600,0 @@
+-    "15000": {
+-      "$type": "Texture2D",
+-      "Width": 32,
+-      "Height": 32,
+-      "Name": "UnitySplash-HolographicTrackingLoss"
+-    },
+@@ -666,6 +659,0 @@
+-    },
+-    "19105": {
+-      "$type": "MonoScript",
+-      "AssemblyName": "UnityEngine",
+-      "Namespace": "UnityEngine.UIElements.InputSystem",
+-      "ClassName": "InputSystemEventSystem"
+--- 6000.4.4f1
++++ 6000.5.0a3
+@@ -600,0 +601,6 @@
++    "15000": {
++      "$type": "Texture2D",
++      "Width": 32,
++      "Height": 32,
++      "Name": "UnitySplash-HolographicTrackingLoss"
++    },
+@@ -659,0 +666,6 @@
++    },
++    "19105": {
++      "$type": "MonoScript",
++      "AssemblyName": "UnityEngine",
++      "Namespace": "UnityEngine.UIElements.InputSystem",
++      "ClassName": "InputSystemEventSystem"
